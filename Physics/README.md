@@ -36,7 +36,7 @@ Our evaluation focuses on the correctness of pure numerical answers. For each pr
 | Gemini2.5-pro-reasoning      |     0.430  |
 | o3                           |     0.378  |
 | Gemini2.5-pro                |     0.345  |
-| DeepSeek-R1-0528             |     0.343  |
+| DeepSeek-R1                  |     0.343  |
 | o1                           |     0.295  |
 | O3mini                       |     0.283  |
 | Claude-3.7-Sonnet-Thinking   |     0.220  |
@@ -45,7 +45,7 @@ Our evaluation focuses on the correctness of pure numerical answers. For each pr
 | Qwen3-30B-A3B                |     0.200  |
 | Claude-3.7-Sonnet            |     0.175  |
 | QwQ-32B                      |     0.125  |
-| GPT-4o-0513                  |     0.100  |
+| GPT-4o                       |     0.100  |
 | Qwen-Max                     |     0.083  |
 | DeepSeek-R1-Distill-Qwen-32B |     0.023  |
 
@@ -55,7 +55,7 @@ Our evaluation focuses on the correctness of pure numerical answers. For each pr
 ![Dynamic_Result](img/Phy_B_dynamic_100.png)
 | Models                       |   Static Accuracy |   Dynamic Accuracy |
 |:-----------------------------|------------------:|-------------------:|
-| DeepSeek-R1-0528             |              0.77 |               0.55 |
+| DeepSeek-R1                  |              0.77 |               0.55 |
 | O3mini                       |              0.75 |               0.55 |
 | o1                           |              0.75 |               0.55 |
 | Qwen3-30B-A3B                |              0.73 |               0.54 |
@@ -67,7 +67,7 @@ Our evaluation focuses on the correctness of pure numerical answers. For each pr
 | Claude-3.7-Sonnet-Thinking   |              0.71 |               0.48 |
 | Gemini2.5-pro                |              0.75 |               0.48 |
 | Claude-3.7-Sonnet            |              0.67 |               0.44 |
-| GPT-4o-0513                  |              0.59 |               0.39 |
+| GPT-4o                       |              0.59 |               0.39 |
 | Qwen-Max                     |              0.54 |               0.28 |
 | DeepSeek-R1-Distill-Qwen-32B |              0.49 |               0.22 |
 

@@ -1,5 +1,8 @@
 You are a physics expert. Please read the following question and provide a step-by-step solution.
 Put your final answer, which must be a readable LaTeX formula, in a \\boxed{} environment.
 Question: {standard_question}
+<<<<<<< HEAD
 Answer:{answer}
+=======
+>>>>>>> new
 

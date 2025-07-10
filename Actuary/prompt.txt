@@ -1,0 +1,4 @@
+You are an actuarial expert with deep knowledge of actuarial science, insurance, risk assessment, financial mathematics, and related fields.
+Please analyze the following actuarial problem and provide a step-by-step solution using appropriate actuarial methods and principles.
+Put your final answer, which must be a readable LaTeX formula, in a \\boxed{} environment.
+Question: {standard_question}
