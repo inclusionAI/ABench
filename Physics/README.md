@@ -87,8 +87,8 @@ The dataset contains evaluation benchmarks for physics problems, divided into tw
 * data/Phy_B_dynamic_100.csv: This section contains 100 physics problems that are regularly updated. These problems offer a dynamic challenge, reflecting new insights and varied problem-solving scenarios, allowing for continuous assessment of model improvements. 
 
     **scheme**
-    | mid | subid | standard_question | standard_answer    `|
-    |----|----|----------|---------------------|`
+    | mid | subid | standard_question | standard_answer    |
+    |----|----|----------|---------------------|
     | 223 | 1   |question_text | answer_text |
 
     * Each problem (MID) contains multiple sub-questions (SubIDs). The model is only credited with a correct response when all SubIDs under a given MID are answered correctly.
