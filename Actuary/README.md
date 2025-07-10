@@ -48,9 +48,9 @@ Our evaluation focuses on the correctness of pure numerical answers. For each pr
 * Current SOTA models still struggle with our actuarial challenge benchmark, failing to reliably solve these problems.
 
 ## Data Structure
-The dataset contains evaluation benchmarks for physics problems, divided into two main parts:
-* data/Phy_A_fixed_400.csv: Contains 400 physics problems covering a wide range of fields, with difficulty levels progressing from high school-level foundational questions to university-level physics competition challenges. This section serves as a fixed benchmark for consistent evaluation.
-  
+The dataset contains evaluation benchmarks for actuarial problems:
+* data/Actuary_500.csv: Contains 500 actuarial problems covering a wide range of fields, with difficulty levels ranging from university-level foundational questions to certificate-level actuarial competition challenges. This section serves as a fixed benchmark for consistent evaluation.
+
     **scheme**
     | mid | standard_question | standard_answer    |
     |----|----------|---------------------|
