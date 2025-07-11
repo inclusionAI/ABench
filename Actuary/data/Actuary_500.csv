@@ -6,13 +6,12 @@ mid,standard_question,standard_answer
 | Volatility | 0.40 | 0.50 |
 
 The correlation between the returns of the two stocks is 0.75. Unrestricted short selling is permitted.
-Determine the lowest possible volatility for the portfolio. (The final answer should have 2 decimal places)",0.40
+Determine the lowest possible volatility for the portfolio.(The final answer should have 2 decimal places)",0.40
 2,"In credit risk management, a bank has found there is a 4% probability that a randomly selected loan will default. Assume loans are mutually independent in this respect. 
 A risk manager randomly selects 75 loans. 
-Using the Poisson approximation, calculate the probability that 70 or fewer of the selected loans do not default. (The final answer should have 4 decimal places)",0.1847
+Using the Poisson approximation, calculate the probability that 70 or fewer of the selected loans do not default.(The final answer should have 4 decimal places)",0.1847
 3,假设某健康保险计划在2010年的每次医疗费用索赔额 \( X \) 服从参数为 \( \alpha = 3 \) 和 \( \theta = 2000 \) 的Pareto分布。保单约定每次索赔的免赔额为500元。2011年因医疗通胀影响，每次医疗费用额提高为2010年的1.1倍，且免赔额保持不变。求2011年比2010年每次索赔事件的平均赔付额提高了多少百分比。（结果保留2位小数）,0.08
-4,"某类保险业务中，每份保单在观察期内发生索赔次数的数学期望为2，标准差为1.5。当有100份独立同质的保单时，使用正态近似计算索赔总次数在180至220次之间（含边界）的概率是多少？
-（结果保留4位小数）",0.8176
+4,某类保险业务中，每份保单在观察期内发生索赔次数的数学期望为2，标准差为1.5。当有100份独立同质的保单时，使用正态近似计算索赔总次数在180至220次之间（含边界）的概率是多少？（结果保留4位小数）,0.8176
 5,"假设一个信用风险组合中有5个独立贷款，每个贷款违约概率为0.4，违约损失金额服从参数为θ=1000的指数分布。用均匀分布随机数0.21, 0.53, 0.89按以下规则模拟：第一个随机数生成违约贷款数量N，后续依次生成每个违约的损失额$X_1,X_2$,…（当N=k时仅使用前(k+1)个随机数），则总损失额为多少？（结果保留2位小数）",755.02
 6,"For a portfolio of 100 corporate bonds:
 
@@ -32,14 +31,13 @@ Using the Poisson approximation, calculate the probability that 70 or fewer of t
 
 (viii) \( \Lambda \), \( A \), and \( \Theta \) are mutually independent.
 
-Using the normal approximation, determine the probability that aggregate losses for the portfolio are greater than 100000.
-(The final answer should have 4 decimal places)",0.2358
+Using the normal approximation, determine the probability that aggregate losses for the portfolio are greater than 100000.(The final answer should have 4 decimal places)",0.2358
 7,在养老金精算中，一个养老金计划年初基金余额为100元，年实际利率为6%。在3个月后收到额外缴费30元，在9个月后支付养老金福利20元。利息力函数满足 $_{1-t} i_t = (1-t) i$，且无成员退出或其他减因发生。计算一年后的基金余额为多少元。（结果保留2位小数）,117.05
 8,"An insurer has recorded the death ages of 10 policyholders as follows:
 \[\begin{array}{llllllllll} {106} & {170} & {132} & {89} & {122} & {74} & {138} & {95} & {102} & {150} \end{array}\]
 A new policyholder aged 100 is withdrawn from observation (right-censored) in an ongoing study. All lifetimes are assumed to be independent and identically distributed.
 
-Using the Nelson-Aalen estimator, calculate the probability that this policyholder survives beyond age 125 given survival to age 100. (The final answer should have 4 decimal places)",0.6008
+Using the Nelson-Aalen estimator, calculate the probability that this policyholder survives beyond age 125 given survival to age 100.(The final answer should have 4 decimal places)",0.6008
 9,"已知以下生存概率（年概率）：
 \[\begin{array}{c|c}
 \text{年龄}x & {}_{5}q_{x} \\
@@ -63,10 +61,10 @@ Using the Nelson-Aalen estimator, calculate the probability that this policyhold
 (ii) \( _{10}E_{45} = 0.60920 \) 
 (iii) \( q_{55} = 0.00121 \) 
 The valuation assumes an interest rate of 5% per annum during the initial decade and 6% per annum for all subsequent periods. 
-Determine \( 1000A_{45:\overline{12}|} \). (The final answer should have 2 decimal places)",547.97
+Determine \( 1000A_{45:\overline{12}|} \).(The final answer should have 2 decimal places)",547.97
 15,"某特定群体的历史数据是 \( \mathrm{X} = \left( {{\mathrm{X}}_{1},{\mathrm{X}}_{2},\ldots ,{\mathrm{X}}_{\mathrm{n}}}\right) \) ，其中 \( {\mathrm{X}}_{j} \) 是独立同分布的复合Poisson随机变量，索赔次数的参数为 \( \lambda \)，每笔赔付服从参数为 \( 1/\theta \) 的指数分布（即概率密度函数为 \( f(y) = \frac{1}{\theta}e^{-y/\theta} \)）。已知根据索赔次数得到的信度因子是0.8，设完全信度条件为总索赔额的方差不超过基准方差的0.64倍，基准索赔次数为 \( \lambda_0 \)，则用总索赔额计算的信度因子为多少？（结果保留三位小数）",0.566
 16,The claim severity for a portfolio of cyber insurance policies follows a Pareto distribution with mean 10 and variance 300. Calculate the VaR at security levels 99%.(The final answer should have 2 decimal places),72.83
-17,"A portfolio of 23 insurance policies is issued by a large reinsurer. The probability that each policy experiences a covered loss during the coverage period is 0.73, independent of other policies. The reinsurer agrees to pay an indemnity of \$3000 for each policy with a covered loss. What is the probability that the reinsurer's total indemnity payout will be at least \$60000 (including the exact amount)? (The final answer should have 5 decimal places)",0.09608
+17,"A portfolio of 23 insurance policies is issued by a large reinsurer. The probability that each policy experiences a covered loss during the coverage period is 0.73, independent of other policies. The reinsurer agrees to pay an indemnity of \$3000 for each policy with a covered loss. What is the probability that the reinsurer's total indemnity payout will be at least \$60000 (including the exact amount)?(The final answer should have 5 decimal places)",0.09608
 18,对于一个二元风险模型，假设两个风险因素相互独立。已知：\( {q}_{x}^{\prime (2)} = \dfrac{1}{8} \)，\({}_{1|}q_{x}^{(1)} = \dfrac{3}{10} \)，\( q_{x+1}^{(1)} = \dfrac{2}{5} \)。其中\(q_{x}^{\prime(i)}\)表示单独风险\(i\)的独立终止概率。则\( q_{x}^{\prime (1)} \)等于多少？（结果保留6位小数）,0.142857
 19,"一个寿险公司承保两个被保险人群，每个群体有500人。保费按每位被保险人的期望死亡给付额加上常数a收取，且总保费等于总死亡给付额的95%分位数。已知：
 1. 死亡给付金额为确定值（即方差为0）
@@ -84,7 +82,7 @@ Determine \( 1000A_{45:\overline{12}|} \). (The final answer should have 2 decim
 (ii) The 10-year pure endowment factor for a life aged 40 is 0.8011. 
 (iii) The actuarial present value of a whole life insurance policy with a sum assured of 1000 issued at age 40 is 168. 
 (iv) The actuarial present value of a whole life insurance policy with a sum assured of 1000 issued at age 50 is 330. 
-Determine the annual net premium for a whole life insurance of 1000 on (40) where premiums are payable annually for a maximum of 10 years. (Round the final answer to 3 decimal places.)",21.884
+Determine the annual net premium for a whole life insurance of 1000 on (40) where premiums are payable annually for a maximum of 10 years.(Round the final answer to 3 decimal places.)",21.884
 22,假设 \( {m}_{45}^{\left( \tau \right) } = {0.2} \)，在相互独立的多减因模型中，各减因导致的退出在年内服从均匀分布。已知 \( {q}_{45}^{\prime \left( 1\right) } = {0.1} \)，求 \( {q}_{45}^{\prime \left( 2\right) } \)。（结果保留6位小数）,0.090909
 23,"You are given the following:
 - 75% of claims are of Type A and the other 25% are of Type B.
@@ -99,7 +97,7 @@ Note: Although the normal distribution allows for negative values, the problem f
 Determine the posterior probability that a Type A claim was selected.(The final answer should have 4 decimal places)",0.3012
 24,已知寿命服从 de Moivre 分布，利力恒定，假设极限年龄为90，且对于30岁的投保人，连续支付的60年定期年金现值为\({\bar{a}}_{\overline{60}|} = 40\)。若某终身寿险在死亡时即刻赔付1000元，则该投保人的趸缴纯保费为多少？（结果保留1位小数）,666.7
 25,"A bank manages a portfolio of 60 independent loans. Each loan has a 4% probability of defaulting in a given year. Assume defaults across years are mutually independent. 
-Calculate how often 5 or more loans would be expected to default in the same year. (The final answer must be an integer)",11
+Calculate how often 5 or more loans would be expected to default in the same year.(The final answer must be an integer)",11
 26,"一个健康保险公司管理其重大疾病保险产品线。以下是截至2010年12月31日各承保年度的理赔支付进展： 
 <table><tr><td rowspan=""2"">承保年度</td><td rowspan=""2"">签单保费</td><td colspan=""4"">累计理赔支付</td></tr><tr><td>0</td><td>1</td><td>2</td><td>3</td></tr><tr><td>2007</td><td>130000</td><td>30000</td><td>60000</td><td>90000</td><td>99000</td></tr><tr><td>2008</td><td>140833</td><td>39000</td><td>58500</td><td>70200</td><td/></tr><tr><td>2009</td><td>184167</td><td>44000</td><td>83600</td><td/><td/></tr><tr><td>2010</td><td>227500</td><td>40000</td><td/><td/><td/></tr></table> 
 相关假设：(1)各年度损失率均为60%；(2)理赔进展因子基于可观察数据的算术平均值计算；(3)进展年3→4的选定发展因子为1.00；(4)使用Bornhuetter-Ferguson方法估计未决责任。则合计未报告未决赔款准备金(IBNR)估计为多少？（结果保留1位小数）",129204.8
@@ -108,7 +106,7 @@ Calculate how often 5 or more loans would be expected to default in the same yea
 29,"某保险公司2023年季度索赔次数记录如下：
 $$ y_{Q2}=105, \quad y_{Q3}=109, \quad y_{Q4}=122, \quad y_{Q5}=104 $$
 采用平滑参数$w=0.4$的指数平滑法进行预测，已知$\hat{s}_{Q5} = 108.78$。假设Q2为第一个观测值，$\hat{s}_{Q1}$为初始预测值，求$\hat{s}_{Q1}$。（结果保留4位小数）",101.7188
-30,"For a 10-year special savings plan issued to an individual aged 55, mortality is modeled using De Moivre’s law with a limiting age of \( \omega = 105 \). The annual effective rate of interest is \( i = 0.06 \). If the individual dies during the term, a benefit of 1 unit is paid at the end of the month of death. If the individual survives to the end of the 10-year period, a benefit of 1 unit is paid as a lump sum at that time. Compute the actuarial present value \({A}_{{55} : {\overline{10\mid}} }^{\left( {12}\right) }\). (The final answer should have 5 decimal places)",0.26289
+30,"For a 10-year special savings plan issued to an individual aged 55, mortality is modeled using De Moivre’s law with a limiting age of \( \omega = 105 \). The annual effective rate of interest is \( i = 0.06 \). If the individual dies during the term, a benefit of 1 unit is paid at the end of the month of death. If the individual survives to the end of the 10-year period, a benefit of 1 unit is paid as a lump sum at that time. Compute the actuarial present value \({A}_{{55} : {\overline{10\mid}} }^{\left( {12}\right) }\).(The final answer should have 5 decimal places)",0.26289
 31,"某一年期财产保险的保费收入如下表所示，所有保单均为一年期，保险责任期间自保单签发之日起算。假设保费在每个季度内均匀分布，采用季度平均剩余时间比例法计算未到期责任准备金。
 
 | 第一季度 | 第二季度 | 第三季度 | 第四季度 |
@@ -131,11 +129,11 @@ x & l_x \\
 \]
 （简写为\( l_x = 1000 - 10x \)，满足\( 0 \leq x \leq 100 \)）
 
-设利力\( \delta = 0.05 \)，定义\( z \)为赔付现值变量。求\( E(z) + \sqrt{\operatorname{Var}(z)} \). （结果保留2位小数）。",27150.69
+设利力\( \delta = 0.05 \)，定义\( z \)为赔付现值变量。求\( E(z) + \sqrt{\operatorname{Var}(z)} \)。（结果保留2位小数）",27150.69
 33,"一个3年期的教育年金保险，投保人一次性缴纳1000美元，合约承诺每年末支付固定收益60.14美元，并在第三年末返还本金1000美元。远期利率如下表： 
 <table><tr><td>年份(年)</td><td>远期利率(%)</td></tr><tr><td>1</td><td>5</td></tr><tr><td>2</td><td>7.5</td></tr><tr><td>3</td><td>7.5</td></tr></table> 
 该的现值是多少美元。（结果保留1位小数）",984.1
-34,"Loss amounts from cyber insurance claims are 2.46, 2.92, 6.70, 15.38, and 18.22. They are fitted to a lognormal distribution using maximum likelihood. Determine the mean of the fitted distribution. (The final answer should have 3 decimal places)",9.397
+34,"Loss amounts from cyber insurance claims are 2.46, 2.92, 6.70, 15.38, and 18.22. They are fitted to a lognormal distribution using maximum likelihood. Determine the mean of the fitted distribution.(The final answer should have 3 decimal places)",9.397
 35,已知某企业员工购车时贷款10万元，分15年还清，每月末还款一次，每年计息12次的年名义利率为4.5%。计算在第10个月末还款后的贷款余额为多少元？ （保留两位小数）,96033.18
 36,"在健康保险业务中，给定下面的逐年进展因子： $\mathrm{f}_{0-1}=1.41$, $\mathrm{f}_{1-2}=1.22$, $\mathrm{f}_{2-3}=1.16$, $\mathrm{f}_{3-4}=1.08$, $\mathrm{f}_{4-\infty}=1.04$。已知在评估日2012年12月31日，2011事故年的已赚保费为1,500,000元，期望赔付率为0.4。假设终极损失为该事故年已赚保费与期望赔付率的乘积，使用B-F法计算2011事故年的未决赔款准备金。（结果保留整数）",222535
 37,"某贵金属投资公司持有现货黄金，当前市价为100美元。已知： 
@@ -150,7 +148,7 @@ x & l_x \\
 (iii) For the same insurance on $(x)$, the reserve at time $t+1$, ${_{t+1}} V =0.127$
 (iv) For a newly issued insurance on $(y+1)$, the annual net premium $P=0.043$
 All calculations are based on the same mortality and interest assumptions.
-Calculate $d$. (The final answer should have three decimal places)",0.060
+Calculate $d$.(The final answer should have 3 decimal places)",0.060
 39,已知某健康保险产品的年度医疗费用分布服从参数为μ=0.709，σ=0.5的对数正态分布，则\( {\mathrm{CTE}}_{0.9} \)等于多少？（提示：\( \Phi(0.7815) \approx 0.7823 \)，\( \Phi(1.2816) \approx 0.9000 \)，\( e^{0.834} \approx 2.302 \)）（结果保留1位小数）,5.0
 40,"You are given:
 (i) Mortality follows the Custom Ultimate Life Table (partial):
@@ -164,16 +162,13 @@ Calculate $d$. (The final answer should have three decimal places)",0.060
 \]
 (ii) Deaths are uniformly distributed between integral ages.
 (iii) \( i = {0.04} \).
-Calculate \( {\bar{A}}_{{70} : \overline{2}\mid} \).
-
-
-(The final answer should have 5 decimal places)",0.92512
+Calculate \( {\bar{A}}_{{70} : \overline{2}\mid} \).(The final answer should have 5 decimal places)",0.92512
 41,"假设利率的期限结构为：1至4年的即期利率分别为 5%、10%、15%、20%，其中 第t年的1年远期利率定义为$f_{t-1,t}$。求 第2年的1年远期利率$f_{1,2}$等于多少？
 （结果保留4位小数）",0.1524
-42,已知某健康保险公司承保的医疗保险组合：每份保单发生医疗理赔的概率为 1/30；理赔发生时，医疗费用 B 的分布为：$f_{B}(x)=\frac{5 \times 300^{5}}{(300 + x)^{6}}$ 。设该保险人的安全附加系数 $\theta=0.5$ ，为使总赔付超过总保费的概率是 0.05。则保险人至少要承保多少份保单。,856
+42,已知某健康保险公司承保的医疗保险组合：每份保单发生医疗理赔的概率为 1/30；理赔发生时，医疗费用 B 的分布为：$f_{B}(x)=\frac{5 \times 300^{5}}{(300 + x)^{6}}$ 。设该保险人的安全附加系数 $\theta=0.5$ ，为使总赔付超过总保费的概率是 0.05。则保险人至少要承保多少份保单。（结果保留整数）,856
 43,"In a homeowners insurance policy, the building loss due to fire is uniformly distributed on the interval $[\mathbf{10}, \mathbf{c + 10}]$, and the contents loss is uniformly distributed on the interval $[\mathbf{5}, \mathbf{3c - 13}]$, where $c$ is a constant greater than 6.
 The standard deviation of the building loss is $4 \sqrt{3}$.
-Calculate the standard deviation of the contents loss. (The final answer should have 4 decimal places)",15.5885
+Calculate the standard deviation of the contents loss.(The final answer should have 4 decimal places)",15.5885
 44,"In the context of pension fund valuation for retirees, determine the present value of a 20-year temporary life annuity payable to a 65-year-old retiree. You are provided: 
 (i) Mortality follows the pension plan's life table with: 
 \( {}_{20}E_{65} = 0.24381 \) 
@@ -182,7 +177,7 @@ Calculate the standard deviation of the contents loss. (The final answer should 
 \( q_{85} = 0.05766 \) 
 (ii) The annual effective interest rate \( i = 0.05 \). 
 (iii) \( a_{x:\overline{n}|} \) denotes an \( n \)-year temporary annuity-due payable at the end of each year. 
-Calculate \( a_{65 : \overline{20}|} \). (The final answer should have two decimal places)",11.14
+Calculate \( a_{65 : \overline{20}|} \).(The final answer should have 2 decimal places)",11.14
 45,在 Gompertz 假设下，两生命的死亡力均满足\( \mu_x = B \cdot C^x \)且共享相同的参数\( B \)和\( C \)。已知\( {}_{\infty}{q}_{{40}:{44}}^{1} = 0.4 \)（其中\( {}_{\infty}{q}_{xy}^{1} \)表示在联合生存状态下，首个死亡事件发生在个体\( x \)的概率），则\( {}_{\infty}{q}_{{60}:{68}}^{1} \)等于多少？（结果保留6位小数）,0.307692
 46,"For a fully discrete deferred annuity with a single premium accumulation of 100,000 maturing in its fifth year, you are given the following contribution assumptions, reserve assumptions, and actual experience:
 
@@ -202,10 +197,9 @@ You are also given:
 (i) The reserve at the end of the fourth year is 8000.
 (ii) The cash surrender value at the end of the fifth year is 8500.
 (iii) Gain by source is calculated in the order of expense, interest, mortality, withdrawal.
-Calculate the gain per policy in the fifth year from withdrawal.
-(The final answer should have 1 decimal places)",24.1
+Calculate the gain per policy in the fifth year from withdrawal.(The final answer should have 1 decimal places)",24.1
 47,考虑一个信用风险模型，两个违约原因相互独立，已知总中心违约强度 \( m_{40}^{(\tau)} = 0.2 \)，财务困境导致的违约概率 \( q_{40}^{\prime(1)} = 0.1 \)。每个违约原因导致的违约事件在1年内服从均匀分布。则 \( q_{40}^{\prime(2)} \) 表示宏观经济冲击导致的违约概率等于多少？（结果保留4位小数）,0.0909
-48,假设某种型号的螺丝钉的重量是随机变量，期望值为50克，标准差为6克，且各螺丝钉重量相互独立。100个螺丝钉装一袋，每箱螺丝钉装有500袋。求500袋中最多有4%的重量超过5.12千克的概率是多少？ （结果保留3位小数）,0.995
+48,假设某种型号的螺丝钉的重量是随机变量，期望值为50克，标准差为6克，且各螺丝钉重量相互独立。100个螺丝钉装一袋，每箱螺丝钉装有500袋。求500袋中最多有4%的重量超过5.12千克的概率是多少？（结果保留3位小数）,0.995
 49,"You are given the following life table:
 
 | x | 90 | 91 | 92 | 93 | 94 | 95 | 96 | 97 |
@@ -216,8 +210,8 @@ Based on the uniform distribution of deaths assumption, $_{1.2|0.7}q_{90.3} = a$
 
 Based on the constant force of mortality assumption, $_{1.2|0.7}q_{90.3} = b$.
 
-Calculate $|a - b|$. (The final answer should have 5 decimal places)",0.00212
-50,"已知某选择期为两年的选择-终极债券生存表，如下表所示，\( {_2p_{[32]}} + {_2q_{[32]+2}} + {_{1|}q_{[31]+1}} \)等于多少，其中 p 表示债券生存概率，q 表示债券违约概率。（保留六位小数）。 
+Calculate $|a - b|$.(The final answer should have 5 decimal places)",0.00212
+50,"已知某选择期为两年的选择-终极债券生存表，如下表所示，\( {_2p_{[32]}} + {_2q_{[32]+2}} + {_{1|}q_{[31]+1}} \)等于多少，其中 p 表示债券生存概率，q 表示债券违约概率。（保留六位小数） 
 | \( x \) | \( l_{[x]} \) | \( l_{[x]+1} \) | \( l_{x+2} \) | \( x + 2 \) | 
 |-----------|------------------|--------------------|------------------|---------------| 
 | 31 | 1000 | 998 | 995 | 33 | 
@@ -231,13 +225,13 @@ Test the null hypothesis $H_0: \beta_3 = 0$, which states that the effect of age
 - Total sum of squares (TSS) = 423.58 
 - For Model A, $R^2 = 0.87$ 
 - For Model B, the residual sum of squares (RSS) = 71.96 
-Calculate the $F$-statistic for this test. (The final answer should have 4 decimal places)",7.9771
-52,A loan with a principal of 1000 is repaid with semiannual interest payments at an annual rate of 7% and the principal is repaid at the end of n years. The annual nominal yield to maturity is 8% convertible semiannually. The book value immediately after the fourth interest payment is 3.376 greater than the book value immediately after the third interest payment. Calculate \( n \). (The result is retained to 1 decimal places.),6.5
+Calculate the $F$-statistic for this test.(The final answer should have 4 decimal places)",7.9771
+52,A loan with a principal of 1000 is repaid with semiannual interest payments at an annual rate of 7% and the principal is repaid at the end of n years. The annual nominal yield to maturity is 8% convertible semiannually. The book value immediately after the fourth interest payment is 3.376 greater than the book value immediately after the third interest payment. Calculate \( n \).(The result is retained to 1 decimal places),6.5
 53,"Losses follow an exponential distribution with mean \( \alpha \). \( \alpha \) is estimated using Bayesian analysis. Based on Bayesian analysis, the posterior distribution for \( \alpha \) is an inverse Pareto distribution with parameters \( \tau = 3 \) and \( \theta = 1000 \), where the cumulative distribution function (CDF) is given by
 \[ F(\alpha) = \left( \frac{\alpha}{\alpha + 1000} \right)^3 \quad \text{for } \alpha > 0. \]
 You will select a point estimate of \( \alpha \) by minimizing the loss function \( I\left( {\hat{\theta },\theta }\right) = \left| {\hat{\theta } - \theta }\right| \).
-Determine the Bayesian estimate of mean losses. (The final answer must be an integer)",3847
-54,"An immediate annuity with a purchase price of 45,000 provides level annual payments of 3,200 until the fund is exhausted plus a final drop payment. All payments are made at the end of the year. The principal portion of the \(8^{\text{th}}\) payment is 1.5 times the principal portion of the \(1^{\text{st}}\) payment. Calculate the drop payment. (The final answer should have 2 decimal places)",1584.37
+Determine the Bayesian estimate of mean losses.(The final answer must be an integer)",3847
+54,"An immediate annuity with a purchase price of 45,000 provides level annual payments of 3,200 until the fund is exhausted plus a final drop payment. All payments are made at the end of the year. The principal portion of the \(8^{\text{th}}\) payment is 1.5 times the principal portion of the \(1^{\text{st}}\) payment. Calculate the drop payment.(The final answer should have 2 decimal places)",1584.37
 55,在金融数学中，年利率为 \( i = 6\% \) 时，一个每3年末支付1单位股息的永续优先股的现值为5.234。计算一个永续优先股的现值，该优先股在第3年末支付1单位股息，第6年末支付2单位，第9年末支付3单位，以此类推（即股息支付额以单位递增）。（结果保留2位小数）,32.63
 56,"The number of operational risk events, \( N \), in a financial institution follows the following distribution:
 
@@ -249,7 +243,7 @@ Determine the Bayesian estimate of mean losses. (The final answer must be an int
 
 If an event occurs, the loss amount is 0 or 15 with probability 0.8 and 0.2, respectively.
 The number of events and the loss amount for each event are independent.
-Calculate the probability that aggregate losses will exceed expected losses by more than 2 standard deviations. (The final answer should have 4 decimal places)",0.1208
+Calculate the probability that aggregate losses will exceed expected losses by more than 2 standard deviations.(The final answer should have 4 decimal places)",0.1208
 57,"You are given the claim experience for a group of 10,000 policyholders for Year 1:
 
 |Number of Claims | Number of Policyholders |
@@ -265,7 +259,7 @@ A randomly selected policyholder had 2 claims in Year 1.
 
 The number of claims for each policyholder follows a conditional negative binomial distribution with \( \beta = 0.5 \). Assume the mean claim count \(\mu_i\) for each policyholder is an i.i.d. random variable.
 
-Calculate the empirical Bayes estimate of the number of claims in Year 2 for the same policyholder. (The final answer should have 3 decimal places)",0.625
+Calculate the empirical Bayes estimate of the number of claims in Year 2 for the same policyholder.(The final answer should have 3 decimal places)",0.625
 58,"On 1 January 2013, a life insurer issued a whole life insurance policy to an individual aged 30 exact, providing a death benefit of 150,000 with annual inflation adjustments. Benefits are payable immediately upon death. The company applies simple inflation adjustments of 4% per annum to the death benefit at each policy anniversary. Level premiums are payable annually in advance.
 
 ### Basis:
@@ -284,12 +278,12 @@ Calculate the empirical Bayes estimate of the number of claims in Year 2 for the
 | 31  | 99,942  | 0.00062 |
 | 32  | 99,880  | 0.00065 |
 | ... | ...     | ...     |
-
-(Values beyond age 32 follow AM92 pattern scaled by 0.8) (The final answer should have 2 decimal places)",1497.87
+(Values beyond age 32 follow AM92 pattern scaled by 0.8)
+(The final answer should have 2 decimal places)",1497.87
 59,在一个非寿险精算模型中，已知利息力为 \( \delta_t = \frac{2}{1 + t} \)。保险公司在第5年末支付赔款1000元与第8年末支付赔款260.6元现值之和等于第2年末支付赔款200元与第5年末支付赔款\( X \)元的现值之和。求 \( X \)，（结果保留两位小数）。,315.79
 60,"Claim amounts at an insurance company are independent of one another. In year one, claim amounts are modeled by a normal random variable $X$ with mean 90 and standard deviation 20. In year two, claim amounts are modeled by the random variable $Y=1.3X-8$. Each $Y$ is independent of other $Y$'s, just as each $X$ is independent of other $X$'s.
 
-Calculate the probability that a random sample of 25 claim amounts in year two averages between 100 and 110.(The final answer should have four decimal places)",0.5335
+Calculate the probability that a random sample of 25 claim amounts in year two averages between 100 and 110.(The final answer should have 4 decimal places)",0.5335
 61,"某人30岁，购买一个5年期生命年金，自保单生效起，若被保险人生存，每年末给付100元。假设年利率为6%，并使用以下生命表片段：
 
 | 年龄 \( x \) | \( l_x \) |
@@ -301,7 +295,7 @@ Calculate the probability that a random sample of 25 claim amounts in year two a
 | 34 | 97595 |
 | 35 | 97509 |
 
-计算此年金的现值。 （结果保留一位小数）",420.3
+计算此年金的现值。（结果保留一位小数）",420.3
 62,"Earned premium for one year policies during CY2-CY5 is
 <table><tr><td>Calendar Year</td><td>Earned Premium</td></tr><tr><td>CY2</td><td>1,200</td></tr><tr><td>CY3</td><td>1,800</td></tr><tr><td>CY4</td><td>1,954</td></tr><tr><td>CY5</td><td>2,184</td></tr></table>
 
@@ -321,7 +315,7 @@ Number of System Failures during the Year | Number of Servers
 2                                         | 1
 3                                         | 7
 
-Determine the credibility of one year's experience for a single server using semiparametric empirical Bayes estimation. (The final answer should have 4 decimal places)",0.0734
+Determine the credibility of one year's experience for a single server using semiparametric empirical Bayes estimation.(The final answer should have 4 decimal places)",0.0734
 65,"在健康险精算分析中，评估医疗费用分布的峰态系数有助于量化高额索赔风险。随机抽取25个健康险索赔样本，费用额单位（千元），数据如下表所示。该数据来源于免赔额为10千元的保单。
 
 表 单位：千元
@@ -335,7 +329,7 @@ Determine the credibility of one year's experience for a single server using sem
 66,"An actuary is evaluating the incidence of three financial distress indicators, denoted by A, B, and C, among a cohort of corporate entities. Each entity falls into exactly one category: no indicators, exactly one, exactly two, or all three. For each of the three indicators, the probability is 0.1 that an entity has only this indicator (and no others). For any two of the three indicators, the probability is 0.132 that an entity has exactly these two indicators (but not the other). The probability that an entity has all three indicators, given that it has at least A and B, is 1/3.
 
 Calculate the probability that an entity has none of the three indicators, given that it does not have indicator A.(The final answer should have 4 decimal places)",0.4175
-67,"A pension fund acquires an investment portfolio for $100,000, financed through a loan repaid over 30 years via monthly installments, commencing one month from the acquisition date. The annual effective interest rate is 5%. After 10 years (immediately after the 120th payment), the fund increases each subsequent monthly payment by $325.40 to accelerate repayment, with the interest rate unchanged. An annual service fee of 0.5% of the outstanding loan balance is levied separately and does not impact the repayment schedule. Calculate the total interest paid throughout the loan term. (The final answer must be an integer)",66262
+67,"A pension fund acquires an investment portfolio for $100,000, financed through a loan repaid over 30 years via monthly installments, commencing one month from the acquisition date. The annual effective interest rate is 5%. After 10 years (immediately after the 120th payment), the fund increases each subsequent monthly payment by $325.40 to accelerate repayment, with the interest rate unchanged. An annual service fee of 0.5% of the outstanding loan balance is levied separately and does not impact the repayment schedule. Calculate the total interest paid throughout the loan term.(The final answer must be an integer)",66262
 68,"You are given:
 (i) Claims from a short-term disability insurance are reported uniformly throughout each policy year.
 (ii) The annual effective interest rate is $i = 0.12$.
@@ -361,13 +355,13 @@ v^2, & \text{otherwise}
 \right.
 $$
 
-Calculate the standard deviation of $Z$. (The final answer should have 4 decimal places.)",0.1158
+Calculate the standard deviation of $Z$.(The final answer should have 4 decimal places)",0.1158
 69,"Bill issues a 10-year loan of 500 with semi-annual interest payments at an annual rate of 6%. The loan is issued at par based on an annual nominal yield of 6%, compounded semi-annually.
 
 As Bill receives each interest payment, he immediately invests the money into an account earning interest at an annual effective rate of \( i \).
 
-At the end of 10 years, immediately after Bill receives the final interest payment and the repayment of the principal, Bill has earned an annual effective yield of 7% on his investment in the loan. Calculate \( i \). (The final answer should have 4 decimal places)",0.0975
-70,设某网络安全保险的聚合数据泄露损失 \( S \) 服从复合泊松分布，参数 \(\lambda = 1.5\)。损失额变量 \( X \) 的分布满足 \( p(1) = \frac{2}{3} \)，\( p(2) = \frac{1}{3} \)。定义 \( I_x = E[(S - x)_+] \)。请使用复合泊松分布的递推公式计算 \( E[I_2] \)。结果保留3位小数。,0.669
+At the end of 10 years, immediately after Bill receives the final interest payment and the repayment of the principal, Bill has earned an annual effective yield of 7% on his investment in the loan. Calculate \( i \).(The final answer should have 4 decimal places)",0.0975
+70,设某网络安全保险的聚合数据泄露损失 \( S \) 服从复合泊松分布，参数 \(\lambda = 1.5\)。损失额变量 \( X \) 的分布满足 \( p(1) = \frac{2}{3} \)，\( p(2) = \frac{1}{3} \)。定义 \( I_x = E[(S - x)_+] \)。请使用复合泊松分布的递推公式计算 \( E[I_2] \)。（结果保留3位小数）,0.669
 71,"用线性回归方程研究影响汽车保险季度碰撞事故索赔次数的精算因素。
 
 \[ y_{i} = \beta_{0} + \beta_{1}x_{i1} + \beta_{2}x_{i2} + \beta_{3}x_{i3} + \varepsilon_{i},\quad i = 1,2,\cdots,12 \]
@@ -402,31 +396,29 @@ At the end of 10 years, immediately after Bill receives the final interest payme
 -0.192 & 0.000794 & 0.081833 & 0.00821 \\
 -2.8787 & -0.04846 & 0.00821 & 0.499206
 \end{bmatrix} \]
-
 （注：为简化分析，暂不考虑计数数据特性，假设线性回归适用）
 
 对检验 \( H_{0}: \beta_{1} = 0 \)，求检验统计量 \( t \) 值。（结果保留2位小数）",0.74
-72,"An insurer issues a one-year product liability insurance policy to a consumer electronics manufacturer. If a liability claim is brought against the manufacturer due to a defective product, the distribution of the total of legal plus settlement costs is uniformly distributed between \$100,000 and \$1,000,000. The number of liability claims brought against the manufacturer in one year, \( N \), is assumed to have the following distribution: \( P[N = 0] = 0.96 \), \( P[N = 1] = 0.03 \), \( P[N = 2] = 0.01 \). The insurer charges a premium equal to \( E[Y] + \sqrt{\text{Var}(Y)} \), where \( Y \) is the annual total claims. Assuming independence between the number of claims and costs, find the premium (nearest \$25,000). (The final answer must be an integer)",175000
+72,"An insurer issues a one-year product liability insurance policy to a consumer electronics manufacturer. If a liability claim is brought against the manufacturer due to a defective product, the distribution of the total of legal plus settlement costs is uniformly distributed between \$100,000 and \$1,000,000. The number of liability claims brought against the manufacturer in one year, \( N \), is assumed to have the following distribution: \( P[N = 0] = 0.96 \), \( P[N = 1] = 0.03 \), \( P[N = 2] = 0.01 \). The insurer charges a premium equal to \( E[Y] + \sqrt{\text{Var}(Y)} \), where \( Y \) is the annual total claims. Assuming independence between the number of claims and costs, find the premium (nearest \$25,000).(The final answer must be an integer)",175000
 73,"You are given:
 (i) \( i = {0.06} \)
 (ii) \( {\ddot{a}}_{\textbf{57}} = {12.88785} \)
 (iii) \( {A}_{\textbf{56} : \overline{1}\mid }^{1} = {0.00606} \)
 (iv) \( q_{\textbf{55}} = 0.005 \)
-Calculate the FPT reserve at the end of year 2 for a fully discrete whole life insurance of 1000 on (55). (The final answer should have 2 decimals)",14.71
+Calculate the FPT reserve at the end of year 2 for a fully discrete whole life insurance of 1000 on (55).(The final answer should have 2 decimals)",14.71
 74,"For a portfolio of 100 fully discrete critical illness insurance policies on individuals age (40): 
 (i) 50 policies have benefit amount 5000 and 50 policies have benefit amount 10000. 
 (ii) The present value of benefit random variable has $A_{40}=0.175$ for the unit benefit. 
 (iii) The second moment ${ }^{2} A_{40}=0.060$ 
 (iv) $d=0.04$ 
 (v) Policies incur 3% commission charges.
-Using the normal approximation, determine the premium per 1000 for which the probability of a positive future net loss is $5 \%$. (The final answer should have 2 decimal places)",10.30
+Using the normal approximation, determine the premium per 1000 for which the probability of a positive future net loss is $5 \%$.(The final answer should have 2 decimal places)",10.30
 75,"A pension fund is evaluating two different liability streams, with payments made at the end of each year: 
 Liability 1: Requires annual payments of 1000 for 20 years. 
 Liability 2: A perpetual liability with annual payments of 600 for the first 10 years, increasing to 1200 per year starting at the end of year 11 and continuing forever. 
 
 At an annual effective interest rate of $i>0$, both liabilities have a present value of $X$. 
-Calculate $X$. 
-(The final answer should have 1 decimal place)",8753.8
+Calculate $X$.(The final answer should have 1 decimal place)",8753.8
 76,"For a special 3-year temporary life annuity-due on ( $x$ ), you are given:
 (i)
 
@@ -438,12 +430,12 @@ Calculate $X$. 
 
 (ii) $i=0.05$
 
-Calculate the variance of the present value random variable for this annuity. (The final answer should have 2 decimal places)",114.18
+Calculate the variance of the present value random variable for this annuity.(The final answer should have 2 decimal places)",114.18
 77,"An individual deferred life annuity for a person aged 45 provides annual benefits of 120 payable at the beginning of each year, with payments commencing at age 65. Premiums are paid annually at the beginning of each year for 20 years while the annuitant is alive. The insurer imposes an administrative fee equal to 1% of each premium. 
 You are given: 
 (i) Mortality follows the Standard Ultimate Life Table. 
 (ii) $i=0.05$. 
-Calculate the annual net premium. (The final answer should have 2 decimal places)",45.23
+Calculate the annual net premium.(The final answer should have 2 decimal places)",45.23
 78,考虑一个汽车保险保单组合，设有20%分保比例。每年，有4%的保单发生一次事故并进入高风险状态（状态1）。在高风险状态下，有32.31%的保单发生二次事故，导致保单注销（状态2），否则保持高风险状态。注销的保单在一年后以正常风险状态（状态0）恢复。假设保单数量不变，保单之间相互独立，状态变化只发生在年初。计算保单处于高风险状态的长期比例。（结果保留3位小数）,0.106
 79,小王投资了一个20年期的储蓄计划，本金为1000元。计划每年末支付利息，年利率为8%。该计划在第10年到第12年可以提前赎回本金1050元，第13年到第16年可以赎回1100元，第17年到第19年可以赎回1150元，到期时赎回1200元。根据协议，提前赎回权由发行方行使以最小化融资成本。如果小王要确保获得至少10%的年收益率，发行方会选择在第几年赎回？（结果保留2位小数）,857.23
 80,"在养老金精算中，考虑一个多减因表，有两种减因：退休（1）和死亡（2）。已知 \( P_{31}^{(\tau)} = 746 \), \( P_{32}^{(\tau)} = 600 \), \({}_{1\mid}{q}_{30}^{\left( 1\right) } = {0.04},{q'}_{30}^{\left( 1\right) } = {0.09},{q'}_{30}^{\left( 2\right) } = {0.18}\)。则 \( {q}_{31}^{\left( 2\right) } \)的值为多少？（结果保留4位小数）",0.1421
@@ -464,7 +456,7 @@ The probability of transitioning from one state to another is given by the follo
 | State #3 | 0.0 | 0.0 | 1.0 |
 
 Using the normal approximation for the aggregate distribution, calculate the probability that more than 3000 claims will be required for the given month.(The final answer should have 4 decimal places)",0.4199
-82,"Medical expenses follow a two parameter Pareto distribution with parameters \(\alpha = 0.5\) and \(\theta = 2000\). Health insurance pays claims subject to a deductible of 500 and a maximum covered expense of 20,000, with 75% coinsurance. The insurance company charges a fixed administrative fee of 100 per claim, but this fee is not included in the claim payment. Determine the size of the average claim payment. (The final answer should have 3 decimal places)",7374.519
+82,"Medical expenses follow a two parameter Pareto distribution with parameters \(\alpha = 0.5\) and \(\theta = 2000\). Health insurance pays claims subject to a deductible of 500 and a maximum covered expense of 20,000, with 75% coinsurance. The insurance company charges a fixed administrative fee of 100 per claim, but this fee is not included in the claim payment. Determine the size of the average claim payment.(The final answer should have 3 decimal places)",7374.519
 83,"For a special fully discrete 10-payment whole life insurance on (35), you are given:
 (i) The death benefit in the first 10 years is the refund of all net premiums paid with interest at $6 \%$.
 (ii) The death benefit after 10 years is 1000.
@@ -472,7 +464,7 @@ Using the normal approximation for the aggregate distribution, calculate the pro
 (iv) The actuarial present value of a whole life insurance of 1 on (45) is 0.24905.
 (v) $i=0.06$.
 
-Calculate the net premium. (The results are retained to 4 decimal places.)",17.8254
+Calculate the net premium.(The results are retained to 4 decimal places)",17.8254
 84,小李购买了一份面值为100元的15年期储蓄保险单，该保险单每半年支付一次生存保险金，每年计息两次的年名义保险金率为7%。根据保险合同，从第25个支付日开始，小李可以选择在以后（包括第25个支付日）任何一个支付日以保单面值退保，保险单到期日为第30个支付日。小李购买时支付的保费需满足每年计息两次的年名义收益率不低于10%。小李会选择在第几个支付日退保？,30
 85,"An insurer issues an annuity to (45) with the following benefits: 
 - No benefits if death occurs within 10 years 
@@ -491,12 +483,12 @@ You are given: 
 (ii) \( i = 0.05 \) 
 
 Calculate the actuarial present value of this annuity.(The final answer should have 2 decimal places)",17.75
-86,"An insurance company issues a one-year zero-coupon investment that pays $$2,000$$ at maturity and is currently priced at $$1,860.46$$. It also issues a two-year investment with annual coupons of $$10\%$$ and a maturity value of $$1,000$$, yielding $$8\%$$ to maturity. Determine the one-year forward rate, deferred one year. (The final answer should have 4 decimal places)",0.0855
+86,"An insurance company issues a one-year zero-coupon investment that pays $$2,000$$ at maturity and is currently priced at $$1,860.46$$. It also issues a two-year investment with annual coupons of $$10\%$$ and a maturity value of $$1,000$$, yielding $$8\%$$ to maturity. Determine the one-year forward rate, deferred one year.(The final answer should have 4 decimal places)",0.0855
 87,某企业为技术升级建立专项基金，计划每年末向银行存入4075元，15年后一次性提取，年利率为5%。则该年金在全部提取时的积累值为多少元。（结果保留1位小数）,87932.6
 88,投保一个完全离散的2年分红型定期收险，保险事故发生时年末给付为810元，每年年初缴纳的均衡纯保费为148元，年利率为5%。已知第一年年末的责任准备金为35元，且本题则保单签订日保险人亏损变量L小于400元的概率为多少？（结果保留3位小数）,0.645
 89,"The cumulative distribution function for earthquake damage costs incurred by a policyholder is modeled by the function \( F(x) = \left\{ \begin{array}{ll} 1 - e^{-x/100} & \text{ for } x > 0 \\ 0 & \text{ otherwise} \end{array} \right. \). The policy has a deductible of 30. The insurer reimburses the policyholder for 100% of the costs between 30 and 130 after subtracting the deductible. Costs above 130 are reimbursed at 50%.
 
-Let \( G \) be the cumulative distribution function of reimbursements given that the reimbursement is positive. Calculate \( G(115) \). (The final answer should have 3 decimal places)",0.727
+Let \( G \) be the cumulative distribution function of reimbursements given that the reimbursement is positive. Calculate \( G(115) \).(The final answer should have 3 decimal places)",0.727
 90,"已知某家财险的损失变量 $X$ 的概率分布如下表所示。保单约定免赔额50元，赔付比例为损失超过免赔额部分的80%，且赔付金额最高为160元，安全系数为0.2。计算保费 $P$。（结果保留1位小数）
 
 | $X=x$ | $P(x)$ |
@@ -511,7 +503,7 @@ When the 10-year bond matures, the company reinvests the proceeds in another 10-
 
 After 20 years from the initial investment, the 30-year bond is sold to yield an annual effective rate of 25\% to the buyer. The maturity of the second 10-year bond and the sale of the 30-year bond result in a gain of X million on the company's initial investment of six million.
 
-Calculate \(X\). (The final answer must be an integer)",5
+Calculate \(X\).(The final answer must be an integer)",5
 92,"Proceeds from a climate resilience endowment fund are left on deposit, with interest credited at the end of each year. The recipient municipality receives disbursements from the fund at the end of each year \( t \), for \( t=1,2, \ldots, 10 \).
 
 At the minimum interest rate of 2.8% guaranteed in the fund, the equal annual disbursement would be 1,000. However, the fund administrator credits interest at the rate of 4% for the first six years and 5% for the next four years. The fund is subject to an annual oversight fee of 0.1%, but this fee is ignored in the disbursement calculation. The actual disbursement at the end of year \( t \) is
@@ -521,14 +513,14 @@ D_{t} = \frac{F_{t}}{\ddot{a}_{\overline{11-t\mid} .028}}
 \]
 
 where \( F_{t} \) is the amount of the fund, including interest, prior to the disbursement.
-Calculate \( D_{10} \). (The final answer should have 2 decimal places)",1166.88
+Calculate \( D_{10} \).(The final answer should have 2 decimal places)",1166.88
 93,"Losses for a health insurance policy follow a distribution which is a mixture of an exponential distribution with mean 6 and an exponential distribution with mean \( \theta \). The mean loss size is 9. The variance of loss size is 108.
-Determine the coefficient of skewness of the loss distribution.(The results are retained to 5 decimal places.)",2.70633
+Determine the coefficient of skewness of the loss distribution.(The results are retained to 5 decimal places)",2.70633
 94,"In a mortality study on 10 lives, death times are 4,4,8,12,14 and censored observations are at times 2,4,8,10,16.
 $H(14)$ is estimated using the Nelson-Aalen estimator.
 Estimate $\operatorname{Var}(\hat{S}(20))$ using the Klein variance formula for the Nelson-Aalen estimator and the KleinMoeschberger tail correction with $\boldsymbol{\gamma=40}$.(The final answer should have 5 decimal places)",0.02095
 95,考虑投资1000美元于一个年收益率为4.5%的企业债券和一个风险投资组合Q，风险投资组合Q由两种风险资产X和Y组成，比例分别为0.60和0.40。X的期望收益率是15%，方差为$0.009$；Y的期望收益率是10.85%，方差为0.008。若希望持有投资组合的总期望价值为1125美元（忽略风险，仅基于期望收益计算），则Y的价值是多少美元？（结果保留整数）,362
-96,一栋商业建筑，购买价为1100元，预计未来n年内每年末可产生租金收入100元，n年后出售的预期售价为1000元，且该售价的现值为500元。求基础金额G等于多少元。,1200
+96,一栋商业建筑，购买价为1100元，预计未来n年内每年末可产生租金收入100元，n年后出售的预期售价为1000元，且该售价的现值为500元。求基础金额G等于多少元。（结果保留整数）,1200
 97,An insurance company issues 1200 dental care insurance policies. The number of claims filed by a policyholder under a dental care insurance policy during one year is a Poisson random variable with mean 3. Assume the numbers of claims filed by different policyholders are mutually independent. Calculate the approximate probability that there is a total of between 3540 and 3720 claims during a one-year period?(The final answer should have 4 decimal places),0.8185
 98,"设某寿险保单的死亡力函数为：
 \( \mu \left( t\right) = \left\{ \begin{array}{l} {\mathbf{0.10}}\left( {0 \leq t < \mathbf{4}}\right) \\ {\mathbf{0.065}}\left( {\mathbf{4} \leq t < {10}}\right) \\ {0.07}\left( {t \geq {10}}\right) \end{array}\right. \)
@@ -551,14 +543,14 @@ Estimate $\operatorname{Var}(\hat{S}(20))$ using the Klein variance formula for 
 (ii) Individual claim size amounts are independent and exponentially distributed with mean 5000.
 (iii) The full credibility standard is for aggregate losses to be within 5% of the expected value with 90% probability, using a two-sided interval.
 
-Calculate the expected number of claims required for full credibility using limited fluctuation credibility. (The result is retained as an integer)",2381
+Calculate the expected number of claims required for full credibility using limited fluctuation credibility.(The result is retained as an integer)",2381
 101,已知某寿险保单持有人面临两独立减因风险：(1) 死亡风险，对应的多减因模型下概率为\( {q}_{x}^{(1)} = 0.021 \)；(2) 退保风险，对应概率为 \( {q}_{x}^{(2)} = 0.049 \)。假设每个减因的终止力在年內均为常数，则退保风险单独作用时的独立概率 \( {q}^{\prime }{}_{x}^{(2)} \) 的值为多少？（答案保留四位小数）,0.0495
 102,"Actuary A estimates a 95% confidence interval for the probability of no claim in a commercial property insurance policy as (0.85, 0.95), assuming the estimate follows a normal distribution.
 
 Actuary B transforms the confidence interval developed by Actuary A into a confidence interval for the cube root of the probability of no claim using the delta method, and then cubes the endpoints of the transformed interval to obtain a confidence interval for the probability of no claim.
 
-Determine the upper bound of the confidence interval for the probability of no claim developed by Actuary B. (The final answer should have 3 decimal places)",0.951
-103,已知在养老金精算模型中，假设利息力$\delta$为常数，退休时间\( T \)服从连续分布。\( {\bar{a}}_{T} = {20} \)，\(^2{\bar{A}}_{T} = {0.4986} \)。方差\( \operatorname{Var}\left( {\bar{a}}_{\overline T\mid}\right) = {50} \)，则精算现值\( {\bar{A}}_{T} \)等于多少? （结果保留3位小数）,0.698
+Determine the upper bound of the confidence interval for the probability of no claim developed by Actuary B.(The final answer should have 3 decimal places)",0.951
+103,已知在养老金精算模型中，假设利息力$\delta$为常数，退休时间\( T \)服从连续分布。\( {\bar{a}}_{T} = {20} \)，\(^2{\bar{A}}_{T} = {0.4986} \)。方差\( \operatorname{Var}\left( {\bar{a}}_{\overline T\mid}\right) = {50} \)，则精算现值\( {\bar{A}}_{T} \)等于多少？（结果保留3位小数）,0.698
 104,在信用风险管理模型中，已知三个独立违约诱因的风险率分别为 \(\lambda^{(1)} = 0.1\)，\(\lambda^{(2)} = 0.4\)，\(\lambda^{(3)} = 0.7\)，则诱因2导致的违约概率 \(P_x^{(2)}\) 等于多少。（结果保留2位小数）,0.23
 105,某操作风险事件由内部欺诈、外部欺诈、就业实践、系统故障引起的概率分别为0.3、0.2、0.1、0.4。若事件为内部欺诈、外部欺诈、就业实践，则报告延迟概率分别为$\frac{1}{4}$、$\frac{1}{3}$、$\frac{1}{12}$，而系统故障因实时监测无延迟。已知某次事件报告发生延迟，则该事件由内部欺诈引起的概率是多少？（结果保留1位小数）,0.5
 106,"A company has 2000 dental insurance policies. The number of claims filed by a policyholder during one year is a Poisson random variable with variance 0.5. The number of claims filed by these policyholders are mutually independent.
@@ -572,13 +564,13 @@ Calculate the probability, using the normal approximation, that the total claim 
 (iii) The severity of incidents for each policyholder follows a Pareto distribution with parameters $\alpha=2.5$ and $\theta=6000$. 
 (iv) The credibility standard is that aggregate losses must be within $10 \%$ of expected $p$ of the time. 
 (v) 1812 incidents were observed, resulting in $80 \%$ credibility. 
-Determine $p$. (The final answer should have 4 decimal places)",0.9398
-108,已知某家庭财产保险的损失额 \( X \) 服从形状参数α=4.0，速率参数λ=2.5的伽玛分布。求每次事故损失额超过1个单位的概率。 （结果保留4位小数）,0.7576
+Determine $p$.(The final answer should have 4 decimal places)",0.9398
+108,已知某家庭财产保险的损失额 \( X \) 服从形状参数α=4.0，速率参数λ=2.5的伽玛分布。求每次事故损失额超过1个单位的概率。（结果保留4位小数）,0.7576
 109,"Summary statistics for the annual loss ratios for a portfolio of property insurance policies over an 18-year period, \( L_i \), are 
 \[\sum_{i=1}^{18} L_i = 1.44\] 
 \[\sum_{i=1}^{18} L_i^2 = 0.2376\] 
 A 95% confidence interval for the mean loss ratio is constructed using the normal approximation with a 2 standard deviation multiplier. 
-Calculate the lower bound of the confidence interval. (The final answer should have 2 decimal places)",0.04
+Calculate the lower bound of the confidence interval.(The final answer should have 2 decimal places)",0.04
 110,一个35岁被保险人投保的10年延期终身生存年金，年初生存给付为1，趸缴保费为\( P \)。若被保险人在10年内死亡，保险公司将在死亡年末退还趸缴保费\( P \)按年实质利率\( i = 0.025 \)复利累积至死亡年末的值。已知第9年年末的责任准备金为16，且生存年金在45岁开始给付（记为\( \ddot{a}_{45} \))，求\( P \)。（结果保留2位小数）,12.81
 111,"You are checking gross premium policy values for a fully discrete whole life insurance of 1000 on (45).
 \( {}_{k}V \) denotes the gross premium policy value at the end of year \( k,k = 0,1,2,\ldots \).
@@ -590,8 +582,8 @@ iv) \( {q}_{53} = {0.003} \)
 v) \( i = {0.05} \)
 You discover that all intended assumptions were used correctly, except that calculations were based on \( {q}_{53} = {0.004} \).
 The calculated results included \( {}_{8}V = {86.74} \) and \( {}_{9}V = {100} \).
-Calculate \( {}_{8}V \) using the intended value of \( {q}_{53} \). (The final answer should have 2 decimal places)",85.88
-112,"In health insurance, the number of critical illness claims (excluding zero claims) follows a zero-truncated Poisson distribution with parameter \( \lambda = 0.8 \). Using the probability generating function (PGF) for this distribution calculate the third raw moment of the claim count distribution. (The final answer should have 4 decimal places)",5.8692
+Calculate \( {}_{8}V \) using the intended value of \( {q}_{53} \).(The final answer should have 2 decimal places)",85.88
+112,"In health insurance, the number of critical illness claims (excluding zero claims) follows a zero-truncated Poisson distribution with parameter \( \lambda = 0.8 \). Using the probability generating function (PGF) for this distribution calculate the third raw moment of the claim count distribution.(The final answer should have 4 decimal places)",5.8692
 113,李工程师为筹备创业启动金，计划每季末向信用合作社存款1000元，15年后一次性提取。已知信用合作社采用年名义利率4.909%，按季度复利结算利息。则该年金在全部提取时的积累值为多少元？（结果保留2位小数）,87916.96
 114,"假设某寿险产品的保单失效次数流量三角形数据如表1所示：
 
@@ -605,7 +597,7 @@ Calculate \( {}_{8}V \) using the intended value of \( {q}_{53} \). (The final a
 | 2013 | 519 | 1013 | | | |
 | 2014 | 565 | | | | |
 
-则2014年总共的失效次数为多少？（采用原始加权平均法选取相关比率）（结果保留整数）",1834
+则2014年总共的失效次数为多少？（采用原始加权平均法选取相关比率，结果保留整数）",1834
 115,"Several months ago, an investor sold 100 units of a one-year European call option on a nondividend-paying stock. She immediately delta-hedged the commitment with shares of the stock, but has not ever re-balanced her portfolio. She now decides to close out all positions.
 You are given the following information
 (i) The risk-free interest rate is constant.
@@ -619,13 +611,13 @@ You are given the following information
 | Call option delta | 0.800 | |
 
 The put option in the table above is a European option on the same stock and with the same strike price and expiration date as the call option.
-Calculate her profit. (The final answer should have 2 decimal places.)",24.13
+Calculate her profit.(The final answer should have 2 decimal places)",24.13
 116,如果某风险中性测度下一年期折现因子为 \(\mathbf{0.90}\)，求投资 \(\mathbf{83}\) 天的未定权益收益。（结果保留4位小数）,0.0242
 117,"Losses from maritime collisions in 2017 follow a distribution with density function 
 \[f\left( x\right) = \frac{1}{\textbf{600,000}}\left( {1 - \frac{x}{\textbf{1,200,000}}}\right) \quad \text{for} \quad 0 \leq x \leq \textbf{1,200,000}.\] 
 Reinsurance covers the excess of each loss above 120,000. In 2018, all losses experience 10% inflation. 
 Let \( \mathrm{LER}_{2017} \) denote the reinsurance loss elimination ratio for 2017, and \( \mathrm{LER}_{2018} \) for 2018. 
-Compute \( \mathrm{LER}_{2017} - \mathrm{LER}_{2018} \). (The final answer must be rounded to 5 decimal places.)",0.02231
+Compute \( \mathrm{LER}_{2017} - \mathrm{LER}_{2018} \).(The final answer must be rounded to 5 decimal places)",0.02231
 118,在养老金精算中，某退休计划从时间0到时间1连续发放生存年金，年金的支付率在时刻$t$为$\mu_{t}=\mathbf{2.5} t + \mathbf{1.5}$，利息力为$\delta_{t}=\mathbf{0.05} t + \mathbf{0.03}$，请计算此年金在时间零的精算现值。（结果保留2位小数）,2.68
 119,"在一个多减因养老金模型中，员工可能因退休、死亡或离职而退出计划。已知： 
 (1) 年龄 \( x \) 岁的员工在 \( t \) 年内的留存概率 \( {}_{t}p_{x}^{(\tau)} = 1 - 0.03t \), \( 0 \leq t \leq 1 \); 
@@ -647,12 +639,12 @@ Compute \( \mathrm{LER}_{2017} - \mathrm{LER}_{2018} \). (The final answer must 
 (iii) Premiums are determined using the equivalence principle and are payable at the beginning of each year.
 
 During year 3, Company ABC discovers that Pat was really 41 when the insurance was issued. Using the equivalence principle, Company ABC adjusts the death benefit to the level death benefit it should have been at issue, given the premium charged.
-Calculate the adjusted death benefit. (The final answer should have 1 decimal places)",664.3
+Calculate the adjusted death benefit.(The final answer should have 1 decimal places)",664.3
 121,"已知某保险公司每月基础损失（单位：百万美元）服从均匀分布 $[0,1]$。精算师使用以下均匀随机数模拟未来15个月的总损失，并应用中心极限定理计算标准化后的总损失值（服从 $\mathrm{N}(0,1)$ 分布）以评估极端风险：
 $\mathrm{u}_{1}=0.7295, ~ \mathrm{u}_{2}=0.5437, ~ \mathrm{u}_{3}=0.4649, ~ \mathrm{u}_{4}=0.6305, ~ \mathrm{u}_{5}=0.5618$
 $\mathrm{u}_{6}=0.9602, \mathrm{u}_{7}=0.9057, \mathrm{u}_{8}=0.8799, \mathrm{u}_{9}=0.0198, \mathrm{u}_{10}=0.938$
 $\mathrm{u}_{11}=0.5462$ ， $\mathrm{u}_{12}=0.3021, ~ \mathrm{u}_{13}=0.7659$ ， $\mathrm{u}_{14}=0.6768, ~ \mathrm{u}_{15}=0.3209$.
-则标准化总损失值为多少？ （结果保留3位小数）",1.562
+则标准化总损失值为多少？（结果保留3位小数）",1.562
 122,"You are given the following data from a study of 6 electronic component failure times. The failure time is assumed to follow an exponential distribution with mean $\theta$.
 
 | Failure Time | Modification |
@@ -664,12 +656,12 @@ $\mathrm{u}_{11}=0.5462$ ， $\mathrm{u}_{12}=0.3021, ~ \mathrm{u}_{13}=0.7659$ 
 | 1050 | Left-truncated at 150 |
 | 1700 | Censored at 1700 |
 
-Estimate the standard deviation of $\hat{\theta}$ using Cramer-Rao lower bound. (The final answer should have 2 decimal places)",429.30
+Estimate the standard deviation of $\hat{\theta}$ using Cramer-Rao lower bound.(The final answer should have 2 decimal places)",429.30
 123,一项永续债券每年末支付利息 1 元，年实际收益率为 5.999%，试计算该债券的修正凸度（定义式为 \( C = \frac{P''(i)}{P(i)} \)）。（结果保留2小数）,555.74
 124,"对于一个三元风险模型，在常数力假设下，已知：
 \[{q}_{85}^{\left( 1\right) } = {0.25},\; {q}_{85}^{\left( 2\right) } = {0.30},\; {q}_{85}^{\left( 3\right) } = {0.20}\]
 求仅因减因1退出的独立生存概率 \( {p}^{\prime }{}_{85}^{\left( 1\right) } \)。（结果保留2位小数）",0.63
-125,"In a professional liability insurance policy, legal claim settlements follow a lognormal distribution with parameters \( \mu = 10, \sigma = 1 \). For each claim settlement amount not exceeding 60,000, the insurer makes no indemnity payment. For each claim settlement amount greater than 60,000, the insurer pays the entire settlement amount, subject to a maximum covered amount of 170,000. Determine the expected indemnity payment per claim settlement. (The final answer must be an integer)",16226
+125,"In a professional liability insurance policy, legal claim settlements follow a lognormal distribution with parameters \( \mu = 10, \sigma = 1 \). For each claim settlement amount not exceeding 60,000, the insurer makes no indemnity payment. For each claim settlement amount greater than 60,000, the insurer pays the entire settlement amount, subject to a maximum covered amount of 170,000. Determine the expected indemnity payment per claim settlement.(The final answer must be an integer)",16226
 126,"The ASW Company offers retiree pension benefits. Retirement can occur at ages $62,63,64$, or 65. ASW funds the benefits using a pro-rata method where benefits are accrued linearly based on years of service, with reserves adjusted at interest rate $i$ and divided by persistency probability $p$.
 
 Michael joined ASW at age 34, and is currently age 46. You are given:
@@ -678,8 +670,8 @@ Michael joined ASW at age 34, and is currently age 46. You are given:
 (iii) The normal cost for Michael for the next year is 2700
 
 Years of service are defined as current age minus age at joining. Assume Michael stays with the company for one year. Calculate the normal cost for Michael for the year starting with his 47th birthday.(The final answer should have 2 decimal places)",2955.79
-127,某企业设立一项投资基金，初始投入 10000 元，基金按每年计息两次的年名义利率 $6 \%$ 增长。企业在第 5 年末提取 5000 元用于投资回报分配，第 15 年末提取 11600 元用于投资回报分配，第 25 年末提取剩余部分用于投资回报分配。计算第 3 次提取金额的利息部分为多少元。 （结果保留整数）,2936
-128,"An endowment fund is established to provide monthly grants of \$6000 at the beginning of each month, starting exactly 25 years from today. Contributions of \$X are made monthly to the fund for 25 years, beginning immediately. The fund earns a nominal annual interest rate of 8\%, compounded monthly. Each \$1000 in the fund at the start date provides \$19.30 of monthly grant income at the beginning of each month. Calculate \( X \). (The final answer should have 2 decimal places)",324.72
+127,某企业设立一项投资基金，初始投入 10000 元，基金按每年计息两次的年名义利率 $6 \%$ 增长。企业在第 5 年末提取 5000 元用于投资回报分配，第 15 年末提取 11600 元用于投资回报分配，第 25 年末提取剩余部分用于投资回报分配。计算第 3 次提取金额的利息部分为多少元。（结果保留整数）,2936
+128,"An endowment fund is established to provide monthly grants of \$6000 at the beginning of each month, starting exactly 25 years from today. Contributions of \$X are made monthly to the fund for 25 years, beginning immediately. The fund earns a nominal annual interest rate of 8\%, compounded monthly. Each \$1000 in the fund at the start date provides \$19.30 of monthly grant income at the beginning of each month. Calculate \( X \).(The final answer should have 2 decimal places)",324.72
 129,"On an insurance coverage, only one claim per year per insured can be submitted. You have the following experience on this coverage
 
 | Year | Number of insureds | Number of claims |
@@ -690,7 +682,7 @@ Years of service are defined as current age minus age at joining. Assume Michael
 | 2007B | 50 | 5 |
 | 2008 | 200 | 18 |
 
-In 2007, due to a system upgrade, the policies were recorded in two separate groups (2007A and 2007B). The probability of a claim in a year using maximum likelihood is 0.07. Test the fit using the chi-square test. Calculate the chi-square statistic. (The final answer should have 4 decimal places).",6.4516
+In 2007, due to a system upgrade, the policies were recorded in two separate groups (2007A and 2007B). The probability of a claim in a year using maximum likelihood is 0.07. Test the fit using the chi-square test. Calculate the chi-square statistic.(The final answer should have 4 decimal places).",6.4516
 130,"下列数据为某保险公司的一份四年期保险产品的统计表，该产品起始有50名投保人，投保人一旦退保（无论原因）即永久退出，无法继续后续年度，且每位投保人的状态转换相互独立。每一保单年度的状态概率如下表所示。
 
 | 保单年度 | 因健康原因退保(j = 1) | 其他原因退保(j = 2) | 续保(j = 3) |
@@ -701,7 +693,7 @@ In 2007, due to a system upgrade, the policies were recorded in two separate gro
 | 4        | 0.00                  | 0.05                | 0.95        |
 
 试求：四年保险期间因健康原因退保人数的方差等于多少？（结果保留整数）",5
-131,某账户在2010年1月1日有一笔存款，4月1日取走50元，7月1日存入100元，9月1日存入30元，到了2011年1月1日，账户内金额为1051元。假设基金收益率按复利计算，年利率为1.12%，各次存取款金额从操作发生日起至2011年1月1日按实际月份数计算复利。则2010年1月1日的存款为多少元? （结果保留整数）,960
+131,某账户在2010年1月1日有一笔存款，4月1日取走50元，7月1日存入100元，9月1日存入30元，到了2011年1月1日，账户内金额为1051元。假设基金收益率按复利计算，年利率为1.12%，各次存取款金额从操作发生日起至2011年1月1日按实际月份数计算复利。则2010年1月1日的存款为多少元？（结果保留整数）,960
 132,一笔期限为4年的设备融资贷款，年实际利率为12%，借款人用偿债基金法偿还，偿债基金利率为8%且允许负储蓄（不足利息的差额部分按8%利率累积）。借款人每年末支付的总金额依次为1000元、1000元、10000元、10000元。求贷款本金。（结果保留整数）,15075
 133,对于(x)两年期的两全保险，保险金额为 1000 ，已知： 首年保费为 668 ，次年保费为 267， \( d = \mathbf{0.05} \) 。其等价的均衡纯保费为多少。（结果保留整数）,479
 134,"对于一个新组装的工业机械部件，采用三年选择期的选择一终极失效表，已知：
@@ -722,8 +714,8 @@ x & l_x \\ \hline 
 \] 
 (ii) \( i = \left\{ \begin{array}{ll} 0 & t \leq {10} \\ {0.05} & t > {10} \end{array}\right. \). 
 (iii) For age 80, the actuarial present value of a whole life critical illness insurance of 1 is 0.60984 under \( i = 5\% \). 
-Calculate the expected present value of the insurance. (The final answer should have two decimal places)",683.21
-136,25 年期企业设备融资贷款，利率为每年计息 12 次的年名义利率 8.69%， 按月等额偿还。求现金流的修正期限（以月为单位）。 （结果保留1位小数）,99.9
+Calculate the expected present value of the insurance.(The final answer should have 2 decimal places)",683.21
+136,25 年期企业设备融资贷款，利率为每年计息 12 次的年名义利率 8.69%， 按月等额偿还。求现金流的修正期限（以月为单位）。（结果保留1位小数）,99.9
 137,已知二元风险模型：\( {q}_{x}^{(1)} = 0.02 \)，\( {q}_{x}^{(2)} = 0.05 \)。假设在每一年龄内每个减因的退出力为常数，则\( {q}_{x}^{\prime(1)} \)的值为多少？（结果保留4位小数）,0.0205
 138,某大型再保险公司为升级其巨灾建模系统获得30年期可调利率资本融资贷款67350元，采用等额本息偿还方式。首年度年化利率为7%，次年起年化利率上调至9%。计算第二年起每月还款额的增量。（结果保留2位小数）,91.78
 139,"对于被保人年龄为 \((x)\) 岁的一份 3 年期意外伤害保险单，已知年利率 \(i = 0.025\)，意外事故发生率 \(q_{x+k} = 0.03(k + 1)\)，\(k = 0, 1, 2\)，表示在保单年度末发生意外事故的概率。保险金在事故发生的年度末给付，保险公司承担 80% 的赔付责任，各年基础赔付额如表 3-5 所示。假设 \(z\) 是赔付现值随机变量，则 \(E(z)\) 等于多少？（结果保留2位小数）
@@ -741,9 +733,9 @@ Calculate the expected present value of the insurance. (The final answer should 
 
 Assume that claim sizes are uniformly distributed within each interval.
 You are pricing another coverage that has a deductible of 500 and a reinsurance contract that caps the insurer's loss at 10,000 per occurrence.
-Estimate the variance of payment per payment on this coverage.(The final answer must be an integer.)",7720965
+Estimate the variance of payment per payment on this coverage.(The final answer must be an integer)",7720965
 142,"A trust fund with an initial value of 20,000 makes annual distributions at the end of each year. The fund earns an annual effective interest rate of 6.5%. Each distribution consists of the interest earned and an additional 1000 of principal, so that the fund is fully distributed by the end of the 20th year. 
-The beneficiary deposits all distributions received into Fund K, which earns an annual effective rate of 8.25%. Calculate the accumulated value of Fund K at the end of the 20th year. (The final answer must be an integer)",86902
+The beneficiary deposits all distributions received into Fund K, which earns an annual effective rate of 8.25%. Calculate the accumulated value of Fund K at the end of the 20th year.(The final answer must be an integer)",86902
 143,保险公司A的一款养老保险金账户按半年复利计息，年名义利率为7.5%。保险公司B的一款养老保险金账户采用按季度复贴现的方式确定现金价值。若两款产品的实际年收益率相同，试计算保险公司B的养老保险金账户的年名义贴现率。（答案保留五位小数）,0.07295
 144,"现年 76 岁的李某在 2 年前购买了人寿保险, 已知选择 - 终极生命表如下表所示
 选择一终极生命表
@@ -766,7 +758,7 @@ Calculate the expected present value of the warranty. 
 (ii) The net premium reserve at time 2 for a semicontinuous 10-year endowment insurance of 1 on (40) is 0.0203.
 (iii) $i=0.05$
 (iv) Deaths are uniformly distributed between integral ages.
-Calculate the net premium reserve at time 2 for a semicontinuous 10-year term insurance of 1 on (40). (The final answer should have 6 decimal places)",0.012398
+Calculate the net premium reserve at time 2 for a semicontinuous 10-year term insurance of 1 on (40).(The final answer should have 6 decimal places)",0.012398
 147,"You are given the following double-decrement model for policyholders in a health insurance plan:
 (i)
 
@@ -784,7 +776,7 @@ You are also given:
 (i) After achieving premium discount status, the only decrement is mortality.
 (ii) After achieving premium discount status, $\boldsymbol{\mu=0.05}$.
 
-Calculate the probability that a policyholder, now age 21, will be living and holding premium discount status three years later. (The final answer should have 3 decimal places)",0.036
+Calculate the probability that a policyholder, now age 21, will be living and holding premium discount status three years later.(The final answer should have 3 decimal places)",0.036
 148,"You are given
 (i) A homeowners insurance coverage has a $500$ deductible and a policy limit of $1000$.
 (ii) The number of paid claims follows a negative binomial distribution with parameters \( r = 0.5 \) and \( \beta = 0.4 \).
@@ -795,7 +787,7 @@ Determine the deductible needed in order to reduce the variance of paid claim co
 (ii) The discount rate is $\frac{1}{11}$  for 2011 and $\frac{6}{106}$  for 2012 and thereafter. 
 (iii) The annual incidence rates are $q_{70}=0.010$ and $q_{71}=0.012$. 
 (iv) The expected present value on December $31^{\text{st }} 2010$ of the insurance on (71) is 300. 
-Calculate the expected present value on December $31^{\text{st }} 2010$ of the insurance on (70). (The final answer should have 2 decimal places)",289.28
+Calculate the expected present value on December $31^{\text{st }} 2010$ of the insurance on (70).(The final answer should have 2 decimal places)",289.28
 150,"某养老保险产品的现金流如下表所示（年数=实际天数/365，保费缴纳为负，养老金给付为正），计算使保费缴纳现值与养老金给付现值相等的币值加权收益率。（结果保留两位小数）
 
 养老保险产品的现金流 单位：万元
@@ -820,7 +812,7 @@ Calculate the level net premium reserve at time 4 for a similar nine-year endowm
 i. The leased asset has an initial value of 8,000 and the lease rate is 6.94% per annum paid semiannually. 
 ii. The upfront payment results in an annual nominal yield rate of 5.3% convertible semiannually. 
 iii. The amount for amortization of premium in the fourth lease payment is 28.31. 
-Calculate the residual value of the asset. (Note: The residual value may differ from the initial value.) (The final answer must be an integer)",7664
+Calculate the residual value of the asset. (Note: The residual value may differ from the initial value)(The final answer must be an integer)",7664
 154,已知某终身重大疾病保险的离散型现值 \( {A}_{85} = {0.885301} \)，年利率 \( i = {0.06} \)，调整因子 \( \alpha(\infty) = {1.000283} \) 和 \( \beta(\infty) = {0.509855} \)。假设疾病发生均匀分布，计算完全连续保费 \( \bar{P}\left( {\bar{A}}_{85}\right) \)。（结果保留3位小数）,0.601
 155,"已知死亡在各个年龄中均匀分布，且满足：
 \[ i = \mathbf{0.05}, \delta = \mathbf{0.0488}, {}_n E_x = \mathbf{0.7}, \bar{A}_{x:\overline{n}|} = \mathbf{0.766} \]
@@ -860,7 +852,7 @@ The annual fire damage losses on the properties have the following severity dist
 
 A randomly selected property experienced annual fire damage losses of 5,000 in Year 1 and 1,000 in Year 2.
 To estimate the annual fire damage loss in Year 3 for this property, Actuary A employs Bühlmann credibility whereas Actuary B applies Bayesian credibility.
-Calculate the estimate under Actuary A's approach. (The final answer should have 3 decimal places)",7736.478
+Calculate the estimate under Actuary A's approach.(The final answer should have 3 decimal places)",7736.478
 159,"新加坡银行同业拆借利率(SIBOR)如下，利率为年化单利，按实际天数/365计算利息（表中数值单位为百分数）：
 
 | 期限 | 利率 |
@@ -871,7 +863,7 @@ Calculate the estimate under Actuary A's approach. (The final answer should have
 | 30天 | 11.00|
 | 90天 | 10.75|
 
-计算本金1,000元，期限为一周（7天）的本息累积额。 （结果保留2位小数）",1002.21
+计算本金1,000元，期限为一周（7天）的本息累积额。（结果保留2位小数）",1002.21
 160,"A pension fund has a liability of 150,000 to be funded over 10 years with quarterly contributions of 5483.36 at the end of each quarter, earning interest at 8% compounded quarterly. After 12 contributions, the interest rate dropped to 6% compounded quarterly, and the quarterly contribution was recalculated to amortize the unfunded liability over the remaining term at the new interest rate. After 20 contributions in total, the interest rate on the liability increased to 7% compounded quarterly. The pension fund decided to make an additional contribution of \(X\) at the time of its 20th contribution. After the additional contribution was made, the new quarterly contribution was calculated to be 4265.73, payable for five more years. Determine \(X\).(The final answer must be an integer)",16691
 161,"For a fully discrete whole life insurance policy of 2000 on (45), you are given:
 (i) The gross premium is calculated using the equivalence principle.
@@ -886,9 +878,9 @@ Calculate the estimate under Actuary A's approach. (The final answer should have
 (iv) \(i=0.06\).
 
 Calculate the expense reserve at the end of policy year 10.(The final answer should have 2 decimal places)",-26.77
-162,"An insurance company issues a 20-year annuity-immediate with a single premium of 74,200. The annuity provides level end-of-month payments. The annual nominal interest rate used is 8%, convertible monthly. Immediately after the 72nd payment is made, the interest rate is changed to an annual nominal rate of 6%, convertible monthly, and the payment is recalculated for the remaining term without changing the maturity date. Calculate the new end-of-month payment. (The final answer should have 2 decimal places)",551.72
-163,"一家制造企业需在2011年1月1日预留10,000元的环境污染清理准备金。为筹集资金，该企业计划从2000年1月1日到2010年1月1日（含）每年年初向准备金账户存入相等金额。若账户年实际收益率为4%，则每年年初应存入多少元？ （结果保留2位小数）",712.97
-164,An insurance company issues 5000 dental care insurance policies. The number of claims filed by a policyholder under a dental care insurance policy during one year is a Poisson random variable with mean 0.5. Assume the numbers of claims filed by different policyholders are mutually independent. Calculate the approximate probability that there is a total of between 2450 and 2600 claims during a one-year period? (The final answer should have 4 decimal places).,0.8185
+162,"An insurance company issues a 20-year annuity-immediate with a single premium of 74,200. The annuity provides level end-of-month payments. The annual nominal interest rate used is 8%, convertible monthly. Immediately after the 72nd payment is made, the interest rate is changed to an annual nominal rate of 6%, convertible monthly, and the payment is recalculated for the remaining term without changing the maturity date. Calculate the new end-of-month payment.(The final answer should have 2 decimal places)",551.72
+163,"一家制造企业需在2011年1月1日预留10,000元的环境污染清理准备金。为筹集资金，该企业计划从2000年1月1日到2010年1月1日（含）每年年初向准备金账户存入相等金额。若账户年实际收益率为4%，则每年年初应存入多少元？（结果保留2位小数）",712.97
+164,An insurance company issues 5000 dental care insurance policies. The number of claims filed by a policyholder under a dental care insurance policy during one year is a Poisson random variable with mean 0.5. Assume the numbers of claims filed by different policyholders are mutually independent. Calculate the approximate probability that there is a total of between 2450 and 2600 claims during a one-year period?(The final answer should have 4 decimal places),0.8185
 165,"A fully discrete 3-year critical illness insurance on (65) provides a lump sum benefit of 50,000 upon diagnosis of a covered critical illness. You are given the following profit test assumptions: 
 (i) The incidence rate is \( q_{65+t} = 0.015 + 0.001 t \) for \( t \geq 0 \). 
 (ii) \( i = 0.05 \). 
@@ -916,7 +908,7 @@ Based on the uniform distribution of deaths assumption, $_{1.2|0.7}q_{0.3} = a$.
 
 Based on the constant force of mortality assumption, $_{1.2|0.7}q_{0.3} = b$.
 
-Calculate $|a - b|$. (The final answer should have 4 decimal places)",0.0021
+Calculate $|a - b|$.(The final answer should have 4 decimal places)",0.0021
 168,"You use the following information to determine a rate change for a health insurance portfolio. 
 (i) 
 
@@ -940,7 +932,7 @@ Explicit instruction: Apply claim development factors first, then trend adjustme
 Calculate the required portfolio-wide rate change. 
 (The final answer should have 4 decimal places)",-0.0133
 169,在非寿险精算中，某保险索赔当前估计损失为60元。损失额从第1年末起每年增长8%。前5年不进行任何赔款支付，第6年末起每年支付当年损失额的40%作为赔款。若精算师使用年折现率15%，则该索赔的现值为多少元？（结果保留2位小数）,250.46
-170,"A pension fund receives a contribution of 121 at the beginning of each 5-year period for 40 years. The fund earns interest at an annual effective interest rate of \( i \). The accumulated amount in the fund at the end of 40 years is \( X \), which is 5 times the accumulated amount in the fund at the end of 20 years. Calculate \( X \). (The final answer must be an integer)",6197
+170,"A pension fund receives a contribution of 121 at the beginning of each 5-year period for 40 years. The fund earns interest at an annual effective interest rate of \( i \). The accumulated amount in the fund at the end of 40 years is \( X \), which is 5 times the accumulated amount in the fund at the end of 20 years. Calculate \( X \).(The final answer must be an integer)",6197
 171,某疾病监测系统追踪12名潜在感染者，其中9名未出现症状，3名已确诊感染。第一次医学筛查时随机抽取3名进行检测，检测后的个体视为已感染并放回人群。第二次医学筛查时再随机抽取3名。则第二次抽到的均为未感染者，且第一次抽到1名未感染者的概率是多少？（结果保留4位小数）,0.2143
 172,某养老基金账户在年初有初始资金1个单位。在4月末收到新缴费0.5个单位，6月末支付福利金0.1个单位，8月末再次支付福利金0.2个单位。到年底，账户积累值为1.5个单位。则该基金的美元加权收益率为多少？（答案保留4位小数）,0.2466
 173,"一份完全离散型均衡缴费10年的20年期关键设备保修保险，面向初始使用年限25年的设备。保单规定：若设备在保修期内发生故障，则保险人在故障发生的年末给付维修补偿金，且补偿金额等于故障年末的纯保费准备金；若设备无故障运行到保修期满，则保险人给付的无故障奖金为1000元。设年利率为\(6\%\)。已知风险概率表部分数据如下： 
@@ -969,7 +961,7 @@ Determine the number of failure events needed so that the total repair cost is w
 - \( q_{60} = 0.0137 \) 
 - \( q_{70} = 0.0311 \) 
 
-Determine \( \mu_{65} \), where \( \mu_x \) is the force of deterioration at service age \( x \). (The final answer should have 4 decimal places)",0.0199
+Determine \( \mu_{65} \), where \( \mu_x \) is the force of deterioration at service age \( x \).(The final answer should have 4 decimal places)",0.0199
 177,"You are given
 (i) Time-to-failure $T$ in years for a computer has the following cumulative distribution function
 
@@ -980,7 +972,7 @@ $$
 (ii) A warranty covers the first repair within 5 years.
 (iii) The cost of repair is $\boldsymbol{311.76}\left(1.03^{t}\right)$, where $t$ is the time of repair.
 (iv) $i=0.05$.
-Determine the $60^{\text {th }}$ percentile of the present value of the warranty. (The final answer should have two decimal places)",288.68
+Determine the $60^{\text {th }}$ percentile of the present value of the warranty.(The final answer should have 2 decimal places)",288.68
 178,"某健康保险公司的增量已付医疗赔付数据如表1所示，各年的医疗成本通货膨胀指数如表2所示，假设在第3进展年的尾部因子为1.0,且未来的医疗成本通货膨胀率为8%。
 
 表1 增量已付医疗赔付数据
@@ -1001,7 +993,7 @@ Determine the $60^{\text {th }}$ percentile of the present value of the warranty
 | 2009 | 120 |
 | 2010 | 136 |
 
-在考虑医疗成本通货膨胀因素的条件下，对该健康保险公司2010年末的未决医疗赔付准备金进行估计。（进展因子使用加权平均法估计）（结果保留2位小数）",5083.28
+在考虑医疗成本通货膨胀因素的条件下，对该健康保险公司2010年末的未决医疗赔付准备金进行估计。（进展因子使用加权平均法估计，结果保留2位小数）",5083.28
 179,"下表为某健康险医疗费用理赔数据 
 
 | 医疗费用范围 | 0 ≤ X < 7,500 | 7,500 ≤ X < 17,500 | 17,500 ≤ X < 32,500 | 32,500 ≤ X < 67,500 | 67,500 ≤ X < 125,000 | 125,000 ≤ X < 300,000 | X ≥ 300,000 | 
@@ -1017,7 +1009,7 @@ Determine the $60^{\text {th }}$ percentile of the present value of the warranty
 - \( \ddot{a}_{70} = 12.000 \) (at \( i = 0.05 \)) 
 
 (ii) \( i = 0.05 \). 
-Calculate the probability that the sum of the undiscounted payments actually made under this annuity will exceed the expected present value, at issue, of the annuity. (The final answer should have 5 decimal places.)",0.92118
+Calculate the probability that the sum of the undiscounted payments actually made under this annuity will exceed the expected present value, at issue, of the annuity.(The final answer should have 5 decimal places)",0.92118
 181,"In the context of health insurance, the number of patient visits follows a Poisson distribution. The cost per visit follows a Burr distribution with parameters $\theta$ (unknown), $\alpha=6$, and $\gamma=0.5$. The mean and second moment of the Burr distribution are given by: 
 \[
 E[X] = \frac{\theta \Gamma\left(1 + \frac{1}{\gamma}\right) \Gamma\left(\alpha - \frac{1}{\gamma}\right)}{\Gamma(\alpha)}
@@ -1027,7 +1019,7 @@ E[X^2] = \frac{\theta^2 \Gamma\left(1 + \frac{2}{\gamma}\right) \Gamma\left(\alp
 \] 
 The number of visits and cost per visit are independent. 6,000 expected visits are needed for full credibility. The full credibility standard has been selected so that actual aggregate costs will be within 10% of expected aggregate costs $P\%$ of the time, using a bilateral confidence interval. 
 
-Using the methods of classical credibility, determine the value of $P$. (The final answer should have 1 decimal place)",91.6
+Using the methods of classical credibility, determine the value of $P$.(The final answer should have 1 decimal place)",91.6
 182,一个建筑公司需要在第40年末积累100000元作为项目竣工资金。公司计划从第1个月末开始每月存入K元，储蓄持续480个月。银行提供的名义利率为i<sup>(12)</sup>=12%，其中在第180个月到第239个月期间每月需额外扣除3元账户管理费。假设管理费用在账户结算后扣除，问每月净存款额K应为多少元？（结果保留两位小数）,8.73
 183,"已知车险理赔金额的分布函数为：
 \[
@@ -1036,16 +1028,15 @@ F\left( x\right) = \frac{\left( \frac{x}{\theta} \right)^{\gamma}}{1 + \left( \f
 其中 \(\theta\) 和 \(\gamma\) 为未知参数。现随机抽取11个样本（单位：千元）：
 10，35，80，86，90，120，158，180，200，210，2000
 使用线性插值法，通过40%和80%分位数估计参数 \(\theta\) 和 \(\gamma\)，则 \(\widehat{\theta } + \widehat{\gamma }\) 的值为多少。（结果保留2位小数）",109.94
-184,"一名70岁的被保险人参与一项完全连续型终身寿险产品测试，在实验设定中其未来寿命随机变量在区间[0,50]上均匀分布，保单保额为1，利息力δ=0.04。设L为保险人的亏损现值随机变量，则\(\sqrt{\operatorname{Var}\left( L\right)}\)等于多少。 
-（结果保留3位小数）",0.426
-185,"A structured settlement agreement stipulates level disbursements of 1000 at the start of every six-month interval for a predetermined duration. Under an annual effective interest rate of \(i\), the accumulated value of these disbursements right after the final disbursement is 19549.25, while the present value at the point of the initial disbursement is 7968.89. Determine \(i\). (The final answer should have 3 decimal places)",0.177
-186,"ABC Corporation contributes \$100 to a pension fund at the end of every two years for 20 years. The fund earns interest at an annual effective rate of \( i \), compounded annually. The total interest earned during the two-year period from the end of year 18 to the end of year 20 is \$250. Calculate the accumulated amount in the pension fund at the end of year 20. (The final answer should have 2 decimal places)",2023.93
-187,"In the context of retirement actuarial planning, with an annual effective interest rate of $i, i>0\%$, the present value of a perpetuity that pays 23.30 at the end of each 3-year interval, starting at the end of year 3, is 32. At the same annual effective interest rate $i$, the present value of a perpetuity paying 1 at the end of each 4-month period, with the first payment at the end of 4 months, is $X$.  (Calculate $X$. The final answer must be an integer.)",5
+184,"一名70岁的被保险人参与一项完全连续型终身寿险产品测试，在实验设定中其未来寿命随机变量在区间[0,50]上均匀分布，保单保额为1，利息力δ=0.04。设L为保险人的亏损现值随机变量，则\(\sqrt{\operatorname{Var}\left( L\right)}\)等于多少。（结果保留3位小数）",0.426
+185,"A structured settlement agreement stipulates level disbursements of 1000 at the start of every six-month interval for a predetermined duration. Under an annual effective interest rate of \(i\), the accumulated value of these disbursements right after the final disbursement is 19549.25, while the present value at the point of the initial disbursement is 7968.89. Determine \(i\).(The final answer should have 3 decimal places)",0.177
+186,"ABC Corporation contributes \$100 to a pension fund at the end of every two years for 20 years. The fund earns interest at an annual effective rate of \( i \), compounded annually. The total interest earned during the two-year period from the end of year 18 to the end of year 20 is \$250. Calculate the accumulated amount in the pension fund at the end of year 20.(The final answer should have 2 decimal places)",2023.93
+187,"In the context of retirement actuarial planning, with an annual effective interest rate of $i, i>0\%$, the present value of a perpetuity that pays 23.30 at the end of each 3-year interval, starting at the end of year 3, is 32. At the same annual effective interest rate $i$, the present value of a perpetuity paying 1 at the end of each 4-month period, with the first payment at the end of 4 months, is $X$.(Calculate $X$. The final answer must be an integer)",5
 188,"基于原油：
 a. 执行价格为1330，六个月欧式看跌期权价格为101.30；
 b. 原油现价为1310；
 c. 市场连续无风险复利收益率为2%；
-甲购买了这样一个期权，并签订了一份六个月到期的多头远期合约。假设无存储成本或收益，若六个月后期权与远期合约的到期利润相等，则六个月后原油价格为多少？ （结果保留2位小数）",1275.42
+甲购买了这样一个期权，并签订了一份六个月到期的多头远期合约。假设无存储成本或收益，若六个月后期权与远期合约的到期利润相等，则六个月后原油价格为多少？（结果保留2位小数）",1275.42
 189,"某30岁男性投保保额10万元的定期寿险，保险期间20年，保险金于死亡诊断确认后次月末支付。已知：
 1. 死亡事件在每月内服从均匀分布，采用利率调整因子\(\frac{i}{i^{(12)}}\)计算；
 2. 适用1958 CSO 3%男性生命表（部分数据如下）：
@@ -1055,7 +1046,7 @@ c. 市场连续无风险复利收益率为2%；
 | 30 | 300,000 | 3,905,782 |
 | 50 | 94,035.2 | 1,428,619 |
 
-试计算该保单的趸缴纯保险费（结果保留2位小数）。",5345.46
+试计算该保单的趸缴纯保险费。（结果保留2位小数）",5345.46
 190,"设年龄为35岁的人投保离散型的保险金额为5000元的25年定期死亡保险。设年利率i=5%，基于CL1生命表的换算函数为：
 \( {\mathrm{M}}_{35} = {20000},\quad {\mathrm{M}}_{60} = {14291.81},\quad {\mathrm{D}}_{35} = {150000} \)。
 则该保单的趸缴纯保费为多少元？
@@ -1070,7 +1061,7 @@ You are given:
 
 (iii) Failures are uniformly distributed between integer years.
 (iv) \( i = {0.04} \).
-Calculate the standard deviation of the present value of the benefit. (The final answer should have 2 decimal places.)",383.82
+Calculate the standard deviation of the present value of the benefit.(The final answer should have 2 decimal places)",383.82
 192,"在一项重大疾病保险的精算分析中，考虑一个双重退保原因模型。保险客户可能由于健康因素（原因1）或保费负担过重（原因2）而终止保单。若将30岁时因保费压力而退保的概率 $q_{30}^{(2)}$ 从0.15下调至0.12，试问在31岁时因健康原因而退保的人数将增加多少人？（结果保留整数）
 
 下表为相关退保概率和在31岁时仍有效的保单数量：
@@ -1086,7 +1077,7 @@ Calculate the standard deviation of the present value of the benefit. (The final
 
 <table><tr><td>地区分区</td><td>当前费率</td><td>风险暴露单位数</td><td>基于当前费率的经验损失率</td></tr><tr><td>A</td><td>100</td><td>820</td><td>0.65</td></tr><tr><td>B</td><td>85</td><td>790</td><td>0.71</td></tr><tr><td>C</td><td>121</td><td>390</td><td>0.66</td></tr></table>
 
-则地区分区B的新级别费率为多少？ （结果保留2位小数）",98.73
+则地区分区B的新级别费率为多少？（结果保留2位小数）",98.73
 195,"对于普通终身寿险，被保险人年龄50岁，设每个保单年度k（k=0,1,2,...）发生事故的概率为 \( {}_{k\mid}{q}_{50} = c{\left( {0.96}\right) }^{k + 1} \)，其中 \( c = \frac{0.04}{0.96} \)，年利率 \( i = 6\% \)。若事故发生时赔付1单位，则其年缴纯保费 \( {\mathrm{P}}_{50}\) 等于多少？（结果保留6位小数）",0.037736
 196,"You are given 
 i) An investor short-sells a zero-coupon bond that has a current price of 44 per bond. 
@@ -1100,7 +1091,7 @@ iii) The prices of the options on this bond are 
 
 iv) The continuously compounded risk-free interest rate is 5%. 
 v) Assume there are no transaction costs. 
-Calculate the maximum profit for the overall position at expiration. (The final answer should have 2 decimal places.)",4.79
+Calculate the maximum profit for the overall position at expiration.(The final answer should have 2 decimal places)",4.79
 197,已知某年金产品，购买价格10000元，分10年支付给受益人，采用等额支付方式，每季度末支付一次。年名义利率为8.08%，每年计息2次。第10次支付前2个月的未偿还年金储备金为多少元？（结果保留整数）,8441
 198,在非寿险精算的未决赔款准备金评估中，使用每年计息6次的名义贴现率 \( d^{(6)} = 6\% \)。为了与公司财务报告系统兼容，该系统要求使用每年计息2次的年名义利率 \( i^{(2)} \) 表示等价的实际利率，求 \( i^{(2)} \) 的值。（最终答案保留4位小数）,0.0612
 199,一笔78000元的抵押贷款，年利率3.2%按未偿还余额计算，从第5年末开始分12期等额递减偿还本金，第5年末偿还本金8729.15元，第6年末偿还8323.85元，以后每年偿还额减少405.3元，直到贷款全部清偿。则使贷款人获得4%实际收益率的贷款初始发放金额为多少元。（结果保留1位小数）,72719.2
@@ -1120,7 +1111,7 @@ Partially damaged claims data shows:
 | 5 | | 8.0 |
 | 6 | | 10.0 |
 
-Using the regression equation, calculate $y_{5}$. (The final answer should have 1 decimal places)",18.2
+Using the regression equation, calculate $y_{5}$.(The final answer should have 1 decimal places)",18.2
 202,"You are an actuary evaluating a perpetual insurance policy with continuous claims payments. You are given: 
 (i) The present value of perpetual annual claims payments of 100, with the first payment at the end of n years, is 200. 
 (ii) The present value of an increasing perpetuity of claims payments of 100, 200, 300, etc., the first payment at the end of n years, is 4200. 
@@ -1137,7 +1128,7 @@ Losses follow a spliced distribution: 
  
 \[\Pr\left( X = 600,000 \right) = \frac{1}{8}\] 
  
-Calculate the expected insurance payment per loss event. (The final answer must be an integer)",129630
+Calculate the expected insurance payment per loss event.(The final answer must be an integer)",129630
 207,"A university endowment fund is obligated to disburse annual scholarship payments of \$1,000 each for four years, commencing one year from now. The fund can invest in four assets: one-year and two-year zero-coupon bonds, a three-year 5% annual coupon bond maturing at par, and a four-year 6% annual coupon bond maturing at par. The endowment aims to precisely match its liabilities using these assets. Determine the combined price of the two zero-coupon bonds, given the following spot rates:
 
 | Term in Years | Spot Rate |
@@ -1185,7 +1176,7 @@ Calculate the expected insurance payment per loss event. (The final answer must 
 
 The standard distribution is fully specified with no parameters estimated from the data, and all expected counts meet the chi-square test's minimum requirements of 5.
 
-Determine the result of a chi-square test of the null hypothesis that there is no fraud in the observed claims. At what significance level do we reject the null hypothesis? (The final answer should have three decimal places)",0.005
+Determine the result of a chi-square test of the null hypothesis that there is no fraud in the observed claims. At what significance level do we reject the null hypothesis?(The final answer should have 3 decimal places)",0.005
 210,"A one-year study of 50 couples (aged 80 and 78) uses a common shock Markov model with irreversible state transitions. The following deaths occurred among 5 couples, with all others surviving the full year. Death times are measured in fractional years from study inception:
 
 | 80-year-old | 78-year-old | Common shock? |
@@ -1196,12 +1187,12 @@ Determine the result of a chi-square test of the null hypothesis that there is n
 | Survived | 0.9 | No |
 | Survived | 0.3 | No |
 
-Common shock deaths occur simultaneously at the same instant. Estimate the probability of both dying from a common shock within one year.(The final answer should have 6 decimal places.)",0.019864
+Common shock deaths occur simultaneously at the same instant. Estimate the probability of both dying from a common shock within one year.(The final answer should have 6 decimal places)",0.019864
 211,"The distribution of Michael's future lifetime is a two-point mixture: 
 (i) With probability 0.70, Michael's future lifetime follows the Global Actuarial Life Table (given \( A_{62} = 0.31495 \)), with deaths uniformly distributed over each year of age. 
 (ii) With probability 0.30, Michael's future lifetime follows a constant force of mortality \( \mu = 0.019 \). 
 A fully continuous whole life insurance of 1000 is issued on Michael at age 62. 
-Calculate the net premium for this insurance at \( i = 0.05 \). (The final answer should have 2 decimal places.)",21.92
+Calculate the net premium for this insurance at \( i = 0.05 \).(The final answer should have 2 decimal places)",21.92
 212,"已知表所示的工业设备选择-终极失效表。
 
 | 使用年限 \( x \) | \( l_{[x]} \) | \( l_{[x]+1} \) | \( l_{[x]+2} \) | \( x + 2 \) |
@@ -1257,8 +1248,8 @@ $$
 \operatorname{Var}\left(a_{\overline{K_x}|}\right)
 $$
 
-(The results are retained to 2 decimal places.)",44.71
-216,"In non-life insurance, the number of new claims received by a small insurance company in one day is 1 with probability 0.2016 and 0 with probability 0.7984. Assume there are 250 working days in a year. Using the normal approximation with continuity correction, determine the $95^{\text{th}}$ percentile of the total number of new claims received in one year. (The final answer must be an integer)",60
+(The results are retained to 2 decimal places)·",44.71
+216,"In non-life insurance, the number of new claims received by a small insurance company in one day is 1 with probability 0.2016 and 0 with probability 0.7984. Assume there are 250 working days in a year. Using the normal approximation with continuity correction, determine the $95^{\text{th}}$ percentile of the total number of new claims received in one year.(The final answer must be an integer)",60
 217,"Failure rate of a structural component in civil engineering follows Makeham’s law. You are given \( \lambda_{5} = \mathbf{0.001081} \), \( \lambda_{15} = \mathbf{0.001827} \), and \( \lambda_{25} = \mathbf{0.003168} \). Determine \( {}_{50}p_{20} \). 
 (The final answer should have 4 decimal places)",0.5014
 218,"假设重大疾病治疗费用分布为帕累托分布，其密度函数为
@@ -1270,7 +1261,7 @@ $$
 (i) \( \delta = 0.06 \) 
 (ii) the force of mortality is constant at \( \mu_{x + t} = 0.03 \) for all \( t \), reflecting the elevated risks in space. 
 An initial fund of 765 per insured is established. 
-Using the normal approximation, calculate the number of insureds needed so that there is a 95% chance that the fund is sufficient. (The final answer must be an integer)",169
+Using the normal approximation, calculate the number of insureds needed so that there is a 95% chance that the fund is sufficient.(The final answer must be an integer)",169
 220,"对于一个双风险表，如下表所示。假定每个死亡原因在各年年龄内服从UDD假设。
 表 双风险表
 
@@ -1287,7 +1278,7 @@ Using the normal approximation, calculate the number of insureds needed so that 
 (1) 原始损失 \( X \) 仅取 0,1,2 三个值
 (2) \( E(X) = 1 \)
 (3) 当免赔额 \( d=1 \) 时，赔付额 \( Y = \max(X-1,0) \) 的期望 \( E(Y) = 0.25 \)
-求 原始损失的三次矩 \( E(X^3) \) （结果保留1位小数）。",2.5
+求 原始损失的三次矩 \( E(X^3) \)（结果保留1位小数）。",2.5
 222,某慈善信托基金有一笔在5年内支付158300美元以及10年内支付92000美元的资助款债务。该基金想用一个2年期的零息债券和一个永续年金来构建免疫组合。当前市场利率为7%。根据Redington免疫策略，需确保资产与负债的现值和久期均匹配。求永续年金的投资金额。（结果保留2位小数）,53636.96
 223,"某家家庭财产保险公司的索赔次数数据如下表所示??
 | 索赔次数 | 保单数 |?
@@ -1301,7 +1292,7 @@ Using the normal approximation, calculate the number of insureds needed so that 
 | 6 | 2 |?
 | \(7+\) | 0 |?
 
-假定索赔次数的分布为泊松分布，且数据来自2023年度保单，则索赔次数为 1次对应的拟合频数为多少?? （结果保留2位小数）",15909.53
+假定索赔次数的分布为泊松分布，且数据来自2023年度保单，则索赔次数为 1次对应的拟合频数为多少？（结果保留2位小数）",15909.53
 224,"对于一份完全离散终身寿险，给付非水平，被保险人年龄(55)： 
 (i) 均衡纯保费等于 \( {P}_{35} \)。 
 (ii) \( {q}_{55+k} = {q}_{35+k} + 0.01 \) 对于 \( k = 0,1,\ldots,19 \)，其中所有 \( {q}_{35+k} \leq 0.98 \)。 
@@ -1312,8 +1303,8 @@ Using the normal approximation, calculate the number of insureds needed so that 
 计算 \( {b}_{11} \)，即第11年的死亡给付。（最终答案保留4位小数）",0.6480
 225,"The present value of a \$1000 casualty insurance payment due in one year is $P$. The present value of a \$1000 payment due in two years is \$893.36. The present value of a \$1000 payment due in three years is \$830.19. The present value of an insurance settlement that pays \$50 at the end of year 1, \$50 at the end of year 2, and \$1050 at the end of year 3 is \$963.98. All present values are determined in an arbitrage-free market with homogeneous risk profiles. 
 
-Find $P$. (The final answer should have 2 decimal places)",952.25
-226,"Consider a pension liability that requires annual payments of 44 at the end of each year for 20 years, with an additional lump sum payment of 1,100 at the end of year 20. Calculate the Macaulay duration of this liability at an annual effective interest rate of 5%. (The final answer should have 4 decimal places)",13.6787
+Find $P$.(The final answer should have 2 decimal places)",952.25
+226,"Consider a pension liability that requires annual payments of 44 at the end of each year for 20 years, with an additional lump sum payment of 1,100 at the end of year 20. Calculate the Macaulay duration of this liability at an annual effective interest rate of 5%.(The final answer should have 4 decimal places)",13.6787
 227,"For a public sector defined benefit plan, you are given:
 1. The retirement benefit at age 65 is a whole life quarterly annuity-due paying 1.8% times years of service times five-year average final salary.
 2. Death benefit is 3 times current salary, payable at year-end.
@@ -1333,7 +1324,7 @@ John enters the plan at age 30. At age 48, the actuarial liability is 224,300. A
 - Expected PV of exit benefits for exits at 47: 9,650
 - PV of exit benefits for exits at 48+: 49,200
 
-Calculate the actuarial liability at age 47. (The final answer must be an integer)",210181
+Calculate the actuarial liability at age 47.(The final answer must be an integer)",210181
 228,"某人贷款10000元,期限为5年，每半年还款一次，每年计息两次的年名义收益率为10%，采用偿债基金法，偿债基金的半年实际利率为4%。借款人年龄为30岁，根据以下生命表。求借款人第5次还款的净利息支出（假设借款人在付款时存活，结果保留1位小数）。
 生命表（CL1(2010-2013)男性，年龄30-34岁）
 | 年龄 x | \( l_x \) |
@@ -1343,7 +1334,7 @@ Calculate the actuarial liability at age 47. (The final answer must be an intege
 | 32 | 99400 |
 | 33 | 99100 |
 | 34 | 98800 |",358.5
-229,"A 5-year car loan with a present value of 500,000 is to be repaid by equal annual payments at the end of each year at an annual effective discount rate of 8%. If each of the first four payments is rounded up to the next multiple of 1,000, determine the final payment \( X \) (The final answer must be an integer).",125227
+229,"A 5-year car loan with a present value of 500,000 is to be repaid by equal annual payments at the end of each year at an annual effective discount rate of 8%. If each of the first four payments is rounded up to the next multiple of 1,000, determine the final payment \( X \).(The final answer must be an integer)",125227
 230,"对于完全离散型意外伤害保险，设被保险人在第 k 年后首次发生意外伤害的概率为 \( {}_{k \mid}{q}_{x} = \mathrm{c} \cdot {\left( {\mathbf{0.951}}\right) }^{k + 1}\;\left( {k = 0,1,2,\ldots }\right) \) ，其中 \( \mathrm{c} = {\mathbf{0.049}}/{\mathbf{0.951}} \) ，年利率 i=6%，设L为签单时的损失随机变量。则Var(L)等于多少。（结果保留4位小数）",0.2701
 231,"一名55岁的矿工投保一金额为1000的5年期死亡年末赔付的两全保险，用于职业风险保障。设 \( Z \) 为死亡赔付现值变量，已知: \( A_{55 : \overline{5}|} = 0.78 \), \( ^{2}A_{60} = 0.28 \), \( ^{2}A_{55} = 0.2151 \), \( ^{2}A_{55:\overset{1}{\overline{\mathstrut5}}|} = 0.55 \) 。则 \( \operatorname{Var}\left( Z\right) \) 等于多少？（结果保留整数）",2700
 232,"Smith Enterprises secured a 20-year loan of 85,000 on July 1, 2006 to finance the acquisition of commercial real estate. The loan carried an annual nominal interest rate of 6% compounded monthly and was repaid via level monthly payments at the end of each month, with the initial payment due on July 31, 2006. 
@@ -1369,12 +1360,12 @@ $$ 
 \mu^{01}=0.02, \quad \mu^{02}=0.01, \quad \mu^{12}=0.23 
 $$ 
 
-A 2-year temporary annuity pays 10,000 per year continuously while the insured is in state 1. Using Euler's method with step 0.5 to solve Kolmogorov's forward equations and the trapezoidal rule for approximate integration, calculate the expected present value of this annuity for a healthy active insured, given $\delta=0.06$. (The final answer should have 2 decimal places)",329.25
+A 2-year temporary annuity pays 10,000 per year continuously while the insured is in state 1. Using Euler's method with step 0.5 to solve Kolmogorov's forward equations and the trapezoidal rule for approximate integration, calculate the expected present value of this annuity for a healthy active insured, given $\delta=0.06$.(The final answer should have 2 decimal places)",329.25
 237,"You are given
 (i) Claim sizes follow a lognormal distribution with parameters \( \mu \) and \( \sigma = 1 \).
 (ii) The prior distribution of \( \mu \) has probability density function
 \[f\left( \mu \right) = \mathbf{23.338}{e}^{\mathbf{-23.338\mu}}\;\mu > 0\]
-Calculate Bühlmann’s \( K \) for claim sizes. (The final answer should have 2 decimal places)",870.19
+Calculate Bühlmann’s \( K \) for claim sizes.(The final answer should have 2 decimal places)",870.19
 238,"面值为2000元的2年期债券,票息率为每年计息2次的年名义利率为8%,收益率为每年计息2次的年名义利率为10%,购买价为1002.6元。用实务法计算的债券购买第7个月的平价为多少元。（结果保留2位小数）",980.84
 239,"A manufacturer's annual losses follow a discrete distribution with probability mass function given in the table below
 
@@ -1386,13 +1377,12 @@ Calculate Bühlmann’s \( K \) for claim sizes. (The final answer should have 2
 | 2.0 | 0.05 |
 
 To cover its losses, the manufacturer purchases an insurance policy with an annual deductible of 2. Calculate the mean of the manufacturer's annual losses not paid by the insurance policy.
-
 (The final answer should have 4 decimal places)",0.9343
 240,"A woman worked for 30 years before retiring. At the end of the first year of employment, she deposited \$5,000 into an account. At the end of each subsequent year, she deposited 3\% more than the prior year, making a total of 30 deposits.
 
 She will withdraw 50,000 at the beginning of the first year of retirement and will make annual withdrawals at the beginning of each subsequent year for a total of 30 withdrawals. Each of these subsequent withdrawals will be 3\% more than the prior year. The final withdrawal depletes the account.
 
-The account earns a constant annual effective interest rate. Calculate the account balance immediately after the final deposit and before the first withdrawal. (The final answer should have 2 decimal places)",797836.82
+The account earns a constant annual effective interest rate. Calculate the account balance immediately after the final deposit and before the first withdrawal.(The final answer should have 2 decimal places)",797836.82
 241,"For a multi-state model of a critical infrastructure system with two redundant servers, Server Alpha and Server Beta (note: failure rates are time-independent, so initial ages are not used in calculations): 
 (i) You use the states: 
 State \(0=\) both servers operational 
@@ -1408,10 +1398,9 @@ State \(3=\) both servers failed 
 A service contract pays 10,000 at the moment of total system failure (transition to state 3) if it occurs at least 10 years from now. Otherwise, it pays nothing. Additionally, there is a deductible of 1,000, but it does not apply to this contract benefit. 
 Calculate the expected present value of the service contract.(The final answer should have n decimal places)",724.46
 242,"某企业为其40岁的核心技术专家投保一份20年期混合保障保险。若专家在保险期内身故，则立即赔付50,000元；若生存至20年末，则赔付10,000元作为技术保留奖金。生命表由 \( l_x = 1000 - 10x \ (0 \leq x \leq 100) \) 定义，利息力 \( \delta = 0.05 \)。计算该险种的趸缴净保费。（结果保留整数）",12988
-243,"假设 \( 1 + {i}_{t} \) 服从参数为 \( \mu = 0.05 \) 和 \( \sigma^2 = 0.01 \) 的对数正态分布，且各年利率独立同分布。设 \( {a}^{-1}(5) = \prod_{t=1}^5 (1+i_t)^{-1} \)，试求其标准差。
-（结果保留4位小数)",0.1808
+243,假设 \( 1 + {i}_{t} \) 服从参数为 \( \mu = 0.05 \) 和 \( \sigma^2 = 0.01 \) 的对数正态分布，且各年利率独立同分布。设 \( {a}^{-1}(5) = \prod_{t=1}^5 (1+i_t)^{-1} \)，试求其标准差。（结果保留4位小数),0.1808
 244,"A company is required to pay 500,000 ten years from now and 500,000 fifteen years from now. The annual force of interest is 7%.
-The company creates an investment portfolio using 5-year and 20-year zero-coupon bonds to match both the present value and Macaulay duration of its liabilities. Calculate the amount invested today in the 5-year zero-coupon bond. (The final answer must be an integer)",223852
+The company creates an investment portfolio using 5-year and 20-year zero-coupon bonds to match both the present value and Macaulay duration of its liabilities. Calculate the amount invested today in the 5-year zero-coupon bond.(The final answer must be an integer)",223852
 245,"In the context of pension plan actuarial science, you are provided with the following extract from a select-and-ultimate employee retention table featuring a 2-year select period, where a constant force of termination applies within each select period:
 
 | Entry Age x | $\ell_{ [x] }$ | $\ell_{ [x]+1}$ | $\ell_{ x+2}$ | x + 2 |
@@ -1420,8 +1409,7 @@ The company creates an investment portfolio using 5-year and 20-year zero-coupon
 | 61          | 75,000 | 71,250 | 67,500 | 63    |
 | 62          | 70,000 | 66,500 | 63,000 | 64    |
 
-Calculate \({}_{0.9}{q}_{\left\lbrack {60}\right\rbrack + {0.6}} \), where \( q \) denotes the probability of termination. 
-(The final answer should have 2 decimal places)",0.05
+Calculate \({}_{0.9}{q}_{\left\lbrack {60}\right\rbrack + {0.6}} \), where \( q \) denotes the probability of termination.(The final answer should have 2 decimal places)",0.05
 246,某再保险公司承保的地震再保险风险组合服从复合几何分布，几何分布的参数 \( p = 0.80 \)，索赔额的分布是服从参数 \( \chi_0 = 100 \) 和 \( a = 6 \) 的帕累托分布，求索赔总额分布的数学期望与 \( 10\% \) 的标准差的和。（结果保留一位小数）,36.8
 247,"Homeowners property damage claims in a certain region are known to follow the Weibull distribution:
 \[F\left( x\right) = 1 - {e}^{-{\left( x/\theta \right) }^{0.2}},\;x > 0\]
@@ -1429,13 +1417,13 @@ A sample of four claims is:
 \[\begin{array}{llll} {130} & {240} & {300} & {540} \end{array}\]
 The value of one additional claim is known to exceed 32000.
 Assume all claims are independent.
-Determine the maximum likelihood estimate of \( \theta \). (The final answer should have two decimal places)",3325.69
+Determine the maximum likelihood estimate of \( \theta \).(The final answer should have 2 decimal places)",3325.69
 248,"You are given the following information for a property catastrophe reinsurance treaty:
 - The loss amount distribution is lognormal with parameters \( \mu = 8.443 \) and \( \sigma = 1.239 \).
 - The treaty administrator settles all losses under 5000. (Losses of 5000 or more are settled by the reinsurer.)
 - The treaty has an aggregate limit of 1,000,000, but this is not relevant for individual losses.
 
-Determine the expected value of a loss settled by the treaty administrator. (The final answer must be an integer)",2275
+Determine the expected value of a loss settled by the treaty administrator.(The final answer must be an integer)",2275
 249,"For a fully discrete 10-pay critical illness insurance of 1000 on (x), where the benefit is payable upon diagnosis of a covered critical illness: 
 (i) \( A_{x+10} = 0.4 \), representing the actuarial present value of the benefit at age x+10. 
 (ii) The gross premium is 35. 
@@ -1444,7 +1432,7 @@ Determine the expected value of a loss settled by the treaty administrator. (The
 (v) Actual experience in the tenth year is \( i=0.05 \), \( q_{x+9}=0.008 \), expense of 4 paid at the beginning of the year, settlement expense of 18.6. 
 
 The tenth year gain per policy in force at the beginning of the tenth year is decomposed into interest, expense, and morbidity (critical illness incidence), in that order. 
-Calculate the gain from morbidity in the tenth year. (The final answer should have 4 decimal places)",1.1792
+Calculate the gain from morbidity in the tenth year.(The final answer should have 4 decimal places)",1.1792
 250,"An insurance company offers a long-term group disability insurance product to five large corporations. For each policyholder group, the insurer tracks the earned premiums and expected claim ratios. The company also records the cumulative disability claims paid in each development year. The data is shown below:
 
 <table>
@@ -1459,7 +1447,7 @@ Calculate the gain from morbidity in the tenth year. (The final answer should ha
 
 Assume that no claim development occurs beyond development year 4 and that any missing development factors default to 1.0.
 
-Using the Bornhuetter-Ferguson method and volume-weighted average loss development factors, calculate the total loss reserve for the insurer. (Final result must be an integer)",19817
+Using the Bornhuetter-Ferguson method and volume-weighted average loss development factors, calculate the total loss reserve for the insurer.(Final result must be an integer)",19817
 251,"A company provides insurance against cyber attacks for a small tech firm. You are given: 
 (i) The number of cyber attacks in a year has a Poisson distribution with mean 1. 
 (ii) The distribution of ground up losses due to a single cyber attack is 
@@ -1473,9 +1461,7 @@ Using the Bornhuetter-Ferguson method and volume-weighted average loss developme
 (iv) There is an annual deductible of 30. 
 (v) Assume an annual interest rate of 5% for discounting, but claims are paid immediately. 
 
-Calculate the expected amount of claims paid by the insurer in one year. 
-
-(The final answer should have 4 decimal places)",13.5128
+Calculate the expected amount of claims paid by the insurer in one year. (The final answer should have 4 decimal places)",13.5128
 252,"某投资人在2011年7月1日签订了一份1年期债券远期合约多头，到期日为2012年7月1日。合约签订时已知： 
 (1) 标的债券价格为50元，预计在2011年11月1日支付票息2元； 
 (2) 市场无风险连续复利为6%。 
@@ -1497,8 +1483,7 @@ Calculate the expected amount of claims paid by the insurer in one year. 
 
 A fully continuous whole life default insurance of 1000 is issued on the bond issuer at equivalent age 62. The net premium is calculated as the weighted average of the expected present values from each component, using the mixture probabilities. 
 
-Calculate the net premium for this insurance at \( i = 0.05 \). 
-(The final answer should have 2 decimal places)",21.92
+Calculate the net premium for this insurance at \( i = 0.05 \). (The final answer should have 2 decimal places)",21.92
 256,"For a fully continuous whole life insurance of 1000 on (60)：
 (i) $_{0}L$? is the random variable for net future loss
 (ii) Var($_{0}L$)=68,254
@@ -1510,9 +1495,7 @@ Determine the net premium.(The final answer must be an integer)",4
 
 <table><tr><td/><td colspan=""4"">Year</td></tr><tr><td>Insured Member</td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>#1</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>#2</td><td>1</td><td>0</td><td>0</td><td>0</td></tr><tr><td>#3</td><td>1</td><td>1</td><td>1</td><td>0</td></tr><tr><td>#4</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table>
 
-Using Bühlmann empirical Bayes non-parametric credibility methods, and assuming all insured members have identical 4-year observation periods with no time trend, calculate the estimated number of medical claims for insured member #1 in year 5.
-
-(The final answer should have 2 decimal places)",0.28
+Using Bühlmann empirical Bayes non-parametric credibility methods, and assuming all insured members have identical 4-year observation periods with no time trend, calculate the estimated number of medical claims for insured member #1 in year 5.(The final answer should have 2 decimal places)",0.28
 258,"XYZ Pension Fund holds an annuity portfolio with an initial value of 450,000. The portfolio makes annual payouts of 150,000 of principal at the end of each year for three years. Until paid out, the remaining principal earns interest at a variable rate equal to the one-year spot interest rate observed at the beginning of each year.
 
 To stabilize the income stream, XYZ Pension Fund enters into an interest rate swap with Horizon Financial. In the swap, XYZ Pension Fund pays a fixed rate to Horizon Financial and receives a variable rate from Horizon Financial. The variable rate is identical to the rate applied to the annuity portfolio. The notional amounts and payment timings of the swap are structured to align exactly with the annuity's payout schedule.
@@ -1527,21 +1510,21 @@ You are given the following spot interest rates at time 0:
 | 4 | 5.4% |
 | 5 | 5.6% |
 
-Calculate the swap interest rate for XYZ Pension Fund's swap. (The final answer should have 4 decimal places)",0.0478
-259,设每一年龄内死亡服从均匀分布：一位50岁的客户投保一份保额为100000英镑，死亡年末给付保险金的15年期生死合险，年利率为6%。已知$A_{50:{\overline{15}\mid}}^1=0.0700242$，$_{15}E_{50}=0.2667394$，假设半年度保费调整因子适用Woolhouse近似，计算该保险按半年缴纳的年均衡纯保费。 （结果保留2位小数）,2920.56
+Calculate the swap interest rate for XYZ Pension Fund's swap.(The final answer should have 4 decimal places)",0.0478
+259,设每一年龄内死亡服从均匀分布：一位50岁的客户投保一份保额为100000英镑，死亡年末给付保险金的15年期生死合险，年利率为6%。已知$A_{50:{\overline{15}\mid}}^1=0.0700242$，$_{15}E_{50}=0.2667394$，假设半年度保费调整因子适用Woolhouse近似，计算该保险按半年缴纳的年均衡纯保费。（结果保留2位小数）,2920.56
 260,"An insurance company offers a guaranteed minimum accumulation benefit for 100 units of an equity fund. The fund's current price is $42 per unit. The guarantee ensures the value does not fall below $40 per unit after 6 months. To hedge this liability, the company purchases one 6-month European put option contract, where each contract covers 100 units. You are given: 
 (i) The Black-Scholes-Merton framework is assumed. 
 (ii) The continuously compounded risk-free interest rate is 5%. 
 (iii) The fund pays no dividends. 
 (iv) The fund's value follows a lognormal process with $\sigma=0.22$. 
-Determine the cost of the put option contract. (The final answer should have two decimal places)",129.44
+Determine the cost of the put option contract.(The final answer should have 2 decimal places)",129.44
 261,"Consider a 4-year fully discrete level premium special endowment insurance for an astronaut aged 40. The death benefit is 800 if death occurs during the first two years, and 1000 if death occurs during the last two years. The survival benefit upon reaching age 44 is 1200. You are given: 
 (i) \( q_{40} = q_{41} = 0.08, q_{42} = 0.10 \) 
 (ii) \( i = 6\% \) 
 (iii) \( {}_4p_{40} = 0.685584 \) 
-Calculate the net premium. (The final answer should have 4 decimal places)",274.7297
-262,"A 30-year structured bond is purchased by Tom, aged 30. The bond pays annual coupons of $R$ for the first 10 years, and $2R$ for the next 20 years. The present value of the bond's cash flows is 100 at an annual effective interest rate of 4%. At the end of 10 years, Tom has the option to sell the remaining bond payments for a lump sum $X$, which would provide the buyer an annual effective rate of 4.5% over the 10-year period. Calculate $X$. You may ignore any credit risk for this problem. (The final answer should have 2 decimal places)",108.88
-263,"A student takes a multiple-choice test with 50 questions. The probability that the student answers a given question correctly is 0.4, independent of all other questions. The probability that the student answers more than $N$ questions correctly is greater than 0.10. The probability that the student answers more than $N+1$ questions correctly is less than 0.10. Calculate $N$ using a normal approximation with the continuity correction.",23
+Calculate the net premium.(The final answer should have 4 decimal places)",274.7297
+262,"A 30-year structured bond is purchased by Tom, aged 30. The bond pays annual coupons of $R$ for the first 10 years, and $2R$ for the next 20 years. The present value of the bond's cash flows is 100 at an annual effective interest rate of 4%. At the end of 10 years, Tom has the option to sell the remaining bond payments for a lump sum $X$, which would provide the buyer an annual effective rate of 4.5% over the 10-year period. Calculate $X$. You may ignore any credit risk for this problem.(The final answer should have 2 decimal places)",108.88
+263,"A student takes a multiple-choice test with 50 questions. The probability that the student answers a given question correctly is 0.4, independent of all other questions. The probability that the student answers more than $N$ questions correctly is greater than 0.10. The probability that the student answers more than $N+1$ questions correctly is less than 0.10. Calculate $N$ using a normal approximation with the continuity correction.(The final answer must be an integer)",23
 264,"Company C is an asset management firm holding a portfolio of 10 million units of a commodity ETF. The current ETF price is \$100 per unit. Company C intends to liquidate the portfolio in 3 months but seeks to hedge against a potential price drop. Therefore, it purchases at-the-money European put options on the ETF with a strike price of \$100 per unit.
 
 You are given the following information:
@@ -1559,7 +1542,7 @@ You are given the following information:
 
 **Problem:** 
 Calculate the total cost of the put options (in **billions** of US dollars). 
-(The final answer should be given to 4 decimal places.)",0.0076
+(The final answer should be given to 4 decimal places)",0.0076
 265,"You are given:
 (i) The value of a pension fund's assets is 40.
 (ii) The assets generate continuous income at the rate of 2%.
@@ -1581,7 +1564,7 @@ Calculate the number of units of the fund that are sold in the hedging portfolio
 The remaining 85 policies were censored at time 8 when the study concluded. 
 
 Calculate the estimated variance of the Kaplan-Meier estimator \( \hat{S}(8) \) using Greenwood’s formula.(The final answer should have 6 decimal places)",0.000569
-268,"A bond with face value $L$ is amortized with 40 quarterly payments of 100 at the end of each quarter. The bond yields an effective quarterly rate of $j$. The book value immediately after the 8th and 24th payments is 2308.15 and 1345.50, respectively. Calculate the amount of interest in the 15th payment. (The final answer should have two decimal places)",41.96
+268,"A bond with face value $L$ is amortized with 40 quarterly payments of 100 at the end of each quarter. The bond yields an effective quarterly rate of $j$. The book value immediately after the 8th and 24th payments is 2308.15 and 1345.50, respectively. Calculate the amount of interest in the 15th payment.(The final answer should have 2 decimal places)",41.96
 269,"考虑某种家庭财产保险。假定最高索赔额为 2000 元。为简单起见，暂且假定对某个特定的个人，发生一次索赔的概率为 0.15 ，发生 2 次及 2次以上的概率为 0，即 $P\{I=0\}=0.85, P\{I=1\}=0.15$。 将 $B$ 记为一旦事故发生时对被保险人的赔偿，并假定 $P\{B=2000 \mid I=1\}=0.1$，在 $0 \leqslant B \leqslant 2000$ 之间关于 $I=1$ 的条件分布是连续的，且条件概率密度 $f_{B \mid I}(b \mid 1)$ 与 $1-\frac{b}{2000}$ 成正比。试计算每个被保险人的实际索赔金额 $X=B I$ 的方差 $\operatorname{Var}(X)$。",135600
 270,一家企业设立一项10年期教育储蓄计划，每年初存入等额资金，以便在10年后累积1000元教育基金，年实际利率为5%。在第5年后，市场利率下调至4%。则后5年的年度存款额比前5年的年度存款额多多少元？（结果保留两位小数）,6.92
 271,"对85岁签发的一份保额为1000元的完全离散式生存年金，在生存期间每年初支付生存金，第k年初支付的生存金为 \( \pi_k, k = 0,1,2,\ldots \) ,又已知下列条件: 
@@ -1593,14 +1576,14 @@ Calculate the estimated variance of the Kaplan-Meier estimator \( \hat{S}(8) \) 
 272,某人借款10000元，年利率5%，采用偿债基金法偿还贷款，偿债基金存款利率为4%。已知第1年偿债基金增长额为240.125元。计算第13次付款中净利息与第9年偿债基金增长额之和为多少元。（结果保留1位小数）,684.3
 273,"假设某保险的损失额服从指数分布:
 \[{f}_{X}\left( x\right) = \frac{1}{150}{e}^{-\frac{x}{150}}\]
-保单规定免赔额为 100 元，损失额超过1000元的部分不承担赔偿责任，赔付比例为 0.8，且仅当损失超过免赔额时进行赔付。则每次赔偿事件的实际平均理赔额为多少？ （结果保留1位小数）",119.7
+保单规定免赔额为 100 元，损失额超过1000元的部分不承担赔偿责任，赔付比例为 0.8，且仅当损失超过免赔额时进行赔付。则每次赔偿事件的实际平均理赔额为多少？（结果保留1位小数）",119.7
 274,"A pension fund must make three benefit payments of 1000 each at the end of years 1, 2, and 3 to retirees who are certain to survive the payment dates. The fund manager decides to match these liabilities using the following three bonds available in the market:
 
 Bond X: A 1-year bond with an annual coupon rate of 1%, priced at an annual effective yield of 14%. 
 Bond Y: A 2-year bond with an annual coupon rate of 2%, priced at an annual effective yield of 15%. 
 Bond Z: A 3-year zero-coupon bond priced at an annual effective yield of 18%. 
 
-Calculate the total purchase price of the three bonds required to exactly match the expected benefit payments. (The final answer should have 2 decimal places)",2241.82
+Calculate the total purchase price of the three bonds required to exactly match the expected benefit payments.(The final answer should have 2 decimal places)",2241.82
 275,"被保险人在2017年1月1日满65岁。已知2012年标准终极生命表部分数据如下：
 
 | $x$ | $q_x$ |
@@ -1630,7 +1613,7 @@ Calculate the total purchase price of the three bonds required to exactly match 
 (ii) The one-year survival factor at age 60, \( {}_1E_{60} = 0.9506 \) 
 (iii) The actuarial present value of the death benefit at age 61, \( A_{61} = 0.60122 \) 
 (iv) Interest rate \( i = 3.3\% \) 
-Calculate the mortality rate \( q_{60} \). (The final answer should have 6 decimal places)",0.018016
+Calculate the mortality rate \( q_{60} \).(The final answer should have 6 decimal places)",0.018016
 280,"假设(x)购买完全连续10年定期残疾保险，已知残疾发生即刻赔付10万元，残疾给付相关费用为100元，年度连续缴纳毛保费2500元，年度费用为150元，已知不发生残疾的概率 \( p_x = 0.98 \), 利息力 \( \delta = 0.05 \)，假设年内残疾力恒定，以 \( h = 0.1 \) 为步长，求 \( {}_{0.7} V_x \)。（结果保留4位小数）",268.9211
 281,某养老基金以1900元的价格购入一张面值为2000元、期限为10年的企业债券，债券到期赎回金额为2100元，期间按季度支付票息，年名义票息率为8%。若所有票息以年名义利率6%、按季度计息的方式再投资，则该基金在此债券上的年名义内部收益率（按季度计息）为多少？（结果保留4位小数）,0.0818
 282,"对于估计区间 \( (x,x + 1] \) ,有 5 个个体构成的群体的观测数据如表 9 所示。
@@ -1639,7 +1622,7 @@ Calculate the mortality rate \( q_{60} \). (The final answer should have 6 decim
 <table><tr><td>i</td><td>r<sub>i</sub></td><td>t<sub>i</sub></td><td>δ<sub>i</sub></td></tr><tr><td>1</td><td>0.0</td><td>1.0</td><td>0</td></tr><tr><td>2</td><td>0.0</td><td><strong>0.5</strong></td><td>1</td></tr><tr><td>3</td><td>0.0</td><td>0.7</td><td>1</td></tr><tr><td>4</td><td>0.5</td><td><strong>1.0</strong></td><td>1</td></tr><tr><td>5</td><td>0.5</td><td>1.0</td><td>0</td></tr></table>
 
 其中 \( x + r_{i} \) 是第 \( i \) 个个体进入 \( (x,x + 1] \) 区间的年龄； \( x + t_{i} \) 是第 \( i \) 个个体或生存退出年龄，或者死亡年龄，或者观察到的退出时的年龄； \( \delta_{i} = 0 \) 表示被观测个体是生存者， \( \delta_{i} = 1 \) 表示被观测个体死亡。在指数分布假设下算得的 \( q_{x} \) 的极大似然估计与均匀分布假设下算得的 \( q_{x} \) 的极大似然估计之差为多少？（结果保留4位小数）",-0.0583
-283,"一年内每天发生的家财险保险索赔数分布如下表所示。考虑如下的假设检验：数据来自均值为 0.6 的 Poisson 分布，且假设每天的风险暴露相同且索赔事件相互独立。将数据分为尽可能多的组，并保证每个组期望的观测数至少为 5。采用 \( \chi^{2} \) 拟合优度检验，则 \( \chi^{2} \) 统计量的值为多少？ （结果保留4位小数）
+283,"一年内每天发生的家财险保险索赔数分布如下表所示。考虑如下的假设检验：数据来自均值为 0.6 的 Poisson 分布，且假设每天的风险暴露相同且索赔事件相互独立。将数据分为尽可能多的组，并保证每个组期望的观测数至少为 5。采用 \( \chi^{2} \) 拟合优度检验，则 \( \chi^{2} \) 统计量的值为多少？（结果保留4位小数）
 表
 
 | 保险索赔数目 | 天数 |
@@ -1684,8 +1667,7 @@ Calculate the amount the company should invest in the one-year bond to construct
 
 (ix) The reserve basis is the same as the premium basis. 
 
-Calculate the expense reserve at the end of the fifth year. 
-(The final answer should have 2 decimal places)",-167.72
+Calculate the expense reserve at the end of the fifth year. (The final answer should have 2 decimal places)",-167.72
 286,"在操作风险管理中，每时期的总损失额$L$服从复合泊松分布，损失强度的密度函数为$f(y)=5y^{-6},\ y>1$。采用正态近似时，样本量的完全可信标准要求$L$在$\pm5\%E(L)$范围内波动的概率为90%。若用相同样本量建模频数变量$F$（即风险事件发生次数），要求每个风险期的事件次数在$\pm r\%E(F)$范围内波动的概率为95%，求$r$的值。（结果保留4位小数）",0.0577
 287,"For a fully discrete whole life insurance policy of 2000 on each participant in a corporate executive benefits plan aged 45, you are given: 
 (i) The gross premium is determined using the equivalence principle. 
@@ -1699,8 +1681,7 @@ Calculate the expense reserve at the end of the fifth year. 
 Calculate the expense reserve at the end of policy year 10.(The final answer should have 2 decimal places)",-26.77
 288,"A pension fund has a known future obligation of 1000000 payable in 10 years. The method of full immunization is to be implemented. A corporate zero-coupon bond provides a redemption payment of 300000 exactly 8 years from now. A government zero-coupon bond provides a redemption payment of \( X \) exactly \( y \) years from now, where \( y > 10 \). 
 The annual effective interest rate is 4%. 
-Calculate \( X \). 
-(The final answer must be an integer)",701458
+Calculate \( X \).(The final answer must be an integer)",701458
 289,"设某家庭财产保险的NCD系统有三个折扣级别：0%，25% 和 40%，基准保费为 500 元。转移规则如下： 
 1. 若本年度无索赔且续保，则下一年度升级一个折扣级别（若已处于最高级别则不变）； 
 2. 若本年度发生至少一次索赔且续保，则下一年度降级一个折扣级别（若已处于最低级别则不变）。 
@@ -1808,8 +1789,7 @@ Calculate the maximum likelihood estimate of $\theta$.(The final answer should h
 (c) Other expenses are 15 in the first year and 2 in the second year.
 (iv) \( i = 0.04 \)
 (v) \( p_{x} = 0.9; p_{x + 1} = 0.8 \).
-Calculate the single gross premium using the equivalence principle.
-(The final answer should have 2 decimal places)",1372.33
+Calculate the single gross premium using the equivalence principle.(The final answer should have 2 decimal places)",1372.33
 300,"已知：(1)各支付年索赔支付额如下表所示。
 表1 单位：千元
 
@@ -1820,7 +1800,7 @@ Calculate the single gross premium using the equivalence principle.
 
 <table><tr><td><td>发生年2007</td><td>发生年2008</td><td>发生年2009</td><td>发生年2010</td><td>发生年2011</td></tr><tr><td>进展年0</td><td>795</td><td>599</td><td>770</td><td>1394</td><td>1865</td></tr><tr><td>进展年1</td><td>600</td><td>860</td><td>698</td><td>1647</td><td/></tr><tr><td>进展年2</td><td>727</td><td>657</td><td>1215</td><td/><td/></tr><tr><td>进展年3</td><td>465</td><td>540</td><td/><td/><td/></tr></table>
 
-假设：选定比率为各发生年进展年1:2的已付赔款总额与对应准备金总额的比率，用准备金进展法得到的进展期1:2的平均准备金支付率(PO)为多少。 （结果保留3位小数）",0.873
+假设：选定比率为各发生年进展年1:2的已付赔款总额与对应准备金总额的比率，用准备金进展法得到的进展期1:2的平均准备金支付率(PO)为多少。（结果保留3位小数）",0.873
 301,"趸缴保费数额为1万元，无附加费用，保证利率在\(1\sim5\)年为8%，以后为3%。退保费用如下表所示，假设忽略死亡因素。
 
 表1 退保费用比例
@@ -1886,13 +1866,12 @@ Calculate \( \Pr \left( Z < 600 \right) \).(The final answer should have 4 decim
 | 70 | \(0.98^{40}\) |
 | 71 | \(0.98^{41}\) |
 
-利率\(i = 6\%\)。则该员工所缴纳之捐纳金到退休时的累积值为多少元？
-（结果保留整数）",1954267
+利率\(i = 6\%\)。则该员工所缴纳之捐纳金到退休时的累积值为多少元？（结果保留整数）",1954267
 308,"对于某保险公司的家财险具有如下信息：
 (1) 对于未投保车险的客户，家财险的损失额随机变量数学期望为 10 单位，方差为 2500 单位；
 (2) 对于已投保车险的客户，家财险的损失额数学期望为 700 单位，方差为 16000 单位（含500 单位免赔额）；
 (3) 随机选取一个 10 人团体，其中已投保车险的人数 \( N \) 服从 \( N \sim B(10, 0.01) \)，每个个体投保车险为独立事件。
-设 \( P \) 为该团体的总保费（按 \( E(S) + 0.1\sigma_S \) 计算），\( Q \) 为未投保车险的 10 人团体总保费，求 \( P - Q \)。 （结果保留1位小数）",80.3
+设 \( P \) 为该团体的总保费（按 \( E(S) + 0.1\sigma_S \) 计算），\( Q \) 为未投保车险的 10 人团体总保费，求 \( P - Q \)。（结果保留1位小数）",80.3
 309,一份生存保险保单规定，被保险人在保单生效后第1年末至第5年末，每年末若生存则获得生存保险金，金额依次为20605元、18284元、15963元、13642元、11321元。假设年实际利率为6%，计算该保单的趸缴纯保费为多少元。（结果保留2位小数）,68378.59
 310,"Automobile insurance losses follow a Pareto distribution with parameters $\theta = 1000$ and $\alpha > 1$.
 
@@ -1939,8 +1918,7 @@ Calculate the indicated deductible relativity relative to an ordinary deductible
 | 3 | 18 | 240 | 0.07 | - | 96 | 
 | 4 | 24 | 350 | 0.06 | 0.1053 | - | 
 
-Calculate the net premium reserve at the end of 3.5 years. 
-(The final answer should have 2 decimal places)",111.52
+Calculate the net premium reserve at the end of 3.5 years. (The final answer should have 2 decimal places)",111.52
 318,"A homeowner's property is damaged on \( \mathbf{1/1/2000} \), resulting in a property insurance claim. The insurer establishes a reserve, on that date, of 274,000.
 You are given
 - Repair cost payments will be made for 15 years.
@@ -1948,7 +1926,7 @@ You are given
 - Additional living expense payments are paid annually as \( P \).
 - All payments are discounted at an interest rate of 5% per year to determine the reserve.
 - Payments will be made at the end of each year.
-Calculate \( P \) .(The final answer should have 1 decimal places)",6949.6
+Calculate \( P \).(The final answer should have 1 decimal places)",6949.6
 319,某养老金计划成员在25岁时获得一笔初始权益10万元。计划支付规则为：前10年每年年初无条件支付K元，10年之后每年年初支付K元，但仅当成员生存时支付，直至生命终止。已知年利率$i=2.5\%$，$A_{35}=0.3$，$A_{25}=0.25$，$A_{25:\overline{10}|}^1=0.08$（所有A值基于同一终极生命表）。则K等于多少元？（结果保留2位小数）,3962.75
 320,"You are given the following for a health insurance portfolio
 
@@ -1956,7 +1934,7 @@ Calculate \( P \) .(The final answer should have 1 decimal places)",6949.6
 - Partial Credibility Formula B is based on Bühlmann’s credibility formula with a \( K \) of 391.
 - One claim is expected during each week of observation.
 
-Determine the largest number of weeks of observation for which Partial Credibility Formula B yields a credibility value at least as large as that from Partial Credibility Formula A.(The final answer must be an integer）",529
+Determine the largest number of weeks of observation for which Partial Credibility Formula B yields a credibility value at least as large as that from Partial Credibility Formula A.(The final answer must be an integer)",529
 321,"Vision claims experience was collected on 6480 policies. There were a total of 9720 claims on these policies. The following table shows the number of vision policies having varying numbers of claims.
 
 | Number of Claims | Number of Policies |
@@ -2025,12 +2003,12 @@ Calculate the reinsurer's expected loss at issue if the premium is not changed a
 (The final answer should have 3 decimal places)",-124.046
 331,一家新建家财险公司参考行业数据，选定前两年平均索赔频率0.163作为先验估计。精算师假设索赔次数服从泊松分布，索赔频率服从Gamma先验分布，且先验标准差为0.0163。已知全年均匀签发4634份保单，每份保单平均生效0.5年，形成2317保单年的风险单位，实际发生赔案480件。求后验期望索赔频率。（结果保留3位小数）,0.198
 332,"假设有两个规模相同的养老金领取者群体，每个群体的观察期均为 3 年，第一个群体的年度福利支付额为 3,5,7；第二个群体的年度福利支付额为 6,9,12。则第一个群体的 Bühlmann 信度保费为多少。（结果保留4位小数）",5.5417
-333,某高校国家助学贷款金额为10000元，年利率10%，期限为8年，未偿还利息将自动加入本金。借款人每年末偿还一次，每次偿还额以30%的速度递增。根据监管要求，若本金增幅连续3年超过25%，需重新签订协议。则第3年偿还的利息为多少元？ （结果保留2位小数）,1038.90
+333,某高校国家助学贷款金额为10000元，年利率10%，期限为8年，未偿还利息将自动加入本金。借款人每年末偿还一次，每次偿还额以30%的速度递增。根据监管要求，若本金增幅连续3年超过25%，需重新签订协议。则第3年偿还的利息为多少元？（结果保留2位小数）,1038.90
 334,"已知 \( i = 0.08 \), \( {}_{k \mid}q_{x} = \frac{0.90^{k + 1}}{9} \), \( k = 0,1,2,\cdots \)。则保额为 1000 元的全连续式终身寿险与离散式终身寿险的均衡纯保费的差 \( 1000\left( \bar{P}(\bar{A}_{x}) - P_{x}\right) \)等于多少元？（结果保留4位小数）",12.7679
 335,"You are coordinating disaster response teams for a major insurer. Each year, the company monitors 1000 potential catastrophe scenarios. The probability of activating a response team for a scenario is 0.2.
 The number of responders required for an activated scenario follows a distribution with mean 20 and variance 20. All responder counts are independent and identically distributed. Team activations and responder counts are mutually independent.
 The operational budget is set as 10 times the expected number of responders plus 10 times the standard deviation of the responder count.
-Calculate the required annual budget for disaster response teams. (The final answer must be an integer)",42608
+Calculate the required annual budget for disaster response teams.(The final answer must be an integer)",42608
 336,"For a special whole life insurance on (40), you are given
 (i) The annual net premium is payable at the beginning of each year.
 (ii) The death benefit is equal to 1000 plus the return of all net premiums paid in the past without interest.
@@ -2059,7 +2037,7 @@ Determine the minimum fund that would be adequate to pay all insurance benefits 
 340,"Let $S$ be the accumulated value of 1000 invested for 1.5 years at a nominal annual rate of discount $d$ convertible quarterly, which is equivalent to an annual effective interest rate $i$.
 Let $T$ be the accumulated value of 1000 invested for 3 years at a nominal annual rate of discount $d$ convertible semiannually.
 $S / T = (38 / 39)^{6}$.
-Calculate $i$. (The final answer should have 3 decimal places)",0.108
+Calculate $i$.(The final answer should have 3 decimal places)",0.108
 341,设某基金有两个投资人，甲年初在基金中有资金12万元，投资期半年后的时点又注入6万元，乙年初在基金中有资金18万元，投资期半年后的时点抽出资金6万元。上半年收益率为6%（半年期有效利率），下半年收益率为12%（半年期有效利率）。利用投资组合法计算甲分得多少万元的收益。（结果保留3位小数）,2.808
 342,已知两个独立的电子元件C和D，元件C已运行65年，元件D已运行70年，其剩余寿命均服从 \(\omega = {105}\) 的 de Moivre 分布且相互独立，\(\delta = {0.05}\)。定义 \({\bar{a}}_{{65}:{70}}\) 为联合工作状态下（两者均正常运行时）的终身连续收益现值，积分上限取两者剩余寿命的最小值。求 \({\bar{a}}_{{65}:{70}}\) 的值。（结果保留2位小数）,8.28
 343,"A family purchases two insurance policies from the same insurer: a home insurance policy with a deductible of 1 and a health insurance policy with a deductible of 2. Loss amounts under each policy are independent and follow continuous uniform distributions on [0, 10]. The insurer has a reinsurance agreement that covers 50% of losses exceeding 5 on the health policy, but this does not affect the family's benefits. The family experiences exactly one loss under each policy.
@@ -2108,7 +2086,7 @@ Calculate the annual net premium rate.(The final answer should have 2 decimal pl
 2. A lump sum of \$111,228 payable upon reaching age 65 or at the moment of death if sooner. 
 (i) The force of mortality is 0.01 through age 65 and 0.02 thereafter. 
 (ii) $\delta=0.06$. 
-Determine $X$. (The results are retained to 1 decimal places)",50390.7
+Determine $X$.(The results are retained to 1 decimal places)",50390.7
 348,"考虑一个由100,000名年龄为40岁的人组成的群体，根据以下生命表，每人死亡概率为常数。估计死亡人数在475人到525人之间的概率是多少。（结果保留4位小数）
 
 生命表
@@ -2130,8 +2108,8 @@ x & A_x & { }_{25}E_x \\
 \end{array}
 $$
 (iii) i=0.05
-Calculate the gross annual premium using the equivalence principle. (The final answer should have 2 decimal places)",6.67
-351,"Tech Equipment Inc. leases a high-value manufacturing robot to an industrial client for a total amount of 22,000. The client repays the lease by making 40 equal payments of principal at the end of each month, along with interest on the unpaid balance each month at a nominal annual rate of 12%, compounded monthly. After the 20th payment is completed, Tech Equipment Inc. transfers the rights to the remaining payments to Global Investments Corp. Global Investments Corp. aims to earn a nominal annual yield of 14%, compounded semiannually, on this acquisition. What price does Tech Equipment Inc. receive? (The final answer must be an integer)",10857
+Calculate the gross annual premium using the equivalence principle.(The final answer should have 2 decimal places)",6.67
+351,"Tech Equipment Inc. leases a high-value manufacturing robot to an industrial client for a total amount of 22,000. The client repays the lease by making 40 equal payments of principal at the end of each month, along with interest on the unpaid balance each month at a nominal annual rate of 12%, compounded monthly. After the 20th payment is completed, Tech Equipment Inc. transfers the rights to the remaining payments to Global Investments Corp. Global Investments Corp. aims to earn a nominal annual yield of 14%, compounded semiannually, on this acquisition. What price does Tech Equipment Inc. receive?(The final answer must be an integer)",10857
 352,在一個團體健康保險計劃中，年利率 \( i = \mathbf{0.04} \)，被保險人連續型期初醫療年金現值 \( {\ddot{a}}_{x} = \mathbf{1.69} \)，假設發病率和保費支付均為連續型，且理賠事件在年內服從均勻分佈。則淨水平保費 \( \bar{P}\left( {\bar{A}}_{x}\right) \) 等於多少？（结果保留2位小数）,0.81
 353,"An insurance company sells special fully discrete two-year endowment insurance policies to smokers (S) and non-smokers (NS) age \( x \). You are given:
 
@@ -2199,7 +2177,7 @@ Calculate the market value of the swap on November 1, 2016, from Sun Life's posi
 \[
 { N }_{35} = {2{,}200{,}000},\ { N }_{45} = {1{,}262{,}555},\ { D }_{35} = {150{,}000},\ { D }_{45} = {100{,}000}
 \]
-在UDD假设下，计算该年金的精算现值。 （结果保留2位小数）",23349.02
+在UDD假设下，计算该年金的精算现值。（结果保留2位小数）",23349.02
 361,一个3年期的确定年金，每半年末支付60元。投保人要求的年名义收益率为8%每半年复利一次。为了在期末积累1000元的满期金，投保人每半年末存入一个金额到偿债基金，偿债基金的年名义利率为6%每半年复利一次。求这个年金的现值。（结果保留整数）,1103
 362,已知累积函数 \( a(t) \) 表示从时间0到时间t的累积因子，其形式为 \( a(t) = {1.15^t} + {0.164t} \)，该函数结合了复利和单利的特征。计算 \( t = 2 \) 时的 500 万元在 \( t = 3 \) 时的价值为多少万元？（结果保留2位小数）,609.8
 363,"一个车险保险人具有如下特性的盈余过程：
@@ -2258,7 +2236,7 @@ Calculate the swap rate for this swap.(The final answer should have 4 decimal pl
 {}^{2}{A}_{55} = 0.22,\quad {}^{2}{A}_{65} = 0.28,\quad {A}_{55:\overline{10\mid}} = 0.79,\quad {}^{2}{A}_{55:\frac{1}{10\mid}} = 0.565
 \]
 则 \( \operatorname{Var}(Z) \) 等于多少？（结果保留整数）",2700
-376,"假设一种医疗责任保险的每月赔偿损失分布服从均值为1000的指数分布。每次索赔单独扣减免赔额300，且每月仅发生一次赔偿事件。根据\( \left\lbrack {0,1}\right\rbrack \)区间上均匀分布\( R \)的随机数列0.213、0.376、0.754、0.109模拟前四个月的损失额，则保险公司前四个月的总赔付额为多少?（结果保留2位小数）",1274.02
+376,"假设一种医疗责任保险的每月赔偿损失分布服从均值为1000的指数分布。每次索赔单独扣减免赔额300，且每月仅发生一次赔偿事件。根据\( \left\lbrack {0,1}\right\rbrack \)区间上均匀分布\( R \)的随机数列0.213、0.376、0.754、0.109模拟前四个月的损失额，则保险公司前四个月的总赔付额为多少？（结果保留2位小数）",1274.02
 377,某再保险公司承保两个险种：险种 X 的预期损失暴露为 80000 美元（日波动率 1.25%）与险种 Y 的预期损失暴露为 120000 美元（日波动率 0.8333%）组成。两险种损失变动的相关系数为 0.3。假设损失变动服从正态分布，计算时忽略均值影响。试确定该再保险组合 5 天展望期的 99% VaR（即总损失增加的临界值，对应单侧置信水平）为多少美元。（结果保留整数）,8401
 378,某银行在一年内记录了 2025 次操作风险损失事件。每次损失金额独立同分布，均值为 3125 元，标准差为 250 元。假设损失金额满足中心极限定理条件，试计算总损失额的近似 90%分位数。（结果保留至百位数）,66342500
 379,"You are given the following semiannually compounded spot rates:
@@ -2270,7 +2248,7 @@ Calculate the swap rate for this swap.(The final answer should have 4 decimal pl
 | 1.5 | 2.582% |
 | 2 | 2.778% |
 
-Determine the present value of a 2-year life insurance endowment policy that pays 2 every six months and matures with a lump sum payment of 100 at the end of two years.(The final answer should have two decimal places)",102.38
+Determine the present value of a 2-year life insurance endowment policy that pays 2 every six months and matures with a lump sum payment of 100 at the end of two years.(The final answer should have 2 decimal places)",102.38
 380,"Determine the Macaulay convexity of a perpetual preferred stock with a par value of \$100 and an annual dividend rate of 5\%, given an annual effective interest rate of 5\%. Ignore taxes.(The final answer must be an integer)",861
 381,"For a special fully discrete life insurance on (40), you are given:
 (i) $i=6 \%$
@@ -2284,7 +2262,7 @@ Custom Life Table extract:
 |-----|----------|
 | 59 | 0.01952 |",209.31
 382,假设由某健康保险公司的经验发病率表可得：65 岁重大疾病保险（保险期限 20 年）的净保费为 \( {A}_{65} = {0.4231} \)，二次净保费为 \( {}^{2}{A}_{65} = {0.3049} \)，年金现值为 \( {\ddot{a}}_{65} = {15} \)，年利率为 \( i = {0.04} \) 。保单包含免赔额条款（免赔额为保额的 10%）。设年缴纯保费为 \( {P}_{65} \)，保险人的潜在损失变量为 \( L \)。则 \( \frac{{P}_{65}}{\sqrt{\operatorname{Var}\left( L\right) }} \) 为多少。（结果保留5位小数）,0.04586
-383,"已知某生存群体中55岁的生存人数为56,000人。根据以下生命表数据，计算该群体60岁时的生存人数。
+383,"已知某生存群体中55岁的生存人数为56,000人。根据以下生命表数据，计算该群体60岁时的生存人数。（结果保留整数）
 
 | 年龄\( x \) | 死亡率\( q_x \) |
 |-------------|------------------|
@@ -2292,8 +2270,7 @@ Custom Life Table extract:
 | 56 | 0.006 |
 | 57 | 0.008 |
 | 58 | 0.022 |
-| 59 | 0.025 |
-（结果保留整数）",52390
+| 59 | 0.025 |",52390
 384,"For a special fully discrete 10-year term life insurance with survival benefit on (65), you are given 
 (i) The death benefit is 1000 
 (ii) The survival benefit is the sum of the net premiums paid without interest 
@@ -2382,8 +2359,7 @@ x & \ddot{a}_x & {}_5E_x & A_x \\
 
 (v) \( (IA)_{40:\overline{5}|}^1 = 0.00804 \) 
 
-Calculate the annual net premium. 
-(The final answer should have 2 decimal places)",2612.56
+Calculate the annual net premium. (The final answer should have 2 decimal places)",2612.56
 398,"For whole life annuities-due of 20 per month on each of 200 lives age 62 with independent future lifetimes, you are given:
 (i) \( i = 0.06 \) and \( d^{(12)} = 0.05813 \)
 (ii) \( A_{62}^{(12)} = 0.556 \) and \( {}^2A_{62}^{(12)} = 0.334 \)
@@ -2609,8 +2585,7 @@ Calculate the net premium reserve at the end of year 2.(The results are retained
 (vi) \( \sum_{k=1}^{\textbf{5}} A_{62 : \overline{k}|}^{1} = 0.0300 \). 
 Calculate the net premium for this special annuity.(The final answer must be an integer)",34687
 435,"In a reliability study on 10 identical electronic components, two components fail at times 5 and 8. One component is removed from the study at time 6 (assume random censoring) and another is removed at time 11. The remaining six components continue to function without failure until time 12, at which time the study concludes. The time unit is in years. 
-Estimate the probability of survival (no failure) to time 20 using the Kaplan-Meier product limit estimator with an exponential tail correction. 
-(The final answer should have 5 decimal places)",0.67156
+Estimate the probability of survival (no failure) to time 20 using the Kaplan-Meier product limit estimator with an exponential tail correction.(The final answer should have 5 decimal places)",0.67156
 436,"In a portfolio of life insurance policies, each policyholder has a probability \( Q \) of death within a year and survives otherwise. \( Q \) varies according to the distribution
 \[
 F_{Q}(q) = \left\{
@@ -2728,8 +2703,7 @@ The following rate changes have occurred:
 | July 1, 2018 | 8% Increase |
 | November 1, 2019 | 4% Decrease |
 
-Using the parallelogram method, calculate the earned premium for 2017 based on current rates.
-(The final answer should have 2 decimal places)",11055.45
+Using the parallelogram method, calculate the earned premium for 2017 based on current rates.(The final answer should have 2 decimal places)",11055.45
 447,"某10年期债券的面值为100元，每年末支付票息，年票息率为5%，可赎回日和赎回值为：
 - 第3、4、5年的付息日，赎回值110元；
 - 第6、7、8年的付息日，赎回值105元；
@@ -2750,7 +2724,7 @@ Using the parallelogram method, calculate the earned premium for 2017 based on c
 
 注：7次及以上索赔次数的观测值为0。
 
-假定索赔次数的分布为泊松分布，则索赔次数为 0 次对应的拟合频数为？ （结果保留2位小数）",102643.93
+假定索赔次数的分布为泊松分布，则索赔次数为 0 次对应的拟合频数为？（结果保留2位小数）",102643.93
 449,"某人在 35 岁时投保了50000元 25 年两全保险，设预定利率为6%，死亡赔付在死亡时刻立即支付，采用死亡均匀分布假设。根据下表换算函数计算趸缴净保费（结果保留整数）：
 
 | 年龄x | $D_x$ | $M_x$ |
@@ -2789,7 +2763,7 @@ Calculate the Actuarial Liability for F's age retirement pension on 1/1/2021.(Th
 (1) 若保单持有人上一年无索赔，续保时上升一个等级或保持在最高等级； 
 (2) 若一年中有1次索赔，续保时下降一个等级或保持在最低等级； 
 (3) 若一年中有超过1次索赔，续保时直接降至最低等级。 
-假设每份保单的索赔次数服从参数为0.2的泊松分布，保险公司有1000份保单，全额保费为1000元。此外，保险公司设有20%的分保比例，但分保不影响保费计算。求稳定状态下年保费收入。单位是元。（结果保留整数）",741850
+假设每份保单的索赔次数服从参数为0.2的泊松分布，保险公司有1000份保单，全额保费为1000元。此外，保险公司设有20%的分保比例，但分保不影响保费计算。求稳定状态下年保费收入。（单位：元，结果保留整数）",741850
 452,"某年金在第一个10年内每年末给付1400元,在第二个10年每年末支付1600元,在第三个10年每年末支付200元. 已知 \((1+i)^{10} = 2\),则该年金的现值为多少元。(结果保留2位小数)",15675.07
 453,"已知保险公司某业务累积已报案赔款流量三角形如表1所示, 与之相对应的累积已报案案件数流量三角形如表2所示。
 
@@ -2913,7 +2887,7 @@ Estimate the ultimate medical expense for SY 2 by using chain-ladder on the freq
 | Number of Policies | 2400 | 3400 | 2400 | 1500 | 300 |
 
 SSMC performs a Chi-Square Test at 99% significance to assess if the data follows a Poisson distribution. For the test, categories 3 and 4 are combined into ""3+"".
-Compute the Chi-Square test statistic. (The final answer should have 3 decimal places)",19.864
+Compute the Chi-Square test statistic.(The final answer should have 3 decimal places)",19.864
 466,"Automobile warranty claim amounts for Model Series X follow an exponential distribution with mean $\theta$. Product liability claim amounts for Model Series Y follow a two-parameter Pareto distribution with parameters $\alpha=3$ and $\theta$. The parameter $\theta$ is the same for both series.
 
 You have the following observations from Model Series X:
@@ -2966,8 +2940,7 @@ Calculate the actuarial present value of the contract.(The final answer should h
 
 The annual benefit for the second annuity is calibrated so that the expected present values of both contracts are identical.
 
-With \( \delta = 0.02 \) and \( \mu = 0.032 \), compute the annual benefit amount for the second annuity. 
-(The final answer should be rounded to 2 decimal places)",28147.32
+With \( \delta = 0.02 \) and \( \mu = 0.032 \), compute the annual benefit amount for the second annuity.(The final answer should be rounded to 2 decimal places)",28147.32
 472,"Fifty independent individuals aged 65 purchase whole life annuities-due paying 100 per year. The force of mortality is a constant 0.01 (implying death times follow an exponential distribution) and the force of interest is 0.05.
 
 Using the normal approximation, calculate the size of the initial fund needed so that there is a 90% probability that the fund will be sufficient to make all annuity payments.(The final answer must be an integer)",90412
@@ -2975,7 +2948,7 @@ Using the normal approximation, calculate the size of the initial fund needed so
 474,"某养老保险的退休给付规定为每工作一年，退休后每月给付30元。某职工40岁加入养老保险，60岁退休（工作20年），退休金每月发放一次。已知：
 1. \( {\ddot{a}}_{60}^{(12)} = 10 \)（终身期初生存年金现值系数，已考虑月度支付和生存概率）
 2. 利率6%
-3. 根据附表全国市镇从业人口生命表，计算40岁加入时的未来给付精算现值。(结果保留2位小数)
+3. 根据附表全国市镇从业人口生命表，计算40岁加入时的未来给付精算现值。（结果保留2位小数）
 
 附表??? 全国市镇从业人员生命表（男女混合表）（1989—1990年）
 
@@ -3125,7 +3098,7 @@ Calculate the annual net premium for this insurance.(The final answer should hav
 | 2 | 100000 | 0.06 | 
 
 已知 \( i = 0.025 \)，则第一年末的纯保费责任准备金为多少？（结果保留1位小数）",686.5
-480,"John lends 1000 to a borrower for 10 years at an annual interest rate of 8%, paid semiannually. The loan is issued at par, so no premium or discount. As John receives each interest payment, he immediately deposits it into an account earning interest at an annual effective rate of \(i\). At the end of 10 years, immediately after John receives the final interest payment and the repayment of the principal, John has earned an annual effective yield of 8.62% on his investment in the loan. Calculate \(i\).(The final answer should have 4 decimal places.)",0.0969
+480,"John lends 1000 to a borrower for 10 years at an annual interest rate of 8%, paid semiannually. The loan is issued at par, so no premium or discount. As John receives each interest payment, he immediately deposits it into an account earning interest at an annual effective rate of \(i\). At the end of 10 years, immediately after John receives the final interest payment and the repayment of the principal, John has earned an annual effective yield of 8.62% on his investment in the loan. Calculate \(i\).(The final answer should have 4 decimal places)",0.0969
 481,"Consider the following data from a survival analysis study of policyholders in a life insurance portfolio.
 
 | Policyholder | Entry Time | Event Time if observed | Censoring Time if censored |
@@ -3140,7 +3113,7 @@ Calculate the annual net premium for this insurance.(The final answer should hav
 | 8 | 10 | 12 | - |
 | 9 | 0 | - | 7 |
 
-Calculate the absolute difference between the Kaplan-Meier and Nelson-Aalen estimates of the survival function at time 11.(The final answer should have 5 decimal places.)",0.06836
+Calculate the absolute difference between the Kaplan-Meier and Nelson-Aalen estimates of the survival function at time 11.(The final answer should have 5 decimal places)",0.06836
 482,"设某汽车责任保险各事故年的增量已付赔款如表所示。
 
 表 增量已付赔款
@@ -3153,7 +3126,7 @@ Calculate the absolute difference between the Kaplan-Meier and Nelson-Aalen esti
 | 2015 | 86 | 42 | - | - | - |
 | 2016 | 97 | - | - | - | - |
 
-则总的未决赔款准备金为多少。（采用原始加权平均法选取相关比率，结果保留整数）。",153
+则总的未决赔款准备金为多少。（采用原始加权平均法选取相关比率，结果保留整数）",153
 483,"A random sample of three claims from an auto insurance plan is given below:
 $$
 \begin{array}{lll}

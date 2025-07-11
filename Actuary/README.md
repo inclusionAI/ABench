@@ -3,18 +3,18 @@
 
 
 ## Overview
-
-A curated set of 500 hard Actuary problems, generally on university actuarial disciplines and the content of domestic and international actuarial qualification examinations, covers Probability, Financial Mathematics, Fundamentals of Actuarial Mathematics, Advanced Long-Term Actuarial Mathematics, Advanced Short-Term Actuarial Mathematics, and more. This benchmark aims to provide a robust tool for evaluating the ability of large language models (LLMs) to understand, reason, and solve complex Actuary problems. Our benchmark contains 500 high-difficulty static pure-text Actuary problems.
+A high-difficulty, high-precision benchmark dataset for the actuarial science field, covering university actuarial disciplines and the content of global actuarial qualification examinations. It encompasses Probability, Financial Mathematics, Fundamentals of Actuarial Mathematics, Advanced Long-Term Actuarial Mathematics, Advanced Short-Term Actuarial Mathematics, and more.
+Unlike existing mathematical benchmarks, this benchmark aims to evaluate model response accuracy based on high-difficulty, complex reasoning. Our dataset contains 500 rigorously designed problems characterized by high difficulty, stringent precision requirements, and highly complex processes.
 
 ## Key features
 
-🛡️ **→ Contamination-proof**: All problems are rewritten by R1 to avoid potential contamination from the training data.
+🔒️ **→ Contamination-proof**: All problems are rewritten by R1 to avoid potential contamination from the training data.
 
-♻️ **→ Bilingual and Diverse Set**: Among the 500 actuarial problems, the questions are distributed from easy to difficult, covering multiple actuarial subjects. The problems are presented in both Chinese and English. The goal of this design is to ensure strong representativeness and diversity across different topics and difficulty levels.
+🌐 **→ Bilingual and Diverse Set**: Among the 500 actuarial problems, the questions are distributed from easy to difficult, covering multiple actuarial subjects. The problems are presented in both Chinese and English. The goal of this design is to ensure strong representativeness and diversity across different topics and difficulty levels.
 
-🔎 **→ Expert-crunched**: Every single problem was solved by physicists to ensure correctness.
+✅ **→ Answer Accuracy**: Each problem is solved and verified by domain experts to ensure correctness. All problems are strictly calculation-based with unambiguous unique answers.
 
-🤖 **→ RLVR-oriented**: Strictly calculation-based with unique answers of zero ambiguity within the answers.
+📐 **→ High Precision Requirement**: Model outputs must achieve ≤0.1% deviation from the reference solutions to meet the precision requirement.
 
 
 ## Liscense
