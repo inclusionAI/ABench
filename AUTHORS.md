@@ -15,7 +15,7 @@ This repository contains multiple subprojects, each maintained by different auth
 ## 📊 Actuary
 - **Contributors**:  
 
-  Jiangnan Zhu, Zhengkai Yang, Yanmei Gu, YiMing Zhang, Yihong Zhuang, Feng Wang, Xiaoxiao Peng, Yingfan Ma, Yuanyuan Wang, Chao Huang, Cheng Lin, Jie Yan, Bowen Song, Junbo Zhao
+  Jiangnan Zhu, Zhengkai Yang, Yanmei Gu, YiMing Zhang, Yihong Zhuang, Feng Wang, Xiaoxiao Peng, Yingfan Ma, Yuanyuan Wang, Chao Huang, Cheng Lin, Bowen Song, Junbo Zhao
 
 - **Acknowledgments**: 
 
