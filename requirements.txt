@@ -1,3 +1,4 @@
 pandas
 latex2sympy2
 tabulate
+openai

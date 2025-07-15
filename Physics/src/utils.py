@@ -135,3 +135,5 @@ def save_eval_results(results, task, model_name):
         data[model_name][task] = results
         with open(file_name, "w") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
+
+# 如需调用大语言模型，请使用目录的llm_utils.py中的call_openai_chat函数

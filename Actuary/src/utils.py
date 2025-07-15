@@ -4,6 +4,7 @@ import random
 import numpy as np
 from number_modify import EnhancedVariableExtractor, get_unit_template
 from latex2python import calc_symbols
+# 如需调用大语言模型，请使用项目根目录的llm_utils.py中的call_openai_chat函数
 
 
 def get_standard_answer(answer):
