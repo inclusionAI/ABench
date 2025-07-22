@@ -89,54 +89,53 @@ We employ a strict, all-or-nothing scoring mechanism, where no partial credit is
 ## Example problems
 #### Multiple-Choice Questions
 ```
-Question:
-在一个古老的音乐合奏比赛中，有三位钢琴演奏者：小梅、小竹、小兰，以及三位小提琴演奏者：小荷、小菊、小莲。他们可以选择演奏四种音乐作品：协奏曲、奏鸣曲、交响乐和狂想曲。小梅演奏的是协奏曲或奏鸣曲；小菊演奏狂想曲；如果一部作品没有任何钢琴演奏者演奏，那么任何小提琴演奏者也不能演奏该作品；一部作品只有有小提琴演奏者演奏，钢琴演奏者才能演奏该作品；每个演奏者只能演奏一部作品。如果题干的断定为真，且有人演奏奏鸣曲，则演奏奏鸣曲的演奏者中不可能同时包含？
-A、小梅和小竹
-B、小竹和小兰
-C、小兰和小荷
-D、小兰和小莲
-E、小荷和小莲
-F、小梅和小荷
-G、小竹和小荷
-H、小梅和小莲
-Answer: B
-is-order：NO
+Question: In the mystical land of Eldoria, three wizards—Elara, Thorn, and Zara—each specialize in one of three magical disciplines: Chronomancer always tells the truth, Shadowweaver always lies, or Dreamweaver alternates between truth and lies. During a council, they make the following declarations:
+Elara: (1) Thorn is a Chronomancer.(2) I am a Dreamweaver.
+Thorn: (1) Elara is a Shadowweaver.(2) I am a Chronomancer.
+Zara:(1) I am a Chronomancer.(2) Thorn is a Dreamweaver.
+Based on the above information, which of the following can be determined to be false?
+A、Elara is a Shadowweaver
+B、Thorn is a Chronomancer
+C、If Zara is  a Chronomancer, then Thorn is a Dreamweaver
+D、If Zara is a  Shadowweaver, then Thorn is a Dreamweaver
+E、Zara alternates between truth and lies
+F、The statement of Thorn about Elara is true
+G、The statement of Elara about Elara is true
+Answer: B G
+is-order: NO
 
-Question:
-On a large ranch called Prairie View Ranch, there are six cowboys named Jake, Tom, Ben, Sam, Cody, and Max. Each cowboy is proficient in two tasks: a primary task and a secondary task. Sam's secondary task is cattle roping. Three of the other cowboys have cattle roping as their primary task. Cody and Max both have horseback riding as one of their tasks. Max's primary task is fence mending, which is a secondary task for both Ben and Cody. Cattle roping and saddle making are Jake's tasks, but the primary-secondary relationship is the reverse of Sam's. Boot repairing is a secondary task for only one of them. The only cowboy with a sister has saddle making as his primary task.
-Which one of the following can be true?
-A、Ben's primary task is cattle roping
-B、Cody has a sister
-C、Jake's primary task is saddle making
-D、Max has a sister
-E、Sam has a sister
-F、Max's secondary task is fence mending
-G、Sam's secondary taks is saddle making
-Answer: A E
-is-order：NO
+Question: 在一个奇幻的世界里，有一群勇敢的冒险者，他们都拥有勇气和智慧的宝石。凡拥有勇气和智慧的宝石的冒险者，都有机会成为王国中的传奇英雄。并非所有来到魔法森林的冒险者都成为了传奇英雄；有一部分来自远方的王国勇士也成功成为了传奇英雄；由于某种神秘的原因，所有来自远方的王国勇士的家乡都没有派遣使者来到魔法森林。根据这段文字，不能判断正误的项是：
+A、并非所有传奇英雄的家乡都派遣使者来到魔法森林
+B、有些传奇英雄拥有勇气和智慧的宝石
+C、有些冒险者的家乡也没有派遣使者来到魔法森林
+D、所有冒险者都能成为传奇英雄
+E、所有冒险者都有机会成为传奇英雄
+F、部分来到魔法森林的冒险者已成为传奇英雄
+G、部分来自远方的王国勇士已成为传奇英雄
+H、所有来自远方的王国勇士的家乡未派遣使者至魔法森林
+I、成为传奇英雄的来自远方的王国勇士，其家乡未派遣使者至魔法森林
+Answer: D
+is-order: NO
 
 ```
 
 
 #### Question Answering
 ```
-Question:
-In the enchanted forest of Eldoria, three elves—Elara, Thalion, and Lyra—each hold a sacred role: Guardian (always speaks truth), Deceiver (always tells lies), or Mystic (alternates between truth and lies, starting with either). They share the following statements with a traveler:
-Elara:Thalion is a Guardian.I am a Mystic.
-Thalion:Elara is a Deceiver.I am a Guardian.
-Lyra: I am a Guardian. Thalion is a Mystic.
-What are the roles of Elara, Thalion, and Lyra respectively?
-Answer:  Deceiver Guardian Mystic
-is-order：YES
-
-Question: 班级里有四个学生：小华、小丽、小强、小美。已知：小华说：“小美是年龄最小的。”小丽说：“我是小华的姐姐。”小强说：“四个人中只有哥哥是男生，其余都是女生。”如果上述都为真，四个学生按照年龄由大到小排序是：
-Answer: 小丽 小华 小强 小美
-is-order：YES
-
-Question: In a spelling bee, three contestants - William, James, and Benjamin - are the top three scorers in some order. Each contestant makes two statements about their positions, with one statement being valid and the other being invalid. Here are their statements:William said: "I am not in first place." "James came second."James said: "I am the top scorer." "Benjamin was second."Benjamin said: "I am not the winner." "William finished third."
-Which one is in second place?
-Answer: William
+Question: Ten candidates Alex, Ben, Chris, David, Emily, Fiona, George, Harry, Ivy and Jack are seated in a Row which contains twelve seats. All the people facing the north direction and there are two vacant seats. Each of them likes different books such as Pride and Prejudice, Wuthering Heights, War and Peace, Crime and Punishment, One Hundred Years of Solitude, The Great Gatsby, Jane Eyre, Gone with the Wind, The Catcher in the Rye and The Old Man and the Sea. All the given information is not necessarily in the same order.Emily sits third to the left of one of the vacant seats. The only neighbor of the person who likes Gone with the Wind sits second to the left of Chris. David sits second to the right of one of the vacant seats. Ben does not like The Old Man and the Sea. Fiona sits immediate left of the person who likes Jane Eyre. There is no vacant seat at the extreme ends. The person who likes War and Peace and Crime and Punishment are immediate neighbors. Alex sits second to the left of Ben. The person who likes One Hundred Years of Solitude and The Great Gatsby are immediate neighbors. Only one person sits between Jack and one of the vacant seats. The person who likes Wuthering Heights and The Old Man and the Sea are immediate neighbors. George sits third from the left end and likes Jane Eyre. The person who likes Pride and Prejudice sits second to the right of one of the vacant seats. No person sits between Ben and Jack. Ivy neither likes The Old Man and the Sea nor War and Peace. There is one vacant seat between Harry and Ivy and no other person sits between them. No person sits between Alex and George. Five people are seated between two vacant seats. Jack is not a neighbor of Emily. David does not like Pride and Prejudice. Ben is not a neighbor of the vacant seat. Fiona likes The Great Gatsby. One of the immediate neighbors of Ben likes Wuthering Heights. Only one person sits to the left of Fiona.
+Who is sitting third on the right of those who like "The Great Gatsby"
+Answer: Alex
 is-order：NO
+
+Question: Ten candidates Alex, Ben, Chris, David, Emily, Fiona, George, Harry, Ivy and Jack are seated in a Row which contains twelve seats. All the people facing the north direction and there are two vacant seats. Each of them likes different books such as Pride and Prejudice, Wuthering Heights, War and Peace, Crime and Punishment, One Hundred Years of Solitude, The Great Gatsby, Jane Eyre, Gone with the Wind, The Catcher in the Rye and The Old Man and the Sea. All the given information is not necessarily in the same order.Emily sits third to the left of one of the vacant seats. The only neighbor of the person who likes Gone with the Wind sits second to the left of Chris. David sits second to the right of one of the vacant seats. Ben does not like The Old Man and the Sea. Fiona sits immediate left of the person who likes Jane Eyre. There is no vacant seat at the extreme ends. The person who likes War and Peace and Crime and Punishment are immediate neighbors. Alex sits second to the left of Ben. The person who likes One Hundred Years of Solitude and The Great Gatsby are immediate neighbors. Only one person sits between Jack and one of the vacant seats. The person who likes Wuthering Heights and The Old Man and the Sea are immediate neighbors. George sits third from the left end and likes Jane Eyre. The person who likes Pride and Prejudice sits second to the right of one of the vacant seats. No person sits between Ben and Jack. Ivy neither likes The Old Man and the Sea nor War and Peace. There is one vacant seat between Harry and Ivy and no other person sits between them. No person sits between Alex and George. Five people are seated between two vacant seats. Jack is not a neighbor of Emily. David does not like Pride and Prejudice. Ben is not a neighbor of the vacant seat. Fiona likes The Great Gatsby. One of the immediate neighbors of Ben likes Wuthering Heights. Only one person sits to the left of Fiona.
+What is the order of these ten people from left to right?
+Answer: Emily Fiona George Alex Jack Ben Chris Harry Ivy David
+is-order: YES
+
+Question: Ten candidates Alex, Ben, Chris, David, Emily, Fiona, George, Harry, Ivy and Jack are seated in a Row which contains twelve seats. All the people facing the north direction and there are two vacant seats. Each of them likes different books such as Pride and Prejudice, Wuthering Heights, War and Peace, Crime and Punishment, One Hundred Years of Solitude, The Great Gatsby, Jane Eyre, Gone with the Wind, The Catcher in the Rye 1and The Old Man and the Sea. All the given information is not necessarily in the same order.Emily sits third to the left of one of the vacant seats. The only neighbor of the person who likes Gone with the Wind sits second to the left of Chris. David sits second to the right of one of the vacant seats. Ben does not like The Old Man and the Sea. Fiona sits immediate left of the person who likes Jane Eyre. There is no vacant seat at the extreme ends. The person who likes War and Peace and Crime and Punishment are immediate neighbors. Alex sits second to the left of Ben. The person who likes One Hundred Years of Solitude and The Great Gatsby are immediate neighbors. Only one person sits between Jack and one of the vacant seats. The person who likes Wuthering Heights and The Old Man and the Sea are immediate neighbors. George sits third from the left end and likes Jane Eyre. The person who likes Pride and Prejudice sits second to the right of one of the vacant seats. No person sits between Ben and Jack. Ivy neither likes The Old Man and the Sea nor War and Peace. There is one vacant seat between Harry and Ivy and no other person sits between them. No person sits between Alex and George. Five people are seated between two vacant seats. Jack is not a neighbor of Emily. David does not like Pride and Prejudice. Ben is not a neighbor of the vacant seat. Fiona likes The Great Gatsby. One of the immediate neighbors of Ben likes Wuthering Heights. Only one person sits to the left of Fiona.
+Who is sitting third on the right of those who like "Pride and Prejudice"?
+Answer: Harry
+is-order: NO
 
 ```
 
