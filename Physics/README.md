@@ -21,6 +21,7 @@ The goal of the engine is to propose new variants of the problem sets by tweakin
 
 We are releasing this project under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). This allows for both personal and commercial use, provided that the original license and copyright notice are included in any distributed copies or substantial portions of the software.
 
+We are releasing this project under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
 ## Evaluation Metrics
 Our evaluation focuses on the correctness of pure numerical answers. For each problem, the model's output is parsed, and its numerical answer is compared against the ground truth. The responses with results within 1% of the standard answer are considered correct.

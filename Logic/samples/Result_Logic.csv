@@ -1,0 +1,262 @@
+mid,standard_answer,standard_question,type,is_order,R1_response
+1,B,"在一个古老的音乐合奏比赛中，有三位钢琴演奏者：小梅、小竹、小兰，以及三位小提琴演奏者：小荷、小菊、小莲。他们可以选择演奏四种音乐作品：协奏曲、奏鸣曲、交响乐和狂想曲。小梅演奏的是协奏曲或奏鸣曲；小菊演奏狂想曲；如果一部作品没有任何钢琴演奏者演奏，那么任何小提琴演奏者也不能演奏该作品；一部作品只有有小提琴演奏者演奏，钢琴演奏者才能演奏该作品；每个演奏者只能演奏一部作品。如果题干的断定为真，且有人演奏奏鸣曲，则演奏奏鸣曲的演奏者中不可能同时包含？
+A、小梅和小竹
+B、小竹和小兰
+C、小兰和小荷
+D、小兰和小莲
+E、小荷和小莲
+F、小梅和小荷
+G、小竹和小荷
+H、小梅和小莲",MCQ,NO,"
+
+\boxed{B}"
+2, Deceiver Guardian Mystic,"In the enchanted forest of Eldoria, three elves—Elara, Thalion, and Lyra—each hold a sacred role: Guardian (always speaks truth), Deceiver (always tells lies), or Mystic (alternates between truth and lies, starting with either). They share the following statements with a traveler:
+Elara:
+(1) Thalion is a Guardian.
+(2) I am a Mystic.
+Thalion:
+(1) Elara is a Deceiver.
+(2) I am a Guardian.
+Lyra:
+(1) I am a Guardian.
+(2) Thalion is a Mystic.
+What are the roles of Elara, Thalion, and Lyra respectively?",QA,YES,"
+
+\boxed{Deceiver Mystic Guardian}"
+3,B C,"In the mystical land of Eldoria, three wizards—Elara, Thorn, and Zara—each specialize in one of three magical disciplines: Chronomancer always tells the truth, Shadowweaver always lies, or Dreamweaver alternates between truth and lies. During a council, they make the following declarations:
+Elara: 
+(1)Thorn is a Chronomancer.
+(2) I am a Dreamweaver.
+Thorn: 
+(1) Elara is a Shadowweaver.
+(2) I am a Chronomancer.
+Zara: 
+(1) I am a Chronomancer.
+(2) Thorn is a Dreamweaver.
+Based on their statements, which of the following can be true?
+A、The statements of Thorn about himself is true
+B、The statements of Zara about himself is true
+C、If Elara is Shadowweaver, then the statements of Elara about himself is false
+D、If the statements of Thorn about himself is false, then Thorn is Shadowweaver
+E、Elara is a Chronomancer
+F、Zara is a Dreamweaver",MCQ,NO,"
+
+To determine which statements can be true, we analyze the possible roles of Elara, Thorn, and Zara based on their statements and the constraints of their disciplines (Chronomancer always tells the truth, Shadowweaver always lies, Dreamweaver alternates between truth and lies).
+
+1. **Elara's Role Analysis**:
+   - If Elara were a Chronomancer (truth-teller), her statements would contradict (she would simultaneously be a Chronomancer and Dreamweaver). Thus, Elara cannot be a Chronomancer.
+   - If Elara is a Shadowweaver (liar), both her statements are false: Thorn is not a Chronomancer, and she is not a Dreamweaver. This leads to Thorn being a Dreamweaver and Zara a Chronomancer.
+
+2. **Thorn's Role Analysis**:
+   - Thorn, being a Dreamweaver (alternates truth and lies), starts with a true statement (""Elara is a Shadowweaver"") and follows with a false statement (""I am a Chronomancer"").
+
+3. **Zara's Role Analysis**:
+   - Zara, being a Chronomancer (truth-teller), both her statements are true: ""I am a Chronomancer"" and ""Thorn is a Dreamweaver"".
+
+**Option Analysis**:
+- **B**: Zara's statements about himself are true (Zara is a Chronomancer, both statements true). Valid in the valid scenario.
+- **C**: If Elara is a Shadowweaver, her statements about herself (false). This is a tautology as Shadowweavers always lie. Hence, always true.
+- Other options (A, D, E, F) are invalid based on contradictions or impossibilities derived from role constraints.
+
+\boxed{B C}"
+4,A  E,"On a large ranch called Prairie View Ranch, there are six cowboys named Jake, Tom, Ben, Sam, Cody, and Max. Each cowboy is proficient in two tasks: a primary task and a secondary task. Sam's secondary task is cattle roping. Three of the other cowboys have cattle roping as their primary task. Cody and Max both have horseback riding as one of their tasks. Max's primary task is fence mending, which is a secondary task for both Ben and Cody. Cattle roping and saddle making are Jake's tasks, but the primary-secondary relationship is the reverse of Sam's. Boot repairing is a secondary task for only one of them. The only cowboy with a sister has saddle making as his primary task.
+Which one of the following can be true?
+A、Ben's primary task is cattle roping
+B、Cody has a sister
+C、Jake's primary task is saddle making
+D、Max has a sister
+E、Sam has a sister
+F、Max's secondary task is fence mending
+G、Sam's secondary taks is saddle making",MCQ,NO,"
+
+\boxed{E}"
+5,A  H,"In the competitive and dynamic world of baking, three famous bakeries - Sugar Bloom, Butter Crest, and Flour Haven - all offer a variety of signature pastries. Master Baker Marco selects pastries from these bakeries to create a customized dessert box. He chooses a total of six pastries, at least one from each bakery. Each pastry takes at least 2 hours to prepare (including baking and decorating), while Marco works with only a full hour. The total preparation time for all six pastries is 14 hours.
+If Marco spends 8 full hours preparing Sugar Bloom's pastries, which of the following can be determined to be ture or flase?
+A、He selects exactly two pastries from Sugar Bloom
+B、He selects two pastries from Butter Crest
+C、He selects exactly two pastries from Flour Haven
+D、He selects more pastries from Butter Crest than from Flour Haven
+E、He picked more pastries from Flour Haven than from Butter Crest
+F、He picked one more pastry from Sugar Bloom than from Butter Crest
+G、He selects three pastries from Sugar Bloom
+H、He selects more pastries from Sugar Bloom than from Flour Haven",MCQ,NO,"
+
+\boxed{AH}"
+6,6,"In a small printing shop, operator Lisa works from 8:00 am to 10:00 am, printing books and brochures. She has only one printing machine, which can print one type of item at a time. Here are the operational details: Book Printing: It takes 30 minutes to print a batch of 12 books. Brochure Printing: It takes 10 minutes to print 2 batches of brochures. Quality Maintenance: Brochures maintain print quality for only 5 minutes after printing, while books maintain quality for 30 minutes.Re-printing: It takes 10 minutes to re-print books, and they will maintain quality for another 30 minutes.
+Pre-printed Option: Lisa can bring a pre-printed batch of books from an off-site location, costing her $8 for delivery. The pre-printed books maintain quality for 30 minutes (excluding delivery time).
+Customer Orders: Every 20 minutes, 5 orders of a book with a set of brochures are placed.
+Unsold Items: Any unsold printed materials are sold at cost after 10:30 am.
+What is the maximum number of book-brochure sets Lisa can sell in the first hour of business?",QA,NO,"
+
+\boxed{15}"
+7,D F,"In the bustling town of Artville, every artist either has a masterpiece or they do not have a masterpiece, but not both. If Liam's sister creates an artwork that receives critical acclaim, then she has a masterpiece. Chloe creates an artwork that receives critical acclaim. If Chloe's brother creates an artwork that receives critical acclaim, then he has a masterpiece.
+Question: Based on the above information, which of the following cannot be determined to be true or false?
+A、Liam's sister has a masterpiece
+B、Chloe receives critical acclaim because of her artwork
+C、Chloe's brother does not have a masterpiece
+D、Every artist receive critical acclaim
+E、If an artist creates an artwork that receives critical acclaim, then she has a masterpiece
+F、If an artist has a masterpiece, then she creates an artwork that receives critical acclaim",MCQ,NO,"
+
+\boxed{A C E F}"
+8,B C,"In the charming city of Melodyville, all who cultivate a sense of music experiment with rhythm and nurture melody. Alex cherishes self-discovery. Alex practices meditation. If one experiments with rhythm and cherishes self-discovery, then one engages in musical pursuits. Alex will either practice meditation or refine emotional awareness, but not both. Alex appreciates wildlife. Alex either refines emotional awareness or develops musicality, but not necessarily both. If someone engages in musical pursuits, he will not necessarily become a master in that field, and vice versa.
+Based on the above information, which of the following statements can be judged correct or incorrect?
+A、Alex will not become a master in the field of ornithology
+B、Alex is engaged in musical pursuits
+C、Alex is experimenting with rhythm
+D、Alex will not become a master in the field of music
+E、Alex discovers himself in his appreciation of wildlife",MCQ,NO,"
+
+\boxed{B C D E}"
+9,B G,"In the mystical land of Eldoria, three wizards—Elara, Thorn, and Zara—each specialize in one of three magical disciplines: Chronomancer always tells the truth, Shadowweaver always lies, or Dreamweaver alternates between truth and lies. During a council, they make the following declarations:
+Elara: 
+(1) Thorn is a Chronomancer.
+(2) I am a Dreamweaver.
+Thorn: 
+(1) Elara is a Shadowweaver.
+(2) I am a Chronomancer.
+Zara:
+(1) I am a Chronomancer.
+(2) Thorn is a Dreamweaver.
+Based on the above information, which of the following can be determined to be false?
+A、Elara is a Shadowweaver
+B、Thorn is a Chronomancer
+C、If Zara is  a Chronomancer, then Thorn is a Dreamweaver
+D、If Zara is a  Shadowweaver, then Thorn is a Dreamweaver
+E、Zara alternates between truth and lies
+F、The statement of Thorn about Elara is true
+G、The statement of Elara about Elara is true",MCQ,NO,"
+
+\boxed{B E G}"
+10,D,"在一个奇幻的世界里，有一群勇敢的冒险者，他们都拥有勇气和智慧的宝石。凡拥有勇气和智慧的宝石的冒险者，都有机会成为王国中的传奇英雄。并非所有来到魔法森林的冒险者都成为了传奇英雄；有一部分来自远方的王国勇士也成功成为了传奇英雄；由于某种神秘的原因，所有来自远方的王国勇士的家乡都没有派遣使者来到魔法森林。根据这段文字，不能判断正误的项是：
+A、并非所有传奇英雄的家乡都派遣使者来到魔法森林
+B、有些传奇英雄拥有勇气和智慧的宝石
+C、有些冒险者的家乡也没有派遣使者来到魔法森林
+D、所有冒险者都能成为传奇英雄
+E、所有冒险者都有机会成为传奇英雄
+F、部分来到魔法森林的冒险者已成为传奇英雄
+G、部分来自远方的王国勇士已成为传奇英雄
+H、所有来自远方的王国勇士的家乡未派遣使者至魔法森林
+I、成为传奇英雄的来自远方的王国勇士，其家乡未派遣使者至魔法森林",MCQ,NO,"
+
+\boxed{C}"
+11,G,"在一所多元发展的中学里，有一群热爱艺术的学生，他们都拥有音乐或绘画的特长。凡拥有音乐且绘画特长的学生，都有资格竞选艺术社团的核心成员。并非所有加入书法社的学生都成为了艺术社团核心成员；有一部分来自高三年级的学生也成功当选核心成员；由于时间冲突，所有参加书法社活动的学生都不是高三年级的学生。根据这段文字，不能判断正误的项是：
+A、有些学生没有参加过书法社活动
+B、有些核心成员拥有音乐和绘画特长
+C、有些艺术社团核心成员没有参加过书法社活动
+D、部分高三学生是核心成员
+E、所有拥有音乐和绘画特长的学生都有资格竞选核心成员
+F、部分加入书法社的学生是核心成员
+G、所有学生都能成为艺术社团核心成员
+H、所有高三学生都未参加书法社活动
+I、身为核心成员的高三学生，未参加过书法社活动",MCQ,NO,"
+
+\boxed{F}"
+12,D,"在一家科技公司里，并非有的员工都不具备编程或设计技能。凡同时具备高级编程且交互设计技能的员工，都有资格参与核心项目。有一些加入创新小组的员工已经进入核心项目；有一部分来自开发部门的员工也成功参与核心项目；由于职责划分，所有加入创新小组的员工都不是开发部门的员工。根据这段文字，不能判断正误的项是：
+A、有些核心项目成员没有加入创新小组
+B、有些核心项目成员具备高级编程和交互设计技能
+C、所有开发部门员工都未加入创新小组
+D、所有员工都能参与核心项目
+E、所有具备高级编程和交互设计技能的员工都有资格参与核心项目
+F、部分创新小组成员参与了核心项目
+G、部分开发部门员工参与了核心项目
+H、有些员工没有加入创新小组
+I、参与核心项目的开发部门员工，未加入创新小组",MCQ,NO,"
+
+\boxed{B}"
+13,B D,"某科技公司对实习生设置考核：所有实习生都完成了项目培训。考核规则：
+某学术机构的研究者都拥有数学或统计学背景。凡同时拥有数学博士且统计学建模能力的研究者，都有资格申请国家级科研基金。并非所有发表过顶刊论文的研究者都获得了基金；有一部分来自高校的研究者也成功获得基金；由于政策限制，并非有的高校的研究者都发表了顶刊论文。根据这段文字，不能判断正误的项是：
+A、有些获得基金的研究者没有发表过顶刊论文
+B、有些研究者没有发表顶刊论文的能力
+C、有些获得基金的研究者拥有数学博士和统计学建模能力
+D、所有研究者都能获得国家级科研基金
+E、所有拥有数学博士和统计学建模能力的研究者都有资格申请基金
+F、部分发表顶刊论文的研究者获得了基金
+G、部分高校研究者获得了基金
+H、所有高校研究者都未发表过顶刊论文
+I、获得基金的高校研究者，未发表过顶刊论文",MCQ,NO,"
+
+\boxed{B F I}"
+14,C D,"在一支职业体育队中，并非有的运动员都不擅长跑步或跳跃项目。凡同时擅长马拉松且跳高的运动员，都有资格参加国际锦标赛。有一些入选青年队的运动员已经参加了锦标赛；有些成功参赛的运动员来自田径俱乐部；由于年龄限制，所有田径俱乐部的运动员都没有入选青年队。根据这段文字，不能判断正误的项是：
+A、有些参加锦标赛的运动员没有入选青年队
+B、有些参赛运动员同时擅长马拉松和跳高
+C、有些运动员没有入选青年队的资格
+D、所有运动员都能参加国际锦标赛
+E、所有擅长马拉松和跳高的运动员都有资格参赛
+F、部分青年队成员参加了锦标赛
+G、部分田径俱乐部运动员参加了锦标赛
+H、所有田径俱乐部运动员都未入选青年队
+I、参加锦标赛的田径俱乐部运动员，未入选青年队
+J、入选校队的短跑特长生参加过市级运动会",MCQ,NO,"
+
+\boxed{B J}"
+15,C I,"某品牌手机的所有型号都具备拍照或续航功能。凡同时具备超清主摄且长续航电池的型号，都有资格进入旗舰产品线。有一些搭载折叠屏的型号已经进入旗舰产品线；有一部分定位中端的型号也成功入选旗舰；由于设计策略，所有中端型号都没有搭载折叠屏。根据这段文字，不能判断正误的项是：
+A、并非所有旗舰型号都搭载了折叠屏
+B、有些旗舰型号同时具备超清主摄和长续航电池
+C、有些型号没有搭载折叠屏的能力
+D、进入旗舰的中端型号，未搭载折叠屏
+E、所有具备超清主摄和长续航电池的型号都有资格入旗舰
+F、并非所有折叠屏型号都进入了旗舰产品线
+G、部分中端型号进入了旗舰产品线
+H、所有中端型号都未搭载折叠屏
+I、所有手机型号都能进入旗舰产品线",MCQ,NO,"
+
+\boxed{I}"
+16,C D,"In the bustling town of Attilville, every adventurous resident can learn new skills and discover hidden talents. Lyra is a resident of Ativel Town and she values personal growth. Lyra practices yoga. If someone learns new skills and cherishes personal growth, they will engage in creative projects. Lyra either practices yoga or exercises her communication skills, but not both. Lyra likes gardening. Lyra either hones her communication skills or enjoys taking risks, but not necessarily both. If someone engages in creative projects, they may not necessarily become famous artists, and vice versa.
+Based on the above information, which of the following statements can be determined as correct or incorrect?
+A、Lyra didn't become A famous landscape designer
+B、Lyra's new skill is yoga
+C、Lyra failed to discover her hidden talent
+D、Lyra would work on creative projects",QA,YES,"
+
+\boxed{D}"
+17,D,"在一个奇妙的科技世界里，所有工程师都配备了创新思维的智能芯片。凡配备智能芯片的工程师，都有资格参与星际工程大赛。有一些抵达机械岛的工程师已经参加过星际工程大赛；有一部分来自银河联邦的首席工程师也成功参与了星际工程大赛；由于某个神秘的规则，所有入驻到机械岛的团队都不是银河联邦的首席工程师的团队。根据这段文字，不能判断正误的项是：
+A、有些星际工程大赛的工程师的团队没有入驻到机械岛
+B、并非所有星际工程大赛的工程师都没有配备智能芯片
+C、在星际工程大赛中参赛的银河联邦首席工程师，其团队未入驻至机械岛
+D、所有工程师都能参与星际工程大赛
+E、所有工程师都有资格参与星际工程大赛
+F、并非所有抵达机械岛的工程师都没有参加星际工程大赛
+G、部分来自银河联邦的首席工程师已参加星际工程大赛
+H、所有银河联邦的首席工程师的团队未入驻至机械岛",MCQ,NO,"
+
+\boxed{D}"
+18,D,"在一个充满奇幻色彩的美食大陆上，所有厨师都持有能激发美味的神奇厨具。凡持有神奇厨具的厨师，都有机会在美食圣殿开办厨艺展。有一些来到香料镇的厨师已经在美食圣殿开办过厨艺展；有一部分来自东方海域的御厨也成功在美食圣殿开办了厨艺展；由于某个古老的传说，所有东方海域的御厨的师门都没有迁徙到香料镇。根据这段文字，不能判断正误的项是：
+A、有些美食圣殿的厨师的师门没有迁徙到香料镇
+B、有些美食圣殿的厨师持有神奇厨具
+C、所有东方海域的御厨的师门未迁徙至香料镇
+D、所有厨师都能在美食圣殿开办厨艺展
+E、所有厨师都有机会在美食圣殿开办厨艺展
+F、部分来到香料镇的厨师已在美食圣殿开办厨艺展
+G、部分来自东方海域的御厨已在美食圣殿开办厨艺展
+H、有些厨师的师门也没有迁徙到香料镇
+I、在美食圣殿开办厨艺展的来自东方海域的御厨，其师门未迁徙至香料镇",MCQ,NO,"
+
+\boxed{D}"
+19,C,"在一个充满魔力的书香国度里，所有学者都持有蕴藏智慧的魔法典籍。凡持有魔法典籍的学者，都有资格在知识圣殿举办学术展。有一些来到智慧谷的学者已经在知识圣殿举办过学术展；有一部分来自西方秘境的大学士也成功在知识圣殿举办了学术展；由于某个古老的魔咒，所有西方秘境的大学士的宗门都没有迁居到智慧谷。根据这段文字，不能判断正误的项是：
+A、有些知识圣殿的学者的宗门没有迁居到智慧谷
+B、有些知识圣殿的学者持有魔法典籍
+C、有些学者的宗门也没有迁居到智慧谷
+D、在知识圣殿举办学术展的来自西方秘境的大学士，其宗门未迁居至智慧谷
+E、所有有资格在知识圣殿举办学术展的学者都持有魔法典籍
+F、部分来到智慧谷的学者已在知识圣殿举办学术展
+G、部分来自西方秘境的大学士已在知识圣殿举办学术展
+H、所有迁居至智慧谷的宗门都不是西方秘境的大学士的宗门",MCQ,NO,"
+
+\boxed{A}"
+20,C,"Five musicians—Lila, Mia, Nina, Olga, and Petra—are to be assigned practice hours with five instruments: Piano, Guitar, Violin, Drums, and Flute. Each musician must have a minimum of 50 hours per instrument, and hours per instrument must be an exact multiple of 50. Each musician’s total practice hours must be 750. No musician can have equal hours for two instruments, and no two musicians can have equal hours for the same instrument.
+The following conditions are also laid down.
+(i) For Nina, Flute hours are twice Guitar hours.
+(ii) Lila is assigned 100 Violin hours, and Olga is assigned 250 Drums hours.
+(iii) Petra is assigned 150 Guitar hours.
+(iv) Mia has the maximum Guitar hours and 150 Piano hours.
+(v) Among Olga and Mia, Olga has the fewest Flute hours, and Mia has the fewest Drums hours.
+Which group represents pairs with equal practice hours?
+A、Nina - Violin, Olga - Flute, Petra - Drums, Mia - Violin
+B、Petra - Drums, Lila - Flute, Olga - Piano, Mia - Violin
+C、Mia - Drums, Petra - Violin, Lila - Guitar, Nina - Piano
+D、Olga - Violin, Nina - Guitar, Lila - Drums, Petra - Piano
+E、Mia - Violin, Nina - Guitar,Olga - Piano, Nina-Piano
+F、Olga - Violin, Nina - Guitar, Petra - Drums, Mia - Piano",MCQ,NO,"
+
+\boxed{B}"
