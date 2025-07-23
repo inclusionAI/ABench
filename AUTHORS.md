@@ -24,7 +24,7 @@ This repository contains multiple subprojects, each maintained by different auth
 ## 🧠 Logic
 - **Contributors**:  
 
-  Yuqi Ding, Jiayi Wang, Zhengkai Yang, Yanmei Gu, YiMing Zhang, Xiaoxiao Peng, Yingfan Ma, Yuanyuan Wang, Chao Huang, Cheng Lin, Bowen Song, Junbo Zhao
+  Yuqi Ding, Jiayi Wang, Zhengkai Yang, Yanmei Gu, YiMing Zhang, Yihong Zhuang, Xiaoxiao Peng, Yingfan Ma, Yuanyuan Wang, Chao Huang, Cheng Lin, Bowen Song, Junbo Zhao
 
 - **Acknowledgments**: 
 

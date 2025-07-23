@@ -35,6 +35,7 @@ We employ a strict, all-or-nothing scoring mechanism, where no partial credit is
 | Gemini2.5-pro                |     0.502  |
 | o3                           |     0.454  |
 | DeepSeek-R1                  |     0.412  |
+| Qwen3-30B-A3B                |     0.392  |
 | o1                           |     0.386  |
 | QwQ-32B                      |     0.356  |
 | Claude-3.7-Sonnet-Thinking   |     0.236  |
@@ -45,7 +46,6 @@ We employ a strict, all-or-nothing scoring mechanism, where no partial credit is
 | O3mini                       |     0.184  |
 | GPT4.1                       |     0.142  |
 | DeepSeek-R1-Distill-Qwen-32B |     0.114  |
-| Qwen3-30B-A3B                |     0.008  |
 
 
 * Current SOTA models still struggle with our logical challenge benchmark, failing to reliably solve these problems.
