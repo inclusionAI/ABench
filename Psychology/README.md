@@ -12,7 +12,7 @@ PsychBench is a benchmark comprising 510 challenging psychology questions design
 
 🤝  **→ RLVR-oriented**: Items retain the structural complexity of premier Psychological Counselor Certification Exam, emphasizing deep analysis rather than superficial support.
 
-📋️ **→ Accurate evaluation**: A rubric-based evaluation system for 100 subjective psychological counseling case questions: The system aims to quantify the quality of the model's answers in this field from the perspective of psychological counseling experts, covering specific details exclusive to the case one-on-one.
+📋️ **→ Accurate evaluation**: A rubric-based evaluation system for 110 subjective psychological counseling case questions: The system aims to quantify the quality of the model's answers in this field from the perspective of psychological counseling experts, covering specific details exclusive to the case one-on-one.
 
 
 ## Liscense
