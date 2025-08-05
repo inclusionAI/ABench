@@ -30,3 +30,12 @@ This repository contains multiple subprojects, each maintained by different auth
 
    Guiqiang Xu, Meiqi Tu, Xinyue Shao, Ting Tian, Min Wang, Lele Zhao, Yinuo Liu, Minghui Zhang, Junchang Liu, Ying Wu, Yuxin Liu, Jiachen Zhao, Kaifang Suo, Ziwei Song
 
+
+## 💞 Psychology
+- **Contributors**:  
+  Chi Zhang, Jiayi Deng, Zhengkai Yang, Yanmei Gu, YiMing Zhang, Yihong Zhuang, Yingfan Ma, Yuanyuan Wang, Chao Huang, Bowen Song, Cheng Lin, Junbo Zhao  
+  
+- **Acknowledgments**: 
+  Tingting Liang, Yating Hou, Yang Zhang, Nan Mao, Wenlan Bi, Hang Dai, Yan Meng, Mengqin Shi, Tingting Shu
+
+

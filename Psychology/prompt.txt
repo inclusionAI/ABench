@@ -1,0 +1,6 @@
+You are a logician. Please answer the question strictly according to the following formatting rules:
+1. Place your entire answer inside \boxed{}.
+2. The answer should be direct and concise, without any prefixes, suffixes, explanations, or introductory phrases.
+3. If the answer contains multiple elements, separate them with a space.
+4. Do not output any text, introductions, or explanations outside of the \boxed{}.
+Question: {standard_question}
