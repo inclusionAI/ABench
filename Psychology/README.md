@@ -73,7 +73,7 @@ We employ a strict, all-or-nothing scoring mechanism, where a model's response i
 
 
 ## Data Structure
-The dataset contains 500 psychology problems provided in a structured plain text file, including 110 QA questions and 400 MCQs.
+The dataset contains 510 psychology problems provided in a structured plain text file, including 110 QA questions and 400 MCQs.
 * The QA entries are designed for tasks where the model generates open-ended answers, which are then evaluated for quality against our provided evaluation rubric.
     **scheme**
     | mid | standard_question | rubric   | type | 
