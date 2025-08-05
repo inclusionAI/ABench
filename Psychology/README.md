@@ -3,7 +3,7 @@
 
 
 ## Overview
-PsychBench is a benchmark comprising 500 challenging psychology questions designed to evaluate a model's capabilities in Theory of Mind and empathetic support. It consists of both objective questions and subjective questions. The 400 objective questions are advanced Theory of Mind tests, covering various aspects of everyday life, such as social commonsense and emotional analysis. The subjective portion consists of 110 psychological counseling case studies selected from China's National Psychological Counselor Certification Exam. For these cases, experts have crafted new questions across five distinct scenarios. The answers are then evaluated using an evaluation rubric developed by experts.
+PsychBench is a benchmark comprising 510 challenging psychology questions designed to evaluate a model's capabilities in Theory of Mind and empathetic support. It consists of both objective questions and subjective questions. The 400 objective questions are advanced Theory of Mind tests, covering various aspects of everyday life, such as social commonsense and emotional analysis. The subjective portion consists of 110 psychological counseling case studies selected from China's National Psychological Counselor Certification Exam. For these cases, experts have crafted new questions across five distinct scenarios. The answers are then evaluated using an evaluation rubric developed by experts.
 
 ## Key features
 🧠 **→ Expert‑crunched**: Every single problem is produced and double‑checked by domain experts strictly adheres to rigorous quality standards.
@@ -24,7 +24,7 @@ We are releasing this project under the Creative Commons Attribution 4.0 Interna
 ## Evaluation Metrics
 We employ a strict, all-or-nothing scoring mechanism, where a model's response is judged as correct only if it perfectly matches the ground-truth answer or the rubric. The specific criteria for correctness vary by question type:
 * For Multiple-Choice Questions (MCQ): A response is considered correct if and only if the set of selected options is exactly identical to the set of ground-truth correct options.
-* For Question Answering (QA): These questions require open-ended answers. We employ a model-as-judge to score the responses, strictly adhering to each item outlined in the rubric. Credit for a specific item is awarded only for a perfect match, and penalties are imposed for any negative components in the response.
+* For Question Answering (QA): These questions require open-ended answers. We employ a model-as-judge to score the responses, strictly adhering to each item outlined in the rubric. Credit for a specific item is awarded only for a perfect match, and penalties are imposed for any negative components in the response. Please note that the core objective of these questions is to make the model's responses more human-like and empathetic.
 
 ## Main Results
 #### Multiple-Choice Questions
@@ -198,7 +198,6 @@ rubric: 加分项
 7、未包括咨询效果评估部分{-3}
 8、未能对主要标题和带编号的信息进行加粗处理{-4}
 
-score: 69
 
 ```
 
