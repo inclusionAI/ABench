@@ -1,4 +1,4 @@
-# ABench-Psychology
+****# ABench-Psychology
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
@@ -103,9 +103,11 @@ The dataset contains 510 psychology problems provided in a structured plain text
 
     ```
    python src/eval.py \
+        --eval_type "mcq" \
         --llm_response "R1_response" \
         --result_file  ./samples/Result_MCQ.csv
     ```
+   --eval_type: specifies the evaluation method: mcq or qa.
 
    --llm_response: specifies the name of the column in the CSV file where the model responses are stored (e.g., "R1_response").
 
