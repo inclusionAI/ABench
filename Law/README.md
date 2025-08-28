@@ -6,13 +6,13 @@
 LawBench is a benchmark comprising 500 challenging legal questions designed to evaluate models' capabilities in law. The test includes Multiple-Choice Questions (MCQ) and Question Answering (QA). The 500 questions cover Civil Law, Civil Procedure Law, Criminal Law, Criminal Procedure Law, Administrative Law, and International Law. Knowledge points are derived from recent judicial examinations, and new questions are developed based on these points and thoroughly reviewed by experts for accuracy.
 
 ## Key features
-🧠 **→ Test data leakage prevention:**:  Curated from over 10,000 authoritative questions and refined through model pre-screening, human cleaning, model rewrites, and expert verification, the dataset is designed to minimize any train–test leakage.
+🔒 **→ Test data leakage prevention:**:  Curated from over 10,000 authoritative questions and refined through model pre-screening, human cleaning, model rewrites, and expert verification, the dataset is designed to minimize any train–test leakage.
 
-🛡️ **→ Expert-grade quality control**: Every question is created and repeatedly reviewed by experts under strict quality standards.
+🧑‍🏫**→ Expert-grade quality control**: Every question is created and repeatedly reviewed by experts under strict quality standards.
 
-🤝  **→ RLVR-oriented**: Core knowledge points of judicial exams are retained while increasing question complexity to emphasize both depth and breadth.
+👨‍⚖️**→ RLVR-oriented**: Core knowledge points of judicial exams are retained while increasing question complexity to emphasize both depth and breadth.
 
-📋️ **→ Precise evaluation**: Each short-answer question has a unique answer, which is simplified as much as possible during design so that a matching response is considered correct.
+📝**→ Precise evaluation**: Each short-answer question has a unique answer, which is simplified as much as possible during design so that a matching response is considered correct.
 
 
 ## Liscense
@@ -86,6 +86,8 @@ The dataset contains 500 legal questions, provided as structured plain-text file
    --llm_response: specifies the name of the column in the CSV file where the model responses are stored (e.g., "R1_response").
 
    --result_file: the folder path, where the results produced by the model are stored. This script will utilize these results for accuracy assessment.
+
+   --output_file: the output file, where the detailed evaluation results CSV file are stored.
    
 
 ## Example problems

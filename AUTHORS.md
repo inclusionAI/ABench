@@ -38,4 +38,9 @@ This repository contains multiple subprojects, each maintained by different auth
 - **Acknowledgments**: 
   Tingting Liang, Yating Hou, Yang Zhang, Nan Mao, Wenlan Bi, Hang Dai, Yan Meng, Mengqin Shi, Tingting Shu
 
-
+## 📖 Law
+- **Contributors**:  
+  Chi Zhang, Liwang Zhu, Zhengkai Yang, Yanmei Gu, YiMing Zhang, Yihong Zhuang, Yingfan Ma, Yuanyuan Wang, Chao Huang, Bowen Song, Cheng Lin, Junbo Zhao  
+  
+- **Acknowledgments**: 
+  Changkai Song

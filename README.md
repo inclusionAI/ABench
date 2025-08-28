@@ -18,4 +18,4 @@
 | **Actuary**    | Curated actuarial exam problems covering core topics: probability statistics, financial mathematics, life/non-life insurance, actuarial models, and risk management | [✅ Released](Actuary/README.md)    |
 | **Logic**      | High-differentiation logical reasoning problems from authoritative tests (LSAT/GMAT/GRE/SBI/Chinese Civil Service Exam) | [✅ Released](Logic/README.md)      |
 | **Psychology** | Psychological case studies and research questions (objective/subjective) evaluating understanding of human behavior and theories | [✅ Released](Psychology/README.md) |
-| **Law**        | Authoritative judicial exam materials covering core legal domains: criminal/civil/administrative/procedural/international law | 🔄 In Preparation                  |
+| **Law**        | Authoritative judicial exam materials covering core legal domains: criminal/civil/administrative/procedural/international law | [✅ Released](Law/README.md)       |
