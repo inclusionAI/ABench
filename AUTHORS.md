@@ -40,7 +40,7 @@ This repository contains multiple subprojects, each maintained by different auth
 
 ## 📖 Law
 - **Contributors**:  
-  Chi Zhang, Liwang Zhu, Zhengkai Yang, Yanmei Gu, YiMing Zhang, Yihong Zhuang, Yingfan Ma, Yuanyuan Wang, Chao Huang, Bowen Song, Cheng Lin, Junbo Zhao  
+  Junjie Zhu, Liwang Zhu, Zhengkai Yang, Yanmei Gu, YiMing Zhang, Yihong Zhuang, Yingfan Ma, Yuanyuan Wang, Chao Huang, Bowen Song, Cheng Lin, Junbo Zhao  
   
 - **Acknowledgments**: 
   Changkai Song
