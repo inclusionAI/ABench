@@ -39,8 +39,13 @@ This repository contains multiple subprojects, each maintained by different auth
   Tingting Liang, Yating Hou, Yang Zhang, Nan Mao, Wenlan Bi, Hang Dai, Yan Meng, Mengqin Shi, Tingting Shu
 
 ## 📖 Law
-- **Contributors**:  
-  Junjie Zhu, Liwang Zhu, Zhengkai Yang, Yanmei Gu, YiMing Zhang, Yihong Zhuang, Yingfan Ma, Yuanyuan Wang, Chao Huang, Bowen Song, Cheng Lin, Junbo Zhao  
-  
-- **Acknowledgments**: 
+- **Contributors**:
+  Junjie Zhu, Liwang Zhu, Zhengkai Yang, Yanmei Gu, YiMing Zhang, Yihong Zhuang, Yingfan Ma, Yuanyuan Wang, Chao Huang, Bowen Song, Cheng Lin, Junbo Zhao
+
+- **Acknowledgments**:
   Changkai Song
+
+## 📜 History
+- **Contributors**:
+  Lirong Gao, Zeqing Wang, Yuyan Cai, Jiayi Deng, Yanmei Gu, YiMing Zhang, Weiping Liu, Xinyu Zhong, Xiaomeng Li, Haisheng Liu, Jia Zhou, Yanfei Zhang, Junbo Zhao
+

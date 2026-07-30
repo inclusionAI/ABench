@@ -3,7 +3,7 @@
 
 ## 🌟 Overview
 
-**ABench** is an evolving open-source benchmark suite designed to rigorously evaluate and enhance Large Language Models (LLMs) on **complex cross-domain tasks**. By targeting current model weaknesses, ABench provides systematic challenges in **high-difficulty specialized domains**, including physics, actuarial science, logical reasoning, law, and psychology.
+**ABench** is an evolving open-source benchmark suite designed to rigorously evaluate and enhance Large Language Models (LLMs) on **complex cross-domain tasks**. By targeting current model weaknesses, ABench provides systematic challenges in **high-difficulty specialized domains**, including physics, actuarial science, logical reasoning, law, psychology, and history.
 
 ## 🎯 Core Objectives
 1.  **Address Evaluation Gaps**: Design high-differentiation assessment tasks targeting **underperforming question types**
@@ -19,3 +19,4 @@
 | **Logic**      | High-differentiation logical reasoning problems from authoritative tests (LSAT/GMAT/GRE/SBI/Chinese Civil Service Exam) | [✅ Released](Logic/README.md)      |
 | **Psychology** | Psychological case studies and research questions (objective/subjective) evaluating understanding of human behavior and theories | [✅ Released](Psychology/README.md) |
 | **Law**        | Authoritative judicial exam materials covering core legal domains: criminal/civil/administrative/procedural/international law | [✅ Released](Law/README.md)       |
+| **History (ProHist-Bench)** | Professional historical-research questions built on the Chinese Imperial Examination: 400 core questions (4 task types) with 10,891 historian-authored rubrics across 9 capability dimensions; an extended 504-question version is also available | [✅ Released](ProHist-Bench/README.md) |
